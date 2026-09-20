@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IS201: Digital Technology for Business - สรุปเนื้อหา & ข้อสอบจำลอง</title>
+  <title>IS201: Digital Technology for Business - สรุปเนื้อหา & ข้อสอบจำลองระดับสูง</title>
   
   <!-- Tailwind CSS & Google Fonts -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -18,16 +18,6 @@
           fontFamily: {
             sans: ['Sarabun', 'sans-serif'],
             display: ['Kanit', 'sans-serif'],
-          },
-          colors: {
-            brand: {
-              50: '#f0f7ff',
-              100: '#e0effe',
-              500: '#0284c7',
-              600: '#0369a1',
-              700: '#075985',
-              800: '#0c4a6e',
-            }
           }
         }
       }
@@ -45,7 +35,6 @@
     .card-border {
       border: 1px solid #e2e8f0;
     }
-    /* ซ่อน Scrollbar ของแท็บเมนู */
     .no-scrollbar::-webkit-scrollbar {
       display: none;
     }
@@ -66,7 +55,7 @@
         </div>
         <div>
           <h1 class="font-display font-bold text-xl text-slate-900 leading-tight">IS201: Digital Technology for Business</h1>
-          <p class="text-xs text-slate-500">สรุปเนื้อหาฉบับเข้มข้น & คลังข้อสอบวิเคราะห์ 100 ข้อ (สุ่มรอบละ 30 ข้อ)</p>
+          <p class="text-xs text-slate-500">สรุปเนื้อหาฉบับเข้มข้น & คลังข้อสอบวิเคราะห์ระดับยาก 100 ข้อ (สุ่ม 30 ข้อต่อรอบ)</p>
         </div>
       </div>
 
@@ -76,7 +65,7 @@
           📖 สรุปเนื้อหาบทเรียน
         </button>
         <button id="tabQuizBtn" onclick="switchMainTab('quiz')" class="px-5 py-2 rounded-lg font-display text-sm font-medium transition-all text-slate-600 hover:text-slate-900">
-          📝 ทำแบบทดสอบจำลอง (30 ข้อ)
+          📝 ทำแบบทดสอบระดับยาก (30 ข้อ)
         </button>
       </nav>
     </div>
@@ -85,9 +74,7 @@
   <!-- Main Content Container -->
   <main class="flex-grow max-w-6xl mx-auto px-4 sm:px-6 py-8 w-full">
 
-    <!-- ==========================================
-         VIEW 1: สรุปเนื้อหา (Summary Section)
-         ========================================== -->
+    <!-- VIEW 1: สรุปเนื้อหา (Summary Section) -->
     <section id="viewSummary" class="space-y-8 block">
       
       <!-- Sub Nav (Chapters) -->
@@ -111,13 +98,13 @@
             <h3 class="font-display font-semibold text-lg text-slate-900 flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-blue-600"></span> 1. Global Mega-Trends ที่ขับเคลื่อนการเปลี่ยนแปลงทางธุรกิจ
             </h3>
-            <p class="mt-2 text-sm text-slate-600">ปัจจัยภายนอก 5 ประการที่บีบให้ธุรกิจไม่สามารถดำเนินการรูปแบบเดิมได้:</p>
+            <p class="mt-2 text-sm text-slate-600">5 ปัจจัยสภาพแวดล้อมที่บีบให้ธุรกิจไม่สามารถดำเนินรูปแบบเดิมได้:</p>
             <ul class="list-disc list-inside mt-2 space-y-1.5 text-sm">
-              <li><strong>Urban Population:</strong> ประชากรเมืองขยายตัว พฤติกรรมผู้บริโภคต้องการความสะดวกรวดเร็วผ่านช่องทางดิจิทัลทุกที่ทุกเวลา</li>
-              <li><strong>Demographic Changes:</strong> สังคมผู้สูงอายุ (Aging Society) นำไปสู่การปรับเปลี่ยนรูปแบบผลิตภัณฑ์ การบริการ และการขาดแคลนแรงงาน</li>
-              <li><strong>Rise of Emerging Markets:</strong> การเติบโตของตลาดเกิดใหม่ ทำให้เกิดคู่แข่งระดับโลกรายใหม่ที่มีความคล่องตัวและต้นทุนต่ำกว่า</li>
-              <li><strong>Technological Advancements:</strong> เทคโนโลยีก้าวกระโดด ทำให้พฤติกรรมผู้บริโภคเปลี่ยนตาม และสินค้าเดิมล้าสมัยอย่างรวดเร็ว</li>
-              <li><strong>Climate Change:</strong> ภาวะโลกร้อนส่งผลให้ Supply Chain แปรปรวน และเกิดแรงกดดันด้านกฎเกณฑ์สิ่งแวดล้อม (ESG)</li>
+              <li><strong>Urban Population:</strong> สังคมเมืองเติบโต พฤติกรรมผู้บริโภคต้องการความสะดวกรวดเร็วผ่านช่องทางดิจิทัลทุกที่ทุกเวลา</li>
+              <li><strong>Demographic Changes:</strong> สังคมผู้สูงอายุ (Aging Society) นำไปสู่การขาดแคลนแรงงานและการปรับโมเดลสินค้าและบริการ</li>
+              <li><strong>Rise of Emerging Markets:</strong> ตลาดเกิดใหม่สร้างโอกาสและคู่แข่งระดับโลกรายใหม่ที่มีความคล่องตัวและต้นทุนต่ำกว่า</li>
+              <li><strong>Technological Advancements:</strong> เทคโนโลยีก้าวกระโดด ทำให้สินค้าเดิมล้าสมัยอย่างรวดเร็วและพฤติกรรมผู้บริโภคเปลี่ยนไป</li>
+              <li><strong>Climate Change:</strong> ภาวะโลกร้อนส่งผลให้ Supply Chain แปรปรวน และเกิดแรงกดดันด้านกฎเกณฑ์สิ่งแวดล้อม</li>
             </ul>
           </div>
 
@@ -126,7 +113,7 @@
               <h4 class="font-display font-semibold text-slate-900 text-sm">Digitization vs Digital Transformation</h4>
               <p class="text-xs text-slate-600 mt-1.5">
                 • <strong>Digitization:</strong> การแปลงข้อมูลจากอนาล็อกให้เป็นดิจิทัล (0, 1) เช่น ทำ E-Book แทนหนังสือเล่ม ช่วยลดต้นทุนคลังสินค้า<br>
-                • <strong>Digital Transformation:</strong> การนำเทคโนโลยีมาปรับเปลี่ยนโมเดลธุรกิจ โครงสร้าง และกระบวนการเพื่อส่งมอบคุณค่าใหม่ให้ลูกค้า เช่น เคส <strong>Sephora</strong> ใช้เครื่องตรวจสภาพผิว วิเคราะห์สีผิวด้วย AI และแนะนำสินค้าเฉพาะบุคคล
+                • <strong>Digital Transformation:</strong> การนำเทคโนโลยีมาปรับปรุงโมเดลธุรกิจ โครงสร้าง และกระบวนการ เพื่อส่งมอบคุณค่าใหม่ให้ลูกค้า เช่น เคส <strong>Sephora</strong> ใช้เครื่องตรวจสภาพผิว วิเคราะห์สีผิวด้วยระบบคอมพิวเตอร์ และแนะนำสินค้าเฉพาะบุคคล
               </p>
             </div>
             <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
@@ -177,16 +164,16 @@
             </h3>
             <p class="text-xs text-slate-600 mt-1 mb-2">วงจรการทำงาน: Input ➔ Process ➔ Output ➔ Feedback (เพื่อปรับปรุงสู่เป้าหมาย)</p>
             <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs">
-              <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg"><strong>1. Hardware:</strong> อุปกรณ์กายภาพ (จอ, เครื่องสแกนบาร์โค้ด)</div>
-              <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg"><strong>2. Software:</strong> โปรแกรม/ชุดคำสั่งควบคุมระบบ</div>
+              <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg"><strong>1. Hardware:</strong> อุปกรณ์กายภาพ (จอ, แป้นพิมพ์, เครื่องสแกน)</div>
+              <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg"><strong>2. Software:</strong> โปรแกรมและคำสั่งควบคุมระบบ</div>
               <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg"><strong>3. Networks:</strong> เครือข่ายเชื่อมต่อส่งผ่านข้อมูล</div>
-              <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg"><strong>4. People:</strong> บุคลากรผู้ใช้งาน ผู้ดูแล และโปรแกรมเมอร์</div>
-              <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg"><strong>5. Procedures:</strong> ขั้นตอนการทำงาน นโยบาย และคู่มือรักษาความปลอดภัย</div>
-              <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg"><strong>6. Databases:</strong> ฐานข้อมูลสำหรับจัดเก็บและเรียกค้นข้อมูลอย่างเป็นระบบ</div>
+              <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg"><strong>4. People:</strong> บุคลากรผู้ใช้ ผู้ดูแล และโปรแกรมเมอร์</div>
+              <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg"><strong>5. Procedures:</strong> ขั้นตอน นโยบาย และคู่มือความปลอดภัย</div>
+              <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg"><strong>6. Databases:</strong> ฐานข้อมูลจัดเก็บและเรียกค้นอย่างเป็นระบบ</div>
             </div>
             <div class="mt-3 p-3 bg-blue-50 border border-blue-200 rounded-lg text-xs text-blue-900">
               💡 <strong>เปรียบเทียบระบบ IS vs Non-IS:</strong><br>
-              • <strong>เครื่อง POS หรือตู้ ATM</strong> จัดเป็น <strong>IS</strong> เพราะมี Input, ตรวจสอบ Process, ตัดสต็อก/เงินใน Database ผ่าน Network และมี Feedback แจ้งเตือน<br>
+              • <strong>เครื่อง POS หรือตู้ ATM</strong> จัดเป็น <strong>IS</strong> เพราะมี Input, ตรวจสอบ Process, ตัดสต็อก/เงินใน Database ผ่าน Network และส่ง Feedback<br>
               • <strong>ตู้กดน้ำหยอดเหรียญธรรมดา</strong> เป็น <strong>Non-IS</strong> เพราะเป็นแค่วงจรกลไกทางกายภาพ ไม่มีการบันทึกประวัติ เชื่อมต่อฐานข้อมูล หรือวิเคราะห์ข้อมูลใดๆ
             </div>
           </div>
@@ -205,13 +192,12 @@
             <h3 class="font-display font-semibold text-lg text-slate-900 flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-blue-600"></span> 1. Business Organization & Porter’s Five Forces Model
             </h3>
-            <p class="text-sm text-slate-600 mt-1">องค์กรคือ Open System ที่รับ Input จากสิ่งแวดล้อม ผ่าน Transformation Process เพื่อส่งออก Output โดยมี 5 แรงผลักดันภายนอกที่ต้องเผชิญ:</p>
             <ul class="list-disc list-inside mt-2 space-y-1.5 text-xs sm:text-sm">
               <li><strong>Rivalry Among Existing Competitors:</strong> การแข่งขันรุนแรงในอุตสาหกรรม (เช่น Coke vs Pepsi)</li>
               <li><strong>Bargaining Power of Suppliers:</strong> อำนาจต่อรองของผู้จัดส่งวัตถุดิบ องค์กรต้องลดอำนาจนี้เพื่อคุมต้นทุน</li>
-              <li><strong>Bargaining Power of Buyers:</strong> อำนาจต่อรองของลูกค้าสูงขึ้นเพราะมีทางเลือกมาก ธุรกิจต้องแก้ด้วยการสร้าง <strong>Switching Cost</strong></li>
+              <li><strong>Bargaining Power of Buyers:</strong> อำนาจต่อรองของลูกค้าสูงขึ้นเพราะมีตัวเลือกมาก ควรสร้าง <strong>Switching Cost</strong></li>
               <li><strong>Threat of New Entrants:</strong> ภัยคุกคามจากคู่แข่งหน้าใหม่ที่เข้ามาตัดราคา</li>
-              <li><strong>Threat of Substitute Products:</strong> ภัยคุกคามจากสินค้าทดแทน (เช่น น้ำดื่มเพื่อสุขภาพแทนน้ำอัดลม)</li>
+              <li><strong>Threat of Substitute Products:</strong> ภัยคุกคามจากสินค้าทดแทน</li>
             </ul>
           </div>
 
@@ -219,11 +205,10 @@
             <h3 class="font-display font-semibold text-lg text-slate-900 flex items-center gap-2">
               <span class="w-2 h-2 rounded-full bg-blue-600"></span> 2. Value Chain Model & Supply Chain Management
             </h3>
-            <p class="text-xs sm:text-sm text-slate-600 mt-1">ทุกขั้นตอนในกิจกรรมธุรกิจต้องมุ่ง "เพิ่มมูลค่า (Add Value)" แบ่งออกเป็น 2 ส่วน:</p>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
               <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl">
                 <h4 class="font-display font-semibold text-slate-900 text-sm">Primary Activities (กิจกรรมหลัก)</h4>
-                <p class="text-xs text-slate-600 mt-1">รับวัตถุดิบเข้า (Inbound) ➔ ผลิต/แปรรูป (Operations) ➔ จัดเก็บและกระจายสินค้า (Outbound) ➔ การตลาดและการขาย (Marketing & Sales) ➔ การบริการหลังการขาย (Service)</p>
+                <p class="text-xs text-slate-600 mt-1">รับวัตถุดิบเข้า (Inbound) ➔ แปรรูป/ผลิต (Operations) ➔ จัดเก็บและกระจายสินค้า (Outbound) ➔ การตลาดและการขาย (Marketing & Sales) ➔ การบริการหลังการขาย (Service)</p>
               </div>
               <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl">
                 <h4 class="font-display font-semibold text-slate-900 text-sm">Support Activities (กิจกรรมสนับสนุน)</h4>
@@ -242,10 +227,10 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
               <div class="p-3 bg-white border border-slate-200 rounded-lg shadow-sm">
                 <strong>4 กลยุทธ์การแข่งขันด้วย IS:</strong><br>
-                1. <em>Low-Cost Leadership:</em> ใช้ระบบเติมสต็อกอัตโนมัติลดต้นทุนสินค้าคงคลัง (เช่น Walmart)<br>
-                2. <em>Differentiation:</em> ออกแบบโปรแกรมให้ลูกค้า Custom สินค้าเองได้ (เช่น Nike By You)<br>
-                3. <em>Market Niche:</em> เจาะตลาดเฉพาะกลุ่ม ลดการแข่งขันตรง (เช่น ขนมเพื่อสุขภาพ)<br>
-                4. <em>Strengthen Relationships:</em> ผูกสัมพันธ์แนบแน่นกับลูกค้าและ Supplier เพื่อเพิ่ม Switching Cost
+                1. <em>Low-Cost Leadership:</em> ใช้ระบบเติมสต็อกอัตโนมัติลดต้นทุนสินค้าคงคลัง (Walmart)<br>
+                2. <em>Differentiation:</em> ออกแบบโปรแกรมให้ลูกค้า Custom สินค้าเองได้ (Nike By You)<br>
+                3. <em>Market Niche:</em> เจาะตลาดเฉพาะกลุ่ม ลดการแข่งขันตรง<br>
+                4. <em>Strengthen Relationships:</em> เชื่อมต่อข้อมูลกับคู่ค้าเพื่อเพิ่ม Switching Cost
               </div>
               <div class="p-3 bg-white border border-slate-200 rounded-lg shadow-sm">
                 <strong>การปรับตัวขององค์กร:</strong><br>
@@ -316,7 +301,7 @@
             </h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-3 text-xs">
               <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg">
-                <strong class="text-blue-700">1. E-tailer:</strong> ร้านค้าปลีกออนไลน์ที่ซื้อมาขายไปหรือผลิตเอง (เช่น เสื้อผ้าร้านแบรนด์ตนเอง) <em>*ไม่ใช่ Shopee</em>
+                <strong class="text-blue-700">1. E-tailer:</strong> ร้านค้าปลีกออนไลน์ที่ซื้อมาขายไปหรือผลิตเอง (เสื้อผ้าร้านแบรนด์ตนเอง) <em>*ไม่ใช่ Shopee</em>
               </div>
               <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <strong class="text-blue-700">2. Transaction Broker:</strong> นายหน้าอำนวยความสะดวกในการทำธุรกรรม เช่น Trip.com, Agoda
@@ -325,10 +310,10 @@
                 <strong class="text-blue-700">3. Market Creator / Marketplace:</strong> แพลตฟอร์มศูนย์กลางให้ผู้ซื้อและผู้ขายมาเจอกัน เช่น Shopee, Lazada
               </div>
               <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg">
-                <strong class="text-blue-700">4. Content Provider:</strong> ผู้สร้างและให้บริการเนื้อหา/ความบันเทิงดิจิทัล เช่น Netflix, YouTube
+                <strong class="text-blue-700">4. Content Provider:</strong> ผู้สร้างและให้บริการเนื้อหาดิจิทัล เช่น Netflix, YouTube
               </div>
               <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg">
-                <strong class="text-blue-700">5. Community Provider:</strong> แพลตฟอร์มพื้นที่สังคมออนไลน์ แลกเปลี่ยนความคิดเห็น เช่น Facebook, Pantip
+                <strong class="text-blue-700">5. Community Provider:</strong> แพลตฟอร์มสังคมออนไลน์ แลกเปลี่ยนความคิดเห็น เช่น Facebook, Pantip
               </div>
               <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg">
                 <strong class="text-blue-700">6. Portal:</strong> เว็บไซต์ท่าที่เป็นศูนย์กลางรวบรวมบริการและค้นหา เช่น Google, Yahoo
@@ -462,7 +447,7 @@
                 <h4 class="font-display font-bold text-slate-900">Deep Learning & Transformer</h4>
                 <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">
                   • <strong>Neural Network:</strong> โครงสร้างสมองกลดิจิทัลที่มี Hidden Layers หลายชั้น<br>
-                  • <strong>Transformer Model:</strong> สถาปัตยกรรมหัวใจหลักของ LLMs (เช่น ChatGPT, Gemini, Claude) โดดเด่นด้วยกลไก <strong>Self-Attention</strong> ทำให้สามารถประมวลผลความสัมพันธ์ของคำทั้งบริบทพร้อมกันได้ทั้งหมด แทนที่จะอ่านทีละคำแบบเดิม
+                  • <strong>Transformer Model:</strong> สถาปัตยกรรมหัวใจหลักของ LLMs (ChatGPT, Gemini, Claude) โดดเด่นด้วยกลไก <strong>Self-Attention</strong> ทำให้สามารถประมวลผลความสัมพันธ์ของคำทั้งบริบทพร้อมกันได้ทั้งหมด แทนที่จะอ่านทีละคำแบบเดิม
                 </p>
               </div>
               <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm">
@@ -498,9 +483,7 @@
 
     </section>
 
-    <!-- ==========================================
-         VIEW 2: แบบทดสอบจำลอง (Quiz Section)
-         ========================================== -->
+    <!-- VIEW 2: แบบทดสอบจำลอง (Quiz Section) -->
     <section id="viewQuiz" class="space-y-6 hidden">
       
       <!-- Quiz State: Intro Card -->
@@ -509,16 +492,16 @@
           30
         </div>
         <div>
-          <h2 class="font-display font-bold text-2xl text-slate-900">แบบทดสอบจำลองการวิเคราะห์ (30 ข้อ)</h2>
+          <h2 class="font-display font-bold text-2xl text-slate-900">แบบทดสอบจำลองการวิเคราะห์ระดับยาก (30 ข้อ)</h2>
           <p class="text-sm text-slate-600 mt-2">
-            ระบบจะทำการสุ่มข้อสอบ <strong>30 ข้อ จากคลัง 100 ข้อ</strong> โดยรับประกันว่าจะ<strong>ไม่ซ้ำกันในรอบนั้น ๆ</strong> ข้อสอบเน้นการประยุกต์ใช้เชิงธุรกิจและการวิเคราะห์สถานการณ์จริง
+            ระบบจะทำการสุ่มข้อสอบ <strong>30 ข้อ จากคลังข้อสอบวิเคราะห์เชิงลึก 100 ข้อ</strong> โดยรับประกันว่าจะ<strong>ไม่ซ้ำกันในรอบการสอบนั้น ๆ</strong> ข้อสอบเน้นการตัดสินใจเชิงกลยุทธ์ การแก้โจทย์ธุรกิจจริง และการเชื่อมโยงทฤษฎีเข้ากับกรณีศึกษา
           </p>
         </div>
 
         <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 text-xs text-left space-y-2 text-slate-700">
           <p>• <strong>เกณฑ์ผ่าน:</strong> 70% ขึ้นไป (21 ข้อขึ้นไป)</p>
-          <p>• <strong>โหมดไร้การจับเวลา:</strong> ทำข้อสอบได้สบาย ๆ ไม่มีเวลานับถอยหลังกดดัน</p>
-          <p>• <strong>การตรวจคำตอบ:</strong> เมื่อกดส่งข้อสอบ ระบบจะประเมินคะแนนและแสดงเฉลยละเอียดทุกข้อทันที</p>
+          <p>• <strong>โหมดไร้การจับเวลา:</strong> ทำข้อสอบและคิดวิเคราะห์ได้อย่างอิสระ ไม่มีเวลากดดัน</p>
+          <p>• <strong>ระบบตรวจคำตอบ:</strong> ประเมินคะแนนทันทีเมื่อส่งกระดาษคำตอบ พร้อมแสดงเฉลยละเอียดและเหตุผลประกอบรายข้อ</p>
         </div>
 
         <button onclick="startQuizSession()" class="w-full sm:w-auto px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-display font-semibold rounded-xl transition shadow-sm">
@@ -549,9 +532,7 @@
         <!-- Question Grid Navigation Palette -->
         <div class="bg-white card-border rounded-xl p-4 custom-shadow">
           <div class="text-xs font-semibold text-slate-500 mb-3 font-display">กระดานสถานะข้อสอบ (กดเพื่อข้ามไปยังข้อนั้นได้):</div>
-          <div id="questionPalette" class="grid grid-cols-6 sm:grid-cols-10 md:grid-cols-15 gap-1.5">
-            <!-- Rendered by JS -->
-          </div>
+          <div id="questionPalette" class="grid grid-cols-6 sm:grid-cols-10 md:grid-cols-15 gap-1.5"></div>
         </div>
 
         <!-- Question Card Display -->
@@ -565,14 +546,10 @@
           </div>
 
           <!-- Question Text -->
-          <div id="qPromptText" class="text-slate-800 text-base leading-relaxed font-normal">
-            เนื้อหาโจทย์ข้อสอบ...
-          </div>
+          <div id="qPromptText" class="text-slate-800 text-base leading-relaxed font-normal"></div>
 
           <!-- Options Container -->
-          <div id="optionsContainer" class="space-y-3 pt-2">
-            <!-- Options rendered by JS -->
-          </div>
+          <div id="optionsContainer" class="space-y-3 pt-2"></div>
 
           <!-- Prev / Next Navigation -->
           <div class="flex justify-between items-center pt-6 border-t border-slate-100">
@@ -592,9 +569,7 @@
         
         <!-- Summary Score Card -->
         <div class="bg-white rounded-2xl p-8 card-border custom-shadow text-center max-w-xl mx-auto space-y-5">
-          <div id="resultIcon" class="w-16 h-16 rounded-full flex items-center justify-center mx-auto text-3xl font-bold">
-            <!-- Rendered by JS -->
-          </div>
+          <div id="resultIcon" class="w-16 h-16 rounded-full flex items-center justify-center mx-auto text-3xl font-bold"></div>
           <div>
             <h2 id="resultTitle" class="font-display font-bold text-2xl text-slate-900">สรุปผลการสอบ</h2>
             <p id="resultSubtitle" class="text-sm text-slate-600 mt-1">คะแนนรวมที่ทำได้ในรอบนี้</p>
@@ -619,7 +594,7 @@
 
         <!-- Filter for Review -->
         <div class="flex justify-between items-center bg-white p-4 rounded-xl card-border custom-shadow">
-          <h3 class="font-display font-bold text-base text-slate-900">เฉลยละเอียดและคำอธิบายรายข้อ</h3>
+          <h3 class="font-display font-bold text-base text-slate-900">เฉลยละเอียดและวิเคราะห์รายข้อ</h3>
           <div class="flex gap-2">
             <button onclick="filterReview('all')" id="btnFilterAll" class="px-3 py-1 text-xs rounded-md bg-slate-900 text-white">ทั้งหมด (30)</button>
             <button onclick="filterReview('wrong')" id="btnFilterWrong" class="px-3 py-1 text-xs rounded-md bg-slate-100 text-slate-700">เฉพาะที่ตอบผิด</button>
@@ -627,9 +602,7 @@
         </div>
 
         <!-- Detailed Review List Container -->
-        <div id="reviewListContainer" class="space-y-4">
-          <!-- Rendered by JS -->
-        </div>
+        <div id="reviewListContainer" class="space-y-4"></div>
 
       </div>
 
@@ -640,585 +613,1179 @@
   <!-- Footer -->
   <footer class="bg-white border-t border-slate-200 mt-12 py-6 text-center text-xs text-slate-500">
     <div class="max-w-6xl mx-auto px-4">
-      <p>IS201: Digital Technology for Business Learning Portal & Question Bank</p>
+      <p>IS201: Digital Technology for Business Learning Portal & Advanced Question Bank</p>
       <p class="mt-1">พัฒนาสำหรับการเรียนรู้ ทบทวนบทเรียน และประเมินความพร้อมก่อนสอบ</p>
     </div>
   </footer>
 
-  <!-- ==========================================
-       JAVASCRIPT: QUESTION BANK (100 Questions) & LOGIC
-       ========================================== -->
+  <!-- =======================================================
+       JAVASCRIPT: ADVANCED QUESTION BANK (100 REAL ANALYTICAL QUESTIONS)
+       ======================================================= -->
   <script>
-    // ----------------------------------------------------
-    // คลังข้อสอบวิเคราะห์ 100 ข้อ (ครอบคลุมครบทุกบทตามชีต)
-    // ----------------------------------------------------
-    const masterQuestionBank = [
-      // บทที่ 1: Digital Fundamentals & Information
+    // คลังข้อสอบวิเคราะห์เชิงลึกระดับยาก 100 ข้อจริง ครอบคลุม Ch.1 - Ch.5
+    const fullExamBank = [
+      // บทที่ 1: Digital Fundamentals & Information (1 - 20)
       {
         id: 1, ch: 1, chapter: "Chapter 1",
-        q: "องค์กรจัดทำ E-Book จำหน่ายแทนหนังสือเล่มเพื่อประหยัดต้นทุนคลังจัดเก็บสินค้า จัดเป็นระดับใดของวิวัฒนาการดิจิทัล?",
-        options: ["Digitization", "Digital Transformation", "Digital Disruption", "Artificial Intelligence"],
-        ans: 0,
-        exp: "การแปลงข้อมูลจากกระดาษมาอยู่ในรูปดิจิทัล (0, 1) เพื่อประหยัดพื้นที่จัดเก็บคือ Digitization โดยตรง ส่วน Digital Transformation ต้องปรับถึงระดับโมเดลธุรกิจ"
+        q: "บริษัทค้าปลีกเครื่องสำอางนำเครื่องสแกนสภาพผิวหน้ามาติดตั้งที่หน้าร้าน เพื่อจัดเก็บข้อมูลสีผิวของลูกค้าเป็นฐานข้อมูลสมาชิก และใช้แนะนำเฉดสีครีมรองพื้นที่เหมาะสมเฉพาะบุคคล หากวิเคราะห์ตามบทเรียน กิจกรรมนี้จัดอยู่ในระดับใดของวิวัฒนาการทางดิจิทัล?",
+        options: [
+          "Digitization เพราะเป็นการแปลงภาพถ่ายใบหน้าเป็นรหัสดิจิทัล 0 และ 1",
+          "Digital Transformation เพราะนำเทคโนโลยีมาปรับเปลี่ยนกระบวนการส่งมอบคุณค่าและสร้างความสัมพันธ์กับลูกค้าในรูปแบบใหม่",
+          "Digital Disruption เพราะทำให้ร้านขายยาคู่แข่งข้างเคียงต้องปิดตัวลงทันที",
+          "Business Process Reengineering (BPR) เพราะเป็นการลดจำนวนพนักงานหน้าร้านทั้งหมด"
+        ],
+        ans: 1,
+        exp: "การนำเทคโนโลยีมาบูรณาการเข้ากับกระบวนการธุรกิจเพื่อส่งมอบคุณค่าใหม่และสร้างปฏิสัมพันธ์ส่วนบุคคลกับลูกค้าตรงตามนิยามของ Digital Transformation เช่นเดียวกับเคสศึกษา Sephora"
       },
       {
         id: 2, ch: 1, chapter: "Chapter 1",
-        q: "เหตุใด GrabTaxi จึงจัดเป็นตัวอย่างคลาสสิกของ 'Digital Disruption' เมื่อเทียบกับแท็กซี่แบบดั้งเดิม?",
+        q: "หากเปรียบเทียบตู้ถอนเงินสด ATM กับตู้กดน้ำดื่มหยอดเหรียญทั่วไปตามกรอบ CBIS (Computer-Based Information System) เหตุผลใดที่ทำให้ตู้กดน้ำดื่มทั่วไปถูกจัดเป็น 'Non-IS'?",
         options: [
-          "เพราะ Grab ซื้อรถยนต์และจ้างคนขับประจำเพิ่มขึ้นด้วยต้นทุนที่ถูกกว่าสหกรณ์แท็กซี่",
-          "เพราะ Grab ใช้แพลตฟอร์มดึงรถที่มีอยู่แล้วในระบบมาให้บริการ ทำให้ขยายตัวได้มหาศาลโดยแทบไม่มีต้นทุนสินทรัพย์คงที่",
-          "เพราะ Grab เป็นระบบ Non-IS ที่ไม่ต้องจัดเก็บข้อมูลผู้โดยสารลงในฐานข้อมูล",
-          "เพราะ Grab มุ่งเน้นการปฏิบัติตามระเบียบข้อบังคับดั้งเดิมของระบบขนส่งมวลชน"
+          "ตู้กดน้ำดื่มไม่มีส่วนประกอบของฮาร์ดแวร์และวงจรไฟฟ้า",
+          "ตู้กดน้ำดื่มไม่มีกระบวนการตรวจสอบและไม่มีข้อความ Feedback แสดงให้ผู้ใช้ทราบ",
+          "ตู้กดน้ำดื่มไม่เชื่อมโยงข้อมูลการขายเข้ากับฐานข้อมูลผ่านเครือข่าย เพื่อการจัดเก็บและวิเคราะห์พฤติกรรม",
+          "ตู้กดน้ำดื่มไม่มีต้นทุนในการติดตั้งและบำรุงรักษา"
         ],
-        ans: 1,
-        exp: "Grab สร้าง Business Model ใหม่โดยไม่ต้องซื้อรถเองและไม่ต้องจ้างคนขับประจำ ทำให้สร้างคุณค่าที่เหนือกว่าในต้นทุนที่ต่ำกว่า จนผู้ประกอบการเดิมแข่งขันทางตรงได้ยาก"
+        ans: 2,
+        exp: "ตู้กดน้ำหยอดเหรียญทั่วไปเป็นเพียงระบบกลไกกายภาพที่ทำงานตามวงจรไฟฟ้า แต่ไม่มีการบันทึกประวัติ เชื่อมโยงฐานข้อมูล (Database) ผ่านเครือข่าย (Network) เพื่อนำข้อมูลไปวิเคราะห์ประมวลผลต่อ จึงจัดเป็น Non-IS"
       },
       {
         id: 3, ch: 1, chapter: "Chapter 1",
-        q: "กรณีศึกษาของ 'Sephora' ที่นำเครื่องตรวจสภาพผิวและแอปพลิเคชันมาวิเคราะห์สีผิวเพื่อแนะนำเครื่องสำอางเฉพาะบุคคล จัดเป็นตัวอย่างของข้อใด?",
-        options: ["Digitization", "Continuous Improvement", "Digital Transformation", "Outsourcing"],
-        ans: 2,
-        exp: "Sephora นำเทคโนโลยีมาปรับเปลี่ยนประสบการณ์ลูกค้าและสร้างคุณค่าเชิงกลยุทธ์ใหม่ (Digital Transformation) โดยเชื่อมโยงฐานข้อมูลผิวเข้ากับสินค้า"
+        q: "แพลตฟอร์มตัวกลางอย่าง Grab หรือ Airbnb สามารถเติบโตและเกิดสภาวะ Digital Disruption ต่อผู้ประกอบการรายเดิมได้อย่างรวดเร็ว เนื่องจากความได้เปรียบเชิงโครงสร้างในข้อใด?",
+        options: [
+          "การมีพนักงานขับรถและพนักงานทำความสะอาดเป็นลูกจ้างประจำของบริษัททั้งหมด",
+          "การใช้สินทรัพย์และทรัพยากรที่มีอยู่แล้วในระบบโดยไม่ต้องลงทุนซื้อยานพาหนะหรือก่อสร้างโรงแรมเอง ทำให้ขยายบริการได้ด้วยต้นทุนที่ต่ำกว่ามาก",
+          "การนำระบบ Rule-Based เข้ามาควบคุมกฎระเบียบการให้บริการแบบเข้มงวด",
+          "การตัดการประมวลผลข้อมูลผ่านคลาวด์เพื่อรักษาความปลอดภัยในระดับออฟไลน์"
+        ],
+        ans: 1,
+        exp: "หัวใจของ Digital Disruption ในเคส Grab และ Airbnb คือโมเดล Asset-Light Platform ที่นำทรัพยากรที่มีอยู่แล้วมาสร้างคุณค่าใหม่ ทำให้ขยายตัวได้รวดเร็วโดยไม่ต้องแบกรับต้นทุนคงที่ในการซื้อรถหรือสร้างตึกโรงแรม"
       },
       {
         id: 4, ch: 1, chapter: "Chapter 1",
-        q: "ลำดับขั้นใดต่อไปนี้อธิบายวิวัฒนาการของ 'Data ➔ Information ➔ Knowledge' ได้ถูกต้องที่สุด?",
+        q: "เมื่อพิจารณาลำดับขั้น Data ➔ Information ➔ Knowledge ข้อใดระบุสถานะของ 'Knowledge' ได้ถูกต้องและสะท้อนคุณค่าทางธุรกิจได้ชัดเจนที่สุด?",
         options: [
-          "ตัวเลขยอดขายดิบ ➔ ตารางจัดหมวดหมู่ยอดขายรายเดือน ➔ ความเข้าใจเชิงลึกในการวางแผนโปรโมชันกระตุ้นยอดขาย",
-          "ความรู้เชิงลึก ➔ การกรองข้อมูล ➔ ตัวเลขสถิติดิบที่ยังไม่คำนวณ",
-          "กราฟยอดขาย ➔ ตัวเลขในใบเสร็จ ➔ ความเข้าใจของผู้จัดการ",
-          "ฐานข้อมูลดิบ ➔ โปรแกรมคอมพิวเตอร์ ➔ อุปกรณ์ฮาร์ดแวร์"
+          "ไฟล์เสียงบันทึกการสนทนาระหว่างคอลเซ็นเตอร์กับลูกค้าความยาว 100 ชั่วโมง",
+          "ตาราง Excel สรุปจำนวนการโทรเข้ารายวันแยกตามสาเหตุการร้องเรียน",
+          "ความเข้าใจอย่างถ่องแท้ว่าปัญหาการส่งมอบสินค้าล่าช้าเกิดจากขั้นตอนการบรรจุหีบห่อ ทำให้ฝ่ายบริหารตัดสินใจปรับกระบวนการทำงานใหม่",
+          "รหัสตัวเลขประจำตัวลูกค้าและที่อยู่สำหรับจัดส่งสินค้า"
         ],
-        ans: 0,
-        exp: "Data คือข้อเท็จจริงดิบ ➔ เมื่อนำมาจัดหมวดหมู่คำนวณจะเป็น Information ➔ เมื่อนำไปวิเคราะห์จนเข้าใจและนำไปตัดสินใจได้จะกลายเป็น Knowledge"
+        ans: 2,
+        exp: "Knowledge คือความเข้าใจ ความเชี่ยวชาญ และแบบแผนการปฏิบัติงานที่ตกผลึกมาจากการวิเคราะห์สารสนเทศ จนนำไปสู่การพัฒนา ปรับปรุง และแก้ปัญหาเชิงกลยุทธ์ได้จริง"
       },
       {
         id: 5, ch: 1, chapter: "Chapter 1",
-        q: "ข้อใดคือความแตกต่างสำคัญที่สุดที่ทำให้ 'เครื่องคิดเงิน POS' จัดเป็นระบบสารสนเทศ (IS) แต่ 'ตู้กดน้ำหยอดเหรียญทั่วไป' ไม่จัดเป็น IS?",
+        q: "ในองค์ประกอบ 6 ประการของระบบสารสนเทศ (CBIS) ข้อใดจัดเป็น 'Procedures' ในการดำเนินงานของธนาคาร?",
         options: [
-          "เครื่อง POS ใช้พลังงานไฟฟ้า แต่ตู้กดน้ำใช้กลไกสปริงเท่านั้น",
-          "เครื่อง POS มีขั้นตอน Input, Process, Output พร้อมบันทึกยอดลง Database ผ่าน Network ในขณะที่ตู้กดน้ำทั่วไปไม่มีการเชื่อมโยงฐานข้อมูลเพื่อประมวลผลสารสนเทศ",
-          "เครื่อง POS มีราคาแพงกว่าตู้กดน้ำหยอดเหรียญหลายเท่า",
-          "เครื่อง POS ทำงานด้วย Rule-Based AI แต่ตู้กดน้ำทำงานด้วย Machine Learning"
+          "เซิร์ฟเวอร์หลักที่ติดตั้งอยู่ในห้อง Data Center",
+          "ระบบฐานข้อมูล Oracle ที่ใช้เก็บยอดเงินฝากของลูกค้า",
+          "คู่มือระเบียบการยืนยันตัวตนลูกค้า นโยบายความปลอดภัยไซเบอร์ และขั้นตอนการกู้คืนระบบเมื่อเกิดภัยพิบัติ",
+          "เจ้าหน้าที่วิเคราะห์สินเชื่อและวิศวกรซอฟต์แวร์ของธนาคาร"
         ],
-        ans: 1,
-        exp: "IS ต้องมีกระบวนการ Input, Process, Output, Feedback พร้อมทั้งเชื่อมโยงและจัดเก็บข้อมูลใน Database ผ่าน Network เพื่อนำข้อมูลไปใช้ประโยชน์ต่อได้"
+        ans: 2,
+        exp: "Procedures หมายถึงกฎเกณฑ์ ระเบียบปฏิบัติ นโยบาย คู่มือขั้นตอนการทำงาน และมาตรการรักษาความปลอดภัยของระบบ"
       },
       {
         id: 6, ch: 1, chapter: "Chapter 1",
-        q: "องค์ประกอบ 6 ประการของระบบสารสนเทศคอมพิวเตอร์ (CBIS) ข้อใดที่รวมถึง 'คู่มือการปฏิบัติงาน กฎระเบียบ และนโยบายความปลอดภัย'?",
-        options: ["Software", "Hardware", "Procedures", "Databases"],
-        ans: 2,
-        exp: "Procedures (ระเบียบวิธีปฏิบัติงาน) หมายถึงขั้นตอน นโยบาย กฎเกณฑ์การบำรุงรักษา และการรักษาความปลอดภัยของระบบ"
+        q: "แนวโน้ม 'Demographic Changes' (การก้าวเข้าสู่สังคมผู้สูงอายุ) บังคับให้ภาคธุรกิจต้องนำเทคโนโลยีสารสนเทศมาประยุกต์ใช้อย่างเร่งด่วนในมิติใด?",
+        options: [
+          "การเพิ่มขั้นตอนการทำงานที่ต้องใช้แรงงานคนมากขึ้น",
+          "การนำระบบอัตโนมัติและดิจิทัลมาทดแทนการขาดแคลนแรงงานวัยหนุ่มสาว และการออกแบบ User Interface ที่เรียบง่ายสำหรับผู้สูงวัย",
+          "การยกเลิกช่องทางออนไลน์และกลับไปใช้เอกสารกระดาษ",
+          "การบังคับให้ผู้บริโภคทุกคนต้องเขียนโค้ดเพื่อซื้อสินค้า"
+        ],
+        ans: 1,
+        exp: "สังคมสูงวัยทำให้เกิดปัญหาขาดแคลนแรงงาน ธุรกิจจึงต้องพึ่งพาระบบอัตโนมัติและ IS เข้ามาช่วย ขณะเดียวกันก็ต้องปรับดีไซน์เทคโนโลยีให้เข้าถึงกลุ่มผู้สูงอายุได้ง่าย"
       },
       {
         id: 7, ch: 1, chapter: "Chapter 1",
-        q: "เมื่อลูกค้ากดถอนเงินที่ตู้ ATM แต่ระบบแสดงข้อความว่า 'ยอดเงินคงเหลือในบัญชีไม่เพียงพอ' ข้อความนี้ทำหน้าที่เป็นองค์ประกอบใดในระบบ IS?",
-        options: ["Input Data", "Database Management", "Feedback", "Hardware Device"],
-        ans: 2,
-        exp: "การแจ้งเตือนว่ารหัสผิดหรือยอดเงินไม่พอ คือ Feedback ที่ระบบส่งกลับมาให้ผู้ใช้ เพื่อให้เกิดการแก้ไขหรือรับทราบสถานะ"
+        q: "สำนักพิมพ์หนังสือพิมพ์แบบกระดาษตัดสินใจยุติแท่นพิมพ์ แล้วเปลี่ยนมาให้บริการข่าวสารผ่านแอปพลิเคชันและขาย E-Book แทน การกระทำนี้ช่วยลดต้นทุนในส่วนใดมากที่สุด?",
+        options: [
+          "ค่าจ้างนักข่าวภาคสนาม",
+          "ต้นทุนคลังจัดเก็บสินค้า กระดาษ หมึกพิมพ์ และค่าขนส่งกระจายเล่มทางกายภาพ",
+          "ค่าบริการอินเทอร์เน็ตของผู้อ่าน",
+          "ค่าธรรมเนียมใบอนุญาตสื่อมวลชน"
+        ],
+        ans: 1,
+        exp: "การ Digitization ข้อมูลข่าวสารเป็นดิจิทัลช่วยตัดต้นทุนทางกายภาพทั้งหมด เช่น ค่ากระดาษ แท่นพิมพ์ โกดังเก็บหนังสือ และการขนส่ง"
       },
       {
         id: 8, ch: 1, chapter: "Chapter 1",
-        q: "แนวโน้มระดับโลก (Global Mega-trend) ในข้อใดที่ส่งผลให้ภาคธุรกิจต้องเร่งปรับปรุงรูปแบบผลิตภัณฑ์เพื่อรองรับ 'Aging Society'?",
-        options: ["Rise of Emerging Markets", "Demographic Changes", "Climate Change", "Urban Population"],
+        q: "หากหน้าจอ ATM แจ้งเตือนว่า 'รหัส PIN ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง' ข้อความดังกล่าวทำหน้าที่อะไรในวงจรการทำงานของระบบสารสนเทศ?",
+        options: [
+          "Input Data",
+          "Feedback เพื่อให้ผู้ใช้งานปรับปรุงหรือแก้ไขข้อผิดพลาดในการป้อนข้อมูล",
+          "Software Program Source Code",
+          "Database Architecture"
+        ],
         ans: 1,
-        exp: "Demographic Changes (การเปลี่ยนแปลงโครงสร้างประชากร) ส่งผลโดยตรงต่อการก้าวเข้าสู่สังคมผู้สูงอายุ"
+        exp: "Feedback คือผลลัพธ์ย้อนกลับที่ระบบส่งออกมาแจ้งเตือนผู้ใช้งาน เพื่อให้เกิดการปรับปรุง แก้ไข หรือควบคุมให้การทำงานบรรลุเป้าหมาย"
       },
       {
         id: 9, ch: 1, chapter: "Chapter 1",
-        q: "คุณสมบัติใดต่อไปนี้ *ไม่ใช่* คุณลักษณะของสารสนเทศที่ดี (Valued Information)?",
-        options: ["Up-to-Date (ทันสมัย)", "Complete (ครบถ้วนสมบูรณ์)", "Subjective Biased (มีอคติส่วนบุคคลสูง)", "Timely (ทันต่อเวลาใช้งาน)"],
-        ans: 2,
-        exp: "สารสนเทศที่มีคุณค่าต่อการตัดสินใจต้องมีความน่าเชื่อถือ ถูกต้อง ครบถ้วน ทันเวลา และเป็นกลาง ไม่ใช่อคติส่วนบุคคล"
+        q: "ข้อมูลจะมีสถานะเป็น 'สารสนเทศที่มีคุณค่า (Valued Information)' ได้นั้น จะต้องขาดคุณสมบัติในข้อใดไปไม่ได้เด็ดขาด?",
+        options: [
+          "ต้องมีปริมาณมากที่สุดเท่าที่จะเป็นไปได้โดยไม่ต้องคัดกรอง",
+          "ต้องมีความทันสมัย (Up-to-Date), ครบถ้วน (Complete) และทันต่อเวลาใช้งาน (Timely)",
+          "ต้องเป็นความลับที่ไม่เปิดเผยให้ใครในองค์กรทราบเลย",
+          "ต้องถูกจัดเก็บในรูปเอกสารกระดาษเท่านั้น"
+        ],
+        ans: 1,
+        exp: "สารสนเทศที่ดีที่จะนำไปใช้ตัดสินใจได้อย่างมีประสิทธิภาพ ต้องมีความถูกต้อง ทันสมัย ครบถ้วน และทันเวลา (Timely)"
       },
       {
         id: 10, ch: 1, chapter: "Chapter 1",
-        q: "ข้อใดอธิบายปรากฏการณ์ 'Urban Population Growth' ในมุมมองของพฤติกรรมผู้บริโภคได้ถูกต้องที่สุด?",
+        q: "วิกฤต Climate Change ส่งผลกระทบเชิงลบต่อระบบสารสนเทศและห่วงโซ่อุปทาน (Supply Chain) ของธุรกิจระดับโลกอย่างไร?",
         options: [
-          "ผู้บริโภคต้องการความสะดวกรวดเร็วและเข้าถึงบริการผ่านช่องทางดิจิทัลได้ตลอดเวลา",
-          "ผู้บริโภคปฏิเสธการใช้สมาร์ตโฟนและต้องการซื้อสินค้าจากตลาดสดเท่านั้น",
-          "ผู้บริโภคไม่สนใจเรื่องเวลาในการขนส่งสินค้า",
-          "ผู้บริโภคต้องการให้ตัดระบบอินเทอร์เน็ตออกจากชีวิตประจำวัน"
+          "ทำให้คอมพิวเตอร์ประมวลผลเร็วขึ้นตามอุณหภูมิที่สูงขึ้น",
+          "ความเสี่ยงภัยธรรมชาติที่คาดเดาได้ยากทำให้โครงสร้างพื้นฐานคมนาคมเสียหาย ข้อมูลใน Supply Chain แปรปรวน และการส่งมอบวัตถุดิบหยุดชะงัก",
+          "ทำให้ต้นทุนการผลิตชิปคอมพิวเตอร์ลดลงจนเหลือศูนย์",
+          "ทำให้ผู้บริโภคเลิกซื้อสินค้าผ่านช่องทางออนไลน์"
+        ],
+        ans: 1,
+        exp: "การเปลี่ยนแปลงสภาพภูมิอากาศสร้างความผันผวนต่อ Supply Chain ทำให้การพยากรณ์และการควบคุมการขนส่งวัตถุดิบทำได้ยากขึ้นอย่างมาก"
+      },
+      {
+        id: 11, ch: 1, chapter: "Chapter 1",
+        q: "ข้อใดแสดงการแปลงจาก 'Data' ไปเป็น 'Information' ได้อย่างถูกต้องตามนิยามในชีตเรียน?",
+        options: [
+          "การบันทึกภาพถ่ายแล้วเก็บไว้ในฮาร์ดดิสก์โดยไม่เปิดดู",
+          "การนำยอดขายรายวันของสาขา มาจัดหมวดหมู่ คำนวณหายอดรวม และวิเคราะห์หาสินค้าขายดีประจำสัปดาห์",
+          "การลบไฟล์ข้อมูลเก่าทิ้งทั้งหมดเพื่อเพิ่มพื้นที่ว่าง",
+          "การส่งต่อข้อความเสียงดิบไปยังแชตกลุ่มพนักงาน"
+        ],
+        ans: 1,
+        exp: "Information เกิดจากการนำ Data ดิบมาผ่านกระบวนการเลือก (Select), จัดหมวดหมู่ (Organize) และคำนวณประมวลผลจนเกิดมูลค่าในการตัดสินใจ"
+      },
+      {
+        id: 12, ch: 1, chapter: "Chapter 1",
+        q: "ระบบ POS (Point of Sale) หน้าร้านสะดวกซื้อจัดเป็น CBIS เพราะเหตุใด?",
+        options: [
+          "เพราะมีปุ่มกดและลิ้นชักเก็บเงินที่ทำด้วยเหล็ก",
+          "เพราะทำงานประสานกันครบวงจร: สแกนบาร์โค้ด (Input), คำนวณราคา (Process), ออกใบเสร็จ (Output) และตัดสต็อกใน Database ทั่วประเทศผ่าน Network",
+          "เพราะต้องใช้กระดาษใบเสร็จความร้อนเท่านั้น",
+          "เพราะติดตั้งโปรแกรมตกแต่งรูปภาพได้"
+        ],
+        ans: 1,
+        exp: "POS เป็นตัวอย่างสมบูรณ์ของ CBIS เพราะมีครบทั้ง Hardware, Software, Network, Database, People และ Procedures ในการประมวลผลธุรกรรม"
+      },
+      {
+        id: 13, ch: 1, chapter: "Chapter 1",
+        q: "ในยุค Digital Disruption เหตุใดบริษัทขนาดใหญ่ที่มีเงินทุนหนาจึงมักพ่ายแพ้ให้กับสตาร์ตอัปหน้าใหม่ที่ใช้เทคโนโลยี?",
+        options: [
+          "เพราะบริษัทใหญ่ไม่ได้รับอนุญาตให้ใช้คอมพิวเตอร์",
+          "เพราะบริษัทใหญ่มีภาระต้นทุนคงที่ (Sunk Cost) สูง ยึดติดกับโมเดลธุรกิจเดิม และปรับตัวช้ากว่าสตาร์ตอัปที่ใช้แพลตฟอร์มไร้สินทรัพย์",
+          "เพราะสตาร์ตอัปได้รับการยกเว้นภาษีทุกกรณี",
+          "เพราะผู้บริโภคเกลียดบริษัทที่มีชื่อเสียงดั้งเดิม"
+        ],
+        ans: 1,
+        exp: "บริษัทดั้งเดิมมักยึดติดกับกำไรจากโมเดลเดิมและมีโครงสร้างเทอะทะ ทำให้ปรับตัวไม่ทันสตาร์ตอัปที่นำเทคโนโลยีมาส่งมอบคุณค่าใหม่ด้วยต้นทุนที่ต่ำกว่า"
+      },
+      {
+        id: 14, ch: 1, chapter: "Chapter 1",
+        q: "ข้อใดอธิบายบทบาทของ 'Network' ในการทำงานของแอปพลิเคชัน Mobile Banking ได้ถูกต้องที่สุด?",
+        options: [
+          "เป็นหน้าจอสมาร์ตโฟนที่ใช้แสดงผลยอดเงิน",
+          "เป็นช่องทางส่งผ่านสัญญาณข้อมูลที่เข้ารหัสความปลอดภัยระหว่างสมาร์ตโฟนของลูกค้ากับฐานข้อมูลของธนาคาร",
+          "เป็นขั้นตอนการปฏิบัติงานของเจ้าหน้าที่รักษาความปลอดภัย",
+          "เป็นชิปประมวลผลภายในโทรศัพท์มือถือ"
+        ],
+        ans: 1,
+        exp: "Networks คือโครงข่ายการสื่อสารโทรคมนาคมที่ทำหน้าที่ส่งผ่านและแลกเปลี่ยนข้อมูลระหว่างอุปกรณ์ปลายทางกับระบบเซิร์ฟเวอร์ฐานข้อมูล"
+      },
+      {
+        id: 15, ch: 1, chapter: "Chapter 1",
+        q: "การเปลี่ยนแปลงสู่ 'Urban Population' ส่งผลให้เกิดรูปแบบธุรกิจ 'On-Demand Services' (เช่น แอปสั่งอาหารด่วน) ได้อย่างไร?",
+        options: [
+          "คนในเมืองมีเวลาว่างมากเกินไปจนไม่อยากทำอาหาร",
+          "วิถีชีวิตคนเมืองมีความเร่งรีบ ต้องการความสะดวกรวดเร็ว และพึ่งพาการสั่งการผ่านสมาร์ตโฟนตลอด 24 ชั่วโมง",
+          "กฎหมายในเมืองห้ามไม่ให้ประชาชนประกอบอาหารเอง",
+          "ไม่มีตลาดสดเปิดให้บริการในเขตเมืองเลย"
+        ],
+        ans: 1,
+        exp: "การขยายตัวของเมืองบีบให้วิถีชีวิตเร่งรีบ ความสะดวกและความเร็วกลายเป็นปัจจัยชี้ขาด ทำให้เกิดบริการ On-demand ผ่านแอปพลิเคชัน"
+      },
+      {
+        id: 16, ch: 1, chapter: "Chapter 1",
+        q: "เหตุใด 'Data' ที่ปราศจากการจัดระเบียบและคำนวณ จึงไม่สามารถนำมาช่วยผู้บริหารในการตัดสินใจเชิงกลยุทธ์ได้?",
+        options: [
+          "เพราะ Data ไม่มีตัวเลขอยู่เลย",
+          "เพราะ Data เป็นเพียงข้อเท็จจริงดิบที่กระจัดกระจาย ไม่มีความหมายเชิงเปรียบเทียบ และไม่สะท้อนบริบทของปัญหา",
+          "เพราะ Data จะถูกลบหายไปเองอัตโนมัติภายใน 24 ชั่วโมง",
+          "เพราะโปรแกรมคอมพิวเตอร์ไม่รองรับข้อมูลดิบ"
+        ],
+        ans: 1,
+        exp: "Data ดิบที่ยังไม่ผ่านการจัดหมวดหมู่หรือประมวลผลจะไม่สื่อความหมาย จึงไม่สามารถสะท้อนภาพรวมหรือนำมาใช้ตัดสินใจได้"
+      },
+      {
+        id: 17, ch: 1, chapter: "Chapter 1",
+        q: "ข้อใดเป็นตัวอย่างของการนำเทคโนโลยีมาสร้าง 'New Business Model' ในระดับ Digital Transformation?",
+        options: [
+          "ร้านหนังสือเปลี่ยนหลอดไฟในร้านเป็นหลอดประหยัดไฟ LED",
+          "ธุรกิจเช่าม้วนวิดีโอปรับเปลี่ยนสู่การเป็นแพลตฟอร์มสตรีมมิงภาพยนตร์ออนไลน์แบบบอกรับสมาชิก (Subscription)",
+          "โรงงานพิมพ์กระดาษเพิ่มจำนวนคนเฝ้าโกดังสินค้า",
+          "การเปลี่ยนจากการเขียนด้วยปากกามาเป็นการพิมพ์ดีด"
+        ],
+        ans: 1,
+        exp: "การเปลี่ยนจากโมเดลร้านเช่าแผ่นสู่สตรีมมิงบอกรับสมาชิก เป็นการเปลี่ยนโครงสร้างคุณค่าและช่องทางการส่งมอบใหม่ทั้งหมด (Transformation)"
+      },
+      {
+        id: 18, ch: 1, chapter: "Chapter 1",
+        q: "ส่วนประกอบใดของ CBIS ที่มีความเสี่ยงมากที่สุดต่อการเกิดปัญหา Human Error ในระบบสารสนเทศ?",
+        options: ["Database Schema", "Hardware Motherboard", "Fiber Optic Network Cable", "People"],
+        ans: 3,
+        exp: "People (บุคลากร) คือจุดเปราะบางที่สุดที่มักก่อให้เกิด Human Error เช่น ป้อนข้อมูลผิด ลืมรหัสผ่าน หรือตกเป็นเหยื่อ Social Engineering"
+      },
+      {
+        id: 19, ch: 1, chapter: "Chapter 1",
+        q: "หากธนาคารต้องการสร้างความพึงพอใจสูงสุดให้แก่ลูกค้าตามหลักการของ CBIS ควรให้ความสำคัญกับส่วนประกอบใดในการติดต่อหน้าร้าน?",
+        options: [
+          "การใช้ฮาร์ดแวร์ตู้เอทีเอ็มที่ตัวเครื่องมีน้ำหนักมากที่สุด",
+          "การมีหน้าจอแอปพลิเคชันที่ใช้งานง่าย (Hardware/Software UI) พร้อมระบบตอบสนองและ Feedback ที่รวดเร็ว ถูกต้อง และปลอดภัย",
+          "การยกเลิกการใช้รหัส PIN เพื่อความสะดวก",
+          "การปิดระบบเชื่อมต่ออินเทอร์เน็ตเพื่อป้องกันความเสี่ยง"
+        ],
+        ans: 1,
+        exp: "UI ที่ใช้งานง่ายและ Feedback ที่รวดเร็ว ถูกต้อง ปลอดภัย คือหัวใจในการสร้างประสบการณ์ที่ดีของระบบ IS ต่อผู้ใช้งาน"
+      },
+      {
+        id: 20, ch: 1, chapter: "Chapter 1",
+        q: "สภาวะ 'Emerging Markets' สร้างแรงผลักดันเชิงเทคโนโลยีต่อธุรกิจอย่างไร?",
+        options: [
+          "ทำให้เกิดผู้เล่นระดับโลกรายใหม่จากประเทศกำลังพัฒนาที่ใช้ต้นทุนต่ำและเทคโนโลยีที่ก้าวกระโดด (Leapfrogging) เข้ามาชิงส่วนแบ่งตลาด",
+          "ทำให้การใช้อินเทอร์เน็ตทั่วโลกลดลง",
+          "บังคับให้ทุกประเทศต้องใช้สกุลเงินเดียวกัน",
+          "ทำให้ความต้องการสินค้าเทคโนโลยีหยุดชะงัก"
         ],
         ans: 0,
-        exp: "การขยายตัวของสังคมเมืองทำให้วิถีชีวิตเร่งรีบ ผู้บริโภคจึงต้องการความสะดวก รวดเร็ว และเชื่อมต่อบริการต่าง ๆ ผ่านดิจิทัล"
+        exp: "ตลาดเกิดใหม่มักข้ามผ่านเทคโนโลยีเก่าสู่เทคโนโลยียุคใหม่ทันที (Leapfrogging) สร้างคู่แข่งหน้าใหม่ที่บริหารงานด้วยต้นทุนต่ำและมีความคล่องตัวสูง"
       },
 
-      // บทที่ 2: Organization, Strategy & Supply Chain
+      // บทที่ 2: Organization, Strategy & Supply Chain (21 - 40)
       {
-        id: 11, ch: 2, chapter: "Chapter 2",
-        q: "ตามกรอบ Porter's Five Forces หากสินค้าในตลาดมีความเหมือนกันมาก และผู้บริโภคไม่มีต้นทุนในการย้ายไปใช้แบรนด์อื่น เหตุการณ์นี้สะท้อนถึงอะไร?",
+        id: 21, ch: 2, chapter: "Chapter 2",
+        q: "ภายใต้แบบจำลอง Porter’s Five Forces หากธุรกิจต้องการลด 'อำนาจการต่อรองของลูกค้า (Bargaining Power of Buyers)' ที่มีตัวเลือกในตลาดเป็นจำนวนมาก การใช้ระบบสารสนเทศ (IS) ในข้อใดตอบโจทย์ได้ตรงจุดที่สุด?",
         options: [
-          "อำนาจต่อรองของผู้จัดส่งวัตถุดิบ (Supplier Power) อยู่ในระดับสูงสุด",
-          "อำนาจต่อรองของลูกค้า (Buyer Power) สูงขึ้นเนื่องจาก Switching Cost ต่ำ",
-          "ภัยคุกคามจากสินค้าทดแทนหมดสิ้นไป",
-          "องค์กรครองส่วนแบ่งการตลาดแบบผูกขาดโดยสมบูรณ์"
+          "การยกเลิกระบบสะสมแต้มสมาชิกเพื่อลดภาระค่าใช้จ่ายของบริษัท",
+          "การเปิดระบบให้ลูกค้าสามารถเปรียบเทียบราคากับคู่แข่งได้บนหน้าเว็บไซต์โดยตรง",
+          "การพัฒนาฟังก์ชันเฉพาะตัว (เช่น การปรับแต่งสินค้าเฉพาะบุคคล) และการสร้างระบบสมาชิกเพื่อเพิ่ม Switching Cost ของลูกค้า",
+          "การปลดพนักงานบริการลูกค้าเพื่อลดต้นทุนค่าจ้าง"
+        ],
+        ans: 2,
+        exp: "การสร้าง Switching Cost (เช่น โปรแกรมสะสมแต้ม, การ Custom สินค้าเฉพาะบุคคล) จะทำให้ลูกค้าย้ายแบรนด์ได้ยากขึ้น จึงลดอำนาจต่อรองของผู้ซื้อลง"
+      },
+      {
+        id: 22, ch: 2, chapter: "Chapter 2",
+        q: "ข้อใดระบุการจับคู่กิจกรรมในห่วงโซ่คุณค่า (Value Chain) และการใช้เทคโนโลยีสารสนเทศได้ถูกต้องตามประเภทกิจกรรมหลัก (Primary Activity) และกิจกรรมสนับสนุน (Support Activity)?",
+        options: [
+          "การนำ RFID มาใช้ในคลังสินค้าเพื่อตรวจนับสต็อกวัตถุดิบ (Support) / การใช้ระบบลงเวลาพนักงาน (Primary)",
+          "การใช้ระบบติดตามรถขนส่งสินค้าด้วย GPS (Primary: Outbound Logistics) / การจัดอบรมทักษะดิจิทัลแก่ฝ่ายบัญชี (Support: HRM)",
+          "การทำ Dynamic Pricing บนหน้าแอปพลิเคชัน (Support) / การจัดซื้อเครื่องจักรใหม่ (Primary)",
+          "การย้ายฐานแรงงานไปยังต่างประเทศ (Offshoring) จัดเป็น Primary Activity ทั้งหมด"
         ],
         ans: 1,
-        exp: "เมื่อ Switching Cost ต่ำ ลูกค้าจะเปลี่ยนไปซื้อคู่แข่งได้ทันที ส่งผลให้อำนาจต่อรองของผู้ซื้อ (Bargaining Power of Buyers) สูงมาก"
+        exp: "การจัดส่งสินค้า (Outbound Logistics) เป็นกิจกรรมหลัก (Primary) ส่วนการฝึกอบรมบุคลากร (HRM) เป็นกิจกรรมสนับสนุน (Support)"
       },
       {
-        id: 12, ch: 2, chapter: "Chapter 2",
-        q: "ตามแบบจำลอง Value Chain Model ของ Michael E. Porter กิจกรรมใดต่อไปนี้จัดเป็น 'Primary Activity'?",
-        options: ["Human Resource Management", "Inbound Logistics & Operations", "Procurement (การจัดซื้อจัดหา)", "Firm Infrastructure"],
-        ans: 1,
-        exp: "Inbound Logistics, Operations, Outbound Logistics, Marketing & Sales และ Customer Service เป็นกิจกรรมหลัก (Primary Activities) ที่สร้างมูลค่าสินค้าโดยตรง"
-      },
-      {
-        id: 13, ch: 2, chapter: "Chapter 2",
-        q: "ข้อใดอธิบายข้อได้เปรียบของการนำ 'เทคโนโลยี RFID' มาใช้จัดการคลังสินค้าแทน Barcode ได้ถูกต้องที่สุด?",
+        id: 23, ch: 2, chapter: "Chapter 2",
+        q: "การนำเทคโนโลยี RFID มาใช้ร่วมกับระบบ Supply Chain Management ในคลังสินค้า ช่วยแก้ปัญหา 'เงินจม' (Tied-up Capital) ได้อย่างไร?",
         options: [
-          "RFID ต้องให้พนักงานนำเครื่องสแกนไปจ่อติดกับแท็กทีละชิ้นเหมือนเดิม",
-          "RFID ส่งสัญญาณผ่านคลื่นความถี่วิทยุ สามารถอ่านข้อมูลสินค้าจำนวนมากพร้อมกันได้แบบไร้สายและ Real-time ช่วยลด Human Error",
-          "RFID ใช้งานได้เฉพาะเมื่อมีสายเคเบิลเชื่อมต่อกับตัวรับเท่านั้น",
-          "RFID ไม่สามารถบันทึกข้อมูลใด ๆ ลงในชิปได้เลย"
+          "ช่วยให้คลังสินค้าสามารถเก็บของได้มากเกินความจำเป็นโดยไม่ต้องกังวลเรื่องวันหมดอายุ",
+          "ช่วยให้ทราบจำนวนและตำแหน่งสินค้าคงคลังแบบ Real-Time ลดความผิดพลาดในการนับสต็อก ทำให้สามารถสั่งซื้อแบบ Just-in-Time และลดการถือครอง Safety Stock เกินจำเป็น",
+          "ช่วยให้สามารถขายสินค้าได้โดยไม่ต้องมีกระบวนการจัดส่ง",
+          "ช่วยลดภาษีศุลกากรนำเข้าสินค้าได้ทันที"
         ],
         ans: 1,
-        exp: "RFID ส่งข้อมูลผ่านคลื่นวิทยุ สามารถสแกนพร้อมกันได้หลายร้อยชิ้นโดยไม่ต้องเห็นตัวแท็ก ลดเวลาตรวจนับ และลดข้อผิดพลาดของมนุษย์อย่างมหาศาล"
+        exp: "RFID ช่วยให้ตรวจสอบสต็อกได้แม่นยำแบบ Real-Time ทำให้ตัดสต็อกส่วนเกินออกไปได้ เงินทุนจึงไม่ไปจมอยู่กับกองสินค้าคงคลัง"
       },
       {
-        id: 14, ch: 2, chapter: "Chapter 2",
-        q: "Walmart นำระบบเชื่อมโยงข้อมูลกับ Supplier เพื่อเติมสินค้าบนชั้นวางโดยอัตโนมัติ (Continuous Replenishment) ตรงกับกลยุทธ์การแข่งขันด้วย IS ข้อใด?",
-        options: ["Differentiation Strategy", "Low-Cost Leadership Strategy", "Market Niche Strategy", "Offshoring Strategy"],
-        ans: 1,
-        exp: "Walmart ใช้ IS เพื่อลดต้นทุนสินค้าคงคลังและค่าบริหารจัดการสต็อกให้อยู่ในระดับต่ำที่สุด จัดเป็น Low-Cost Leadership"
-      },
-      {
-        id: 15, ch: 2, chapter: "Chapter 2",
-        q: "โปรแกรม 'Nike By You' ที่เปิดให้ลูกค้าเลือกสี วัสดุ และปักชื่อบนรองเท้าของตนเองได้ สอดคล้องกับกลยุทธ์ใดของ IS?",
-        options: ["Low-Cost Leadership", "Product Differentiation", "Downsizing", "Business Process Automation"],
-        ans: 1,
-        exp: "การเปิดให้ปรับแต่งสินค้าเฉพาะบุคคล (Mass Customization) เป็นการสร้างความแตกต่างให้สินค้า (Differentiation Strategy)"
-      },
-      {
-        id: 16, ch: 2, chapter: "Chapter 2",
-        q: "ข้อใดคือความแตกต่างสำคัญระหว่าง Business Process Reengineering (BPR) กับ Continuous Improvement?",
+        id: 24, ch: 2, chapter: "Chapter 2",
+        q: "กรณีศึกษาของ Walmart ที่เชื่อมระบบเติมสินค้าอัตโนมัติ (Continuous Replenishment System) ตรงไปยังโรงงานของ Supplier จัดเป็นกลยุทธ์การแข่งขันด้วย IS แบบใด?",
         options: [
-          "BPR มุ่งเน้นการค่อย ๆ ปรับปรุงหน้างานทีละเล็กน้อย แต่ Continuous Improvement คือการรื้อทิ้งกระบวนการเดิมทั้งหมด",
-          "BPR คือการคิดค้นและรื้อออกแบบกระบวนการใหม่ทั้งหมดแบบก้าวกระโดด ในขณะที่ Continuous Improvement คือการค่อย ๆ ปรับปรุงทีละขั้น",
-          "BPR นำไปใช้เฉพาะหน่วยงานราชการเท่านั้น",
+          "Product Differentiation Strategy",
+          "Low-Cost Leadership Strategy เพราะมุ่งเน้นการตัดต้นทุนการบริหารคลังสินค้าและลดปัญหาสินค้าหมดสต็อก",
+          "Market Niche Strategy สำหรับสินค้าราคาแพง",
+          "Downsizing Strategy เพื่อยกเลิกสาขาหน้าร้าน"
+        ],
+        ans: 1,
+        exp: "Walmart มุ่งเน้นการเป็นผู้นำด้านต้นทุนต่ำ (Low-Cost Leadership) โดยใช้ IS ลดต้นทุนคลังสินค้าและการจัดส่งให้มีประสิทธิภาพสูงสุด"
+      },
+      {
+        id: 25, ch: 2, chapter: "Chapter 2",
+        q: "Nike นำระบบออนไลน์มาให้ลูกค้าสามารถออกแบบสี ลวดลาย และปักชื่อบนรองเท้าของตนเองได้ (Nike By You) ถือเป็นการใช้ IS ในกลยุทธ์ใด?",
+        options: [
+          "Low-Cost Leadership เพื่อขายรองเท้าราคาถูกที่สุดในตลาด",
+          "Product Differentiation เพื่อสร้างความแตกต่างและมูลค่าเพิ่มที่คู่แข่งลอกเลียนแบบได้ยาก",
+          "Offshoring Strategy เพื่อลดต้นทุนแรงงาน",
+          "Disintermediation เพื่อทำลายโรงงานผลิตรองเท้า"
+        ],
+        ans: 1,
+        exp: "การทำ Mass Customization เปิดโอกาสให้ลูกค้าปรับแต่งสินค้าเฉพาะตัว ถือเป็นกลยุทธ์สร้างความแตกต่างให้สินค้า (Differentiation)"
+      },
+      {
+        id: 26, ch: 2, chapter: "Chapter 2",
+        q: "เหตุใด 'สต็อกสินค้าคงคลังที่มากเกินจำเป็น (Excessive Inventory)' จึงถูกมองว่าเป็น 'ต้นทุนจมและสิ่งสูญเปล่า' ในมุมมองของ SCM ยุคใหม่?",
+        options: [
+          "เพราะทำให้พนักงานคลังสินค้ามีงานทำน้อยลง",
+          "เพราะต้องแบกรับค่าเช่าโกดัง ค่าประกันภัย ความเสี่ยงสินค้าเสื่อมสภาพ/ตกรุ่น และเงินทุนหมุนเวียนที่เสียโอกาสนำไปลงทุนสร้างผลตอบแทนอื่น",
+          "เพราะทำให้ระบบ RFID ส่งคลื่นความถี่ไม่ได้",
+          "เพราะทำให้ลูกค้าไม่พอใจที่มีสินค้าให้เลือกซื้อมากเกินไป"
+        ],
+        ans: 1,
+        exp: "สต็อกส่วนเกินทำให้เงินทุนจม เสียค่าเช่าคลัง ค่าดูแลรักษา และเสี่ยงต่อการเสื่อมสภาพหรือตกรุ่นจนต้องขายขาดทุน"
+      },
+      {
+        id: 27, ch: 2, chapter: "Chapter 2",
+        q: "ความแตกต่างในเชิงโครงสร้างระหว่าง 'Business Process Reengineering (BPR)' กับ 'Continuous Improvement' คืออะไร?",
+        options: [
+          "BPR คือการค่อยๆ ปรับปรุงงานเดิมทีละนิด ส่วน Continuous Improvement คือการไล่ผู้บริหารออก",
+          "BPR คือการคิดค้นและรื้อกระบวนการทำใหม่ทั้งหมดแบบก้าวกระโดด (Radical Redesign) ส่วน Continuous Improvement คือการปรับปรุงหน้างานทีละเล็กละน้อยอย่างต่อเนื่อง",
+          "BPR นำมาใช้เฉพาะบริษัทไอที ส่วน Continuous Improvement ใช้กับโรงงานเท่านั้น",
           "ทั้งสองคำมีความหมายเหมือนกันทุกประการในการบริหารเชิงกลยุทธ์"
         ],
         ans: 1,
-        exp: "BPR มุ่งเน้นการยกเครื่องรื้อทำใหม่ (Radical Redesign) แบบก้าวกระโดด ส่วน Continuous Improvement (Kaizen) คือการค่อย ๆ ปรับปรุงให้มีประสิทธิภาพขึ้นเรื่อย ๆ"
+        exp: "BPR คือการรื้อกระบวนการเดิมทิ้งเพื่อออกแบบใหม่หมดแบบก้าวกระโดด ส่วน Continuous Improvement คือการค่อยๆ ปรับปรุงทีละขั้นตอนให้มีประสิทธิภาพขึ้น"
       },
       {
-        id: 17, ch: 2, chapter: "Chapter 2",
-        q: "การที่ธนาคารปรับเปลี่ยนจากการให้ลูกค้าถอนเงินหน้าเคาน์เตอร์ด้วยสมุดบัญชี มาเป็นการสแกน QR Code ผ่าน Mobile Banking จัดเป็นตัวอย่างของข้อใด?",
-        options: ["Continuous Improvement", "Downsizing", "Business Process Reengineering (BPR)", "Offshoring"],
-        ans: 2,
-        exp: "เป็นการเปลี่ยนกระบวนการเดิมที่มีขั้นตอนซับซ้อนให้กลายเป็นกระบวนการดิจิทัลแบบใหม่สิ้นเชิง (BPR)"
-      },
-      {
-        id: 18, ch: 2, chapter: "Chapter 2",
-        q: "บริษัทสตาร์ตอัปในไทยตัดสินใจว่าจ้างบริษัทในอินเดียเพื่อพัฒนาซอฟต์แวร์และดูแลศูนย์บริการลูกค้าภาษาอังกฤษ เรียกว่ากลยุทธ์ใด?",
-        options: ["Offshoring / Outsourcing", "BPR", "Market Niche", "Digital Disruption"],
-        ans: 0,
-        exp: "Offshoring คือการย้ายหรือจ้างงานไปยังต่างประเทศเพื่อใช้ประโยชน์จากต้นทุนแรงงานหรือความเชี่ยวชาญเฉพาะทาง"
-      },
-      {
-        id: 19, ch: 2, chapter: "Chapter 2",
-        q: "การรวมกลุ่มบุคลากรที่มีความเชี่ยวชาญจากคนละประเทศมาทำงานร่วมกันผ่านเครือข่าย IS โดยไม่มีข้อจำกัดด้านสถานที่ เรียกว่าอะไร?",
-        options: ["Traditional Workforce", "Virtual Team & Collaborative Work", "Downsizing Committee", "Offshore Factory"],
-        ans: 1,
-        exp: "Virtual Team คือการทำงานร่วมกันผ่านระบบสารสนเทศและการสื่อสาร โดยไม่จำกัดสถานที่หรือพรมแดน"
-      },
-      {
-        id: 20, ch: 2, chapter: "Chapter 2",
-        q: "สต็อกสินค้าที่มากเกินความจำเป็น (Excessive Inventory) ส่งผลเสียร้ายแรงที่สุดต่อ Supply Chain ในแง่ใด?",
+        id: 28, ch: 2, chapter: "Chapter 2",
+        q: "การที่ธนาคารพาณิชย์ปรับลดขั้นตอนการเปิดบัญชี จากเดิมที่ต้องเดินทางไปสาขา กรอกเอกสาร 5 แผ่น ให้เหลือเพียงการยืนยันตัวตนผ่าน NDID บนสมาร์ตโฟน จัดเป็นตัวอย่างของข้อใด?",
         options: [
-          "ทำให้ลูกค้าไม่พอใจเพราะมีสินค้าให้เลือกมากเกินไป",
-          "ทำให้เกิดต้นทุนเงินจม ค่าดูแลรักษาคลังสินค้า และความเสี่ยงที่สินค้าจะเสื่อมสภาพหรือตกรุ่น",
-          "ทำให้ Supplier ได้รับกำไรสูงเกินไป",
-          "ทำให้ระบบ RFID ไม่สามารถทำงานได้"
+          "Continuous Improvement หน้าเคาน์เตอร์",
+          "Business Process Reengineering (BPR) ที่ออกแบบกระบวนการใหม่โดยใช้เทคโนโลยีดิจิทัลเป็นแกน",
+          "Offshoring ไปยังประเทศเพื่อนบ้าน",
+          "Downsizing โดยการปิดระบบเซิร์ฟเวอร์ทั้งหมด"
         ],
         ans: 1,
-        exp: "สต็อกที่มากเกินไปทำให้เกิดปัญหากระแสเงินสดจม ค่าใช้จ่ายคลังสินค้า และความเสี่ยงสินค้าตกรุ่น SCM จึงมุ่งเน้นการควบคุมสต็อกให้พอดีและแม่นยำ"
+        exp: "การยกเลิกกระบวนการกรอกกระดาษและเดินทางมาสาขา แล้วเปลี่ยนเป็นระบบดิจิทัลเบ็ดเสร็จในขั้นตอนเดียว ถือเป็นการทำ BPR ขนานแท้"
+      },
+      {
+        id: 29, ch: 2, chapter: "Chapter 2",
+        q: "บริษัทสตาร์ตอัปด้านเทคโนโลยีในไทยตัดสินใจว่าจ้างบริษัทเชี่ยวชาญด้านคลาวด์ในสหรัฐฯ ให้ดูแลระบบความปลอดภัยทางไซเบอร์ 24 ชั่วโมง การกระทำนี้จัดเป็นข้อใด?",
+        options: ["Offshoring & Outsourcing", "Disintermediation", "Market Niche", "Continuous Improvement"],
+        ans: 0,
+        exp: "การจ้างหน่วยงานภายนอกที่มีความเชี่ยวชาญเฉพาะทาง (Outsourcing) และตั้งอยู่ในต่างประเทศ (Offshoring) ช่วยลดต้นทุนและเพิ่มประสิทธิภาพการดำเนินงาน"
+      },
+      {
+        id: 30, ch: 2, chapter: "Chapter 2",
+        q: "การฟอร์มทีมงานที่ประกอบด้วยโปรแกรมเมอร์ในไทย ดีไซเนอร์ในญี่ปุ่น และผู้จัดการโครงการในเยอรมนี เพื่อพัฒนาผลิตภัณฑ์ใหม่ร่วมกันผ่านระบบคลาวด์ จัดเป็นแนวคิดใด?",
+        options: ["Downsizing Workforce", "Virtual Team & Collaborative Work", "Offshoring Factory", "Traditional Hierarchy"],
+        ans: 1,
+        exp: "Virtual Team คือการรวมกลุ่มบุคลากรข้ามสถานที่และเขตเวลา เพื่อทำงานร่วมกันผ่านเครือข่ายสารสนเทศอย่างมีประสิทธิภาพ"
+      },
+      {
+        id: 31, ch: 2, chapter: "Chapter 2",
+        q: "หากบริษัทผลิตรถยนต์อนุญาตให้ Supplier ชิ้นส่วนเหล็กสามารถเข้าดูตารางการประกอบรถยนต์ของโรงงานได้แบบ Real-Time จะเกิดผลดีอย่างไร?",
+        options: [
+          "ทำให้ Supplier ขโมยข้อมูลความลับไปขายให้คู่แข่ง",
+          "ทำให้ Supplier สามารถวางแผนการผลิตและจัดส่งเหล็กได้ตรงเวลาแบบ Just-In-Time ช่วยลดต้นทุนคลังสินค้าทั้งสองฝ่าย",
+          "ทำให้บริษัทรถยนต์ต้องจ่ายเงินค่าเหล็กแพงขึ้น 2 เท่า",
+          "ทำให้พนักงานฝ่ายจัดซื้อต้องทำงานล่วงเวลาเพิ่มขึ้น"
+        ],
+        ans: 1,
+        exp: "การแชร์ข้อมูลใน Supply Chain ช่วยลดปรากฏการณ์ Bullwhip Effect ทำให้ Supplier วางแผนการจัดส่งได้แม่นยำและลดสต็อกส่วนเกิน"
+      },
+      {
+        id: 32, ch: 2, chapter: "Chapter 2",
+        q: "กลยุทธ์ 'Market Niche' ด้วยการใช้ระบบ IS มีลักษณะเด่นอย่างไรเมื่อเทียบกับการแข่งขันในตลาดมวลชน (Mass Market)?",
+        options: [
+          "เน้นการผลิตสินค้าจำนวนมากและตัดราคาขายให้ต่ำที่สุด",
+          "ใช้ระบบ IS วิเคราะห์และส่งมอบสินค้า/บริการที่ตอบสนองความต้องการเฉพาะกลุ่มอย่างลึกซึ้ง เช่น อาหารสำหรับผู้แพ้กลูเตน เพื่อสร้างความภักดีและลดการชนกับคู่แข่งรายใหญ่",
+          "ไม่จำเป็นต้องใช้ฐานข้อมูลลูกค้า",
+          "เน้นการเปิดหน้าร้านให้ครอบคลุมทุกตำบลทั่วประเทศ"
+        ],
+        ans: 1,
+        exp: "Market Niche คือการเจาะตลาดกลุ่มเฉพาะที่มีความต้องการเฉพาะทาง ใช้ IS บริการตอบโจทย์ลึกซึ้ง ทำให้ไม่ต้องแข่งขันตัดราคากับผู้ค้ารายใหญ่"
+      },
+      {
+        id: 33, ch: 2, chapter: "Chapter 2",
+        q: "เหตุใด 'RFID' จึงมีประสิทธิภาพเหนือกว่า 'Barcode' ดั้งเดิมอย่างมีนัยสำคัญในการบริหารจัดการคลังสินค้าระดับแสนชิ้น?",
+        options: [
+          "RFID ใช้วัสดุที่ย่อยสลายได้ตามธรรมชาติ 100%",
+          "RFID ส่งสัญญาณผ่านคลื่นความถี่วิทยุ สามารถอ่านข้อมูลสินค้าจำนวนหลายร้อยชิ้นพร้อมกันได้โดยไม่ต้องอยู่ในแนวสายตา (Non-line-of-sight) และไม่ต้องยิงทีละชิ้น",
+          "RFID แท็กมีราคาถูกกว่าหมึกพิมพ์บาร์โค้ด",
+          "RFID ทำงานได้โดยไม่ต้องใช้คอมพิวเตอร์ประมวลผล"
+        ],
+        ans: 1,
+        exp: "RFID ส่งคลื่นวิทยุทำให้อ่านข้อมูลได้พร้อมกันจำนวนมากแบบไร้สาย ไม่ต้องจ่อสแกนเนอร์ทีละชิ้นเหมือน Barcode ช่วยประหยัดเวลาและลด Human Error"
+      },
+      {
+        id: 34, ch: 2, chapter: "Chapter 2",
+        q: "ในกรอบของ Porter's Five Forces หากอุตสาหกรรมหนึ่งมี 'Threat of Substitute Products' สูง องค์กรควรปรับตัวอย่างไร?",
+        options: [
+          "หยุดการพัฒนาเทคโนโลยีใหม่ทั้งหมด",
+          "นำ IS มาสร้างมูลค่าเพิ่ม ปรับปรุงการบริการ และสร้างความผูกพันกับลูกค้าเพื่อทำให้สินค้าทดแทนไม่สามารถตอบโจทย์ได้เทียบเท่า",
+          "เพิ่มราคาสินค้าขึ้นเป็น 2 เท่าทันที",
+          "เลิกจ้างพนักงานฝ่ายการตลาดทั้งหมด"
+        ],
+        ans: 1,
+        exp: "เมื่อมีสินค้าทดแทน ธุรกิจต้องยกระดับคุณค่า เพิ่มบริการดิจิทัล และสร้างความแตกต่างที่สินค้าทดแทนทำไม่ได้"
+      },
+      {
+        id: 35, ch: 2, chapter: "Chapter 2",
+        q: "เป้าหมายหลักของการปรับโครงสร้างองค์กรแบบ 'Downsizing' โดยนำเทคโนโลยีสารสนเทศเข้ามาช่วย คือข้อใด?",
+        options: [
+          "การเพิ่มขั้นตอนการอนุมัติเอกสารให้มากขึ้น",
+          "การลดขนาดองค์กร ตัดตำแหน่งงานที่ซ้ำซ้อน และใช้ระบบอัตโนมัติมาเพิ่มความคล่องตัวและลดต้นทุนคงที่",
+          "การลดขนาดหน้าจอคอมพิวเตอร์ของพนักงาน",
+          "การขยายสาขาที่ไม่ทำกำไรให้มากขึ้น"
+        ],
+        ans: 1,
+        exp: "Downsizing คือการปรับขนาดองค์กรให้กะทัดรัด โดยใช้ IS และระบบอัตโนมัติมาทำงานแทนขั้นตอนซ้ำซ้อน เพื่อลดต้นทุนและเพิ่มความคล่องตัว"
+      },
+      {
+        id: 36, ch: 2, chapter: "Chapter 2",
+        q: "กิจกรรมใดในห่วงโซ่คุณค่า (Value Chain) จัดเป็น 'Inbound Logistics'?",
+        options: [
+          "การโฆษณาแคมเปญลดราคาผ่าน Facebook",
+          "การตรวจรับ จัดเก็บ และควบคุมการเคลื่อนย้ายวัตถุดิบที่ส่งมาจาก Supplier เข้าสู่โรงงาน",
+          "การบริการซ่อมแซมสินค้าหลังการขาย",
+          "การประกอบชิ้นส่วนอิเล็กทรอนิกส์ในสายพานการผลิต"
+        ],
+        ans: 1,
+        exp: "Inbound Logistics คือกิจกรรมการรับ ตรวจสอบ จัดเก็บ และกระจายวัตถุดิบเข้าสู่กระบวนการผลิต"
+      },
+      {
+        id: 37, ch: 2, chapter: "Chapter 2",
+        q: "เมื่อ Supplier ในอุตสาหกรรมมีน้อยรายและรวมตัวกันอย่างเหนียวแน่น จะส่งผลต่อองค์กรอย่างไรตาม Five Forces Model?",
+        options: [
+          "อำนาจต่อรองของ Supplier ต่ำมาก ทำให้องค์กรกดราคาวัตถุดิบได้ง่าย",
+          "อำนาจต่อรองของ Supplier สูงมาก ทำให้องค์กรต้องเผชิญกับต้นทุนวัตถุดิบที่สูงและควบคุมเงื่อนไขได้ยาก",
+          "ภัยคุกคามจากสินค้าทดแทนจะลดลงทันที",
+          "ลูกค้าจะเลิกต่อรองราคากับองค์กร"
+        ],
+        ans: 1,
+        exp: "เมื่อผู้จัดหาวัตถุดิบมีน้อยราย อำนาจต่อรองของ Supplier จะสูง องค์กรจึงต้องหาทางใช้ IS เพื่อเพิ่มประสิทธิภาพการใช้วัตถุดิบหรือหาแหล่งทดแทน"
+      },
+      {
+        id: 38, ch: 2, chapter: "Chapter 2",
+        q: "การที่บริษัทประกันภัยนำระบบตรวจจับเคลมประกันอัตโนมัติด้วย AI มาแทนที่การตรวจสอบด้วยเอกสารกระดาษ ส่งผลต่อ Value Chain อย่างไร?",
+        options: [
+          "เพิ่มต้นทุนการดำเนินงานให้สูงขึ้น",
+          "ยกระดับกิจกรรม Customer Service ให้รวดเร็ว แม่นยำ และลดต้นทุนการดำเนินงาน ซึ่งเป็นการสร้างมูลค่าเพิ่ม (Add Value) ให้กับบริการ",
+          "ทำให้ลูกค้าไม่สามารถเคลมประกันได้อีกต่อไป",
+          "เปลี่ยนบริษัทประกันภัยให้กลายเป็นบริษัทผลิตฮาร์ดแวร์"
+        ],
+        ans: 1,
+        exp: "การใช้เทคโนโลยีเพิ่มความเร็วและความถูกต้องในการเคลม ช่วยยกระดับ Customer Service ซึ่งส่งมอบคุณค่าและสร้างความพึงพอใจให้ลูกค้า"
+      },
+      {
+        id: 39, ch: 2, chapter: "Chapter 2",
+        q: "แนวคิด 'Open System' ในการมององค์กรธุรกิจ สื่อถึงสิ่งใด?",
+        options: [
+          "องค์กรที่ไม่มีการตั้งรหัสผ่านบนคอมพิวเตอร์",
+          "องค์กรเป็นระบบที่มีโครงสร้างและเป้าหมาย โดยต้องมีปฏิสัมพันธ์ แลกเปลี่ยน Input และรับฟัง Feedback จากสิ่งแวดล้อมภายนอก (ลูกค้า, คู่แข่ง, รัฐบาล)",
+          "องค์กรที่เปิดประตูให้คนทั่วไปเข้ามาหยิบของฟรีได้",
+          "องค์กรที่ไม่มีฝ่ายบริหารจัดการ"
+        ],
+        ans: 1,
+        exp: "Open System คือองค์กรที่มีปฏิสัมพันธ์กับสิ่งแวดล้อมภายนอก มีการรับ Input แปรรูปเป็น Output และรับ Feedback เพื่อปรับตัวให้อยู่รอด"
+      },
+      {
+        id: 40, ch: 2, chapter: "Chapter 2",
+        q: "ความเสี่ยงสำคัญที่สุดที่อาจเกิดขึ้นจากการทำ 'Outsourcing' ระบบงานสำคัญให้แก่บริษัทภายนอกคืออะไร?",
+        options: [
+          "ทำให้บริษัทมีผลกำไรมากเกินไป",
+          "การสูญเสียการควบคุมกระบวนการ ความเสี่ยงเรื่องข้อมูลความลับรั่วไหล และการพึ่งพาผู้ให้บริการภายนอกมากเกินไป",
+          "ทำให้พนักงานในบริษัทมีเวลาว่างเพิ่มขึ้น",
+          "ทำให้คอมพิวเตอร์ในองค์กรใช้งานไม่ได้"
+        ],
+        ans: 1,
+        exp: "Outsourcing มีความเสี่ยงเรื่องการควบคุมคุณภาพ การรั่วไหลของความลับทางการค้า และการสูญเสียความสามารถหลักขององค์กรไปสู่บุคคลภายนอก"
       },
 
-      // บทที่ 3: E-Commerce & Business Models
+      // บทที่ 3: E-Commerce & Business Models (41 - 60)
       {
-        id: 21, ch: 3, chapter: "Chapter 3",
-        q: "ในมิติของ E-Commerce คำว่า 'Information Asymmetry' ในตลาดดิจิทัลมีลักษณะอย่างไรเมื่อเทียบกับตลาดดั้งเดิม?",
+        id: 41, ch: 3, chapter: "Chapter 3",
+        q: "ข้อใดอธิบายปรากฏการณ์ที่เกิดขึ้นจริงในตลาดดิจิทัล (Digital Market) ได้อย่างถูกต้องตามทฤษฎี?",
         options: [
-          "สูงกว่าตลาดดั้งเดิมมาก เพราะผู้ซื้อไม่มีทางรู้ข้อมูลสินค้าเลย",
-          "ต่ำลงอย่างมาก เพราะผู้บริโภคสามารถค้นหา เปรียบเทียบสเปก และเช็กราคาจากร้านค้าทั่วโลกได้ทันที",
-          "ไม่เปลี่ยนแปลง เพราะข้อมูลถูกควบคุมโดยภาครัฐ",
-          "มีเฉพาะในการซื้อขายระหว่างธุรกิจกับธุรกิจ (B2B) เท่านั้น"
+          "Digital Market มีค่า Information Asymmetry สูงกว่าตลาดดั้งเดิม ทำให้ผู้ซื้อถูกโกงราคาได้ง่าย",
+          "Digital Market มี Search Cost และ Transaction Cost ต่ำมาก ส่งผลให้เกิด Disintermediation (การตัดคนกลาง) ได้ง่ายขึ้น",
+          "Traditional Market มี Menu Cost ต่ำกว่า เพราะเปลี่ยนป้ายราคาได้ฟรีโดยไม่ต้องใช้ไฟฟ้า",
+          "Traditional Market มีความยืดหยุ่นในการตั้งราคาแบบ Dynamic Pricing สูงกว่าระบบออนไลน์"
         ],
         ans: 1,
-        exp: "ตลาดดิจิทัลทำให้ความไม่สมมาตรของข้อมูลลดลง (Low Asymmetry) ผู้ซื้อตรวจสอบข้อมูลราคากลางได้ง่าย ผู้ขายจึงบวกกำไรเกินจริงได้ยากขึ้น"
+        exp: "ตลาดดิจิทัลมีต้นทุนการค้นหาข้อมูลและต้นทุนธุรกรรมต่ำมาก ผู้บริโภคเข้าถึงผู้ผลิตได้โดยตรง ทำให้เกิด Disintermediation ได้ง่าย"
       },
       {
-        id: 22, ch: 3, chapter: "Chapter 3",
-        q: "ข้อใดอธิบายความหมายของ 'Menu Cost' ได้ถูกต้องที่สุด?",
+        id: 42, ch: 3, chapter: "Chapter 3",
+        q: "เหตุใด 'Menu Cost' ในตลาดออนไลน์จึงต่ำกว่าตลาดค้าปลีกแบบดั้งเดิม (Traditional Retail) อย่างมหาศาล?",
         options: [
-          "ต้นทุนในการออกแบบอาหารในภัตตาคาร",
-          "ต้นทุนในการเปลี่ยนแปลงราคาสินค้า เช่น การพิมพ์ป้ายราคาใหม่และจ้างคนเดินเปลี่ยนป้าย",
-          "ค่าธรรมเนียมการทำธุรกรรมผ่านบัตรเครดิต",
-          "ค่าเช่าเซิร์ฟเวอร์สำหรับโฮสต์เว็บไซต์"
+          "เพราะร้านค้าออนไลน์ไม่ต้องขายอาหาร จึงไม่มีเมนู",
+          "เพราะในตลาดดิจิทัล การเปลี่ยนราคาสินค้าทำได้เพียงแก้ไขตัวเลขในฐานข้อมูลหรือปรับอัลกอริทึม ซึ่งแทบไม่มีต้นทุนกระดาษหรือค่าแรงคนเดินเปลี่ยนป้าย",
+          "เพราะรัฐบาลเป็นผู้ออกค่าใช้จ่ายในการเปลี่ยนราคาให้ทั้งหมด",
+          "เพราะร้านค้าออนไลน์ขายสินค้าได้ราคาเดียวตลอดทั้งปี"
         ],
         ans: 1,
-        exp: "Menu Cost คือต้นทุนในการเปลี่ยนป้ายราคา ในตลาดดั้งเดิมจะมีต้นทุนนี้สูงมาก แต่ใน Digital Market ต้นทุนนี้ต่ำมากเพราะแก้ไขตัวเลขในฐานข้อมูลได้ทันที"
+        exp: "Menu Cost ในระบบออนไลน์ต่ำมากเพราะเป็นเพียงการแก้โค้ดหรือฐานข้อมูล ต่างจากหน้าร้านดั้งเดิมที่ต้องพิมพ์ป้ายกระดาษใหม่และจ้างคนเดินเปลี่ยน"
       },
       {
-        id: 23, ch: 3, chapter: "Chapter 3",
-        q: "ปรากฏการณ์ที่สายการบินหรือโรงแรมสามารถปรับเปลี่ยนราคาตั๋วและห้องพักขึ้นลงตามช่วงเวลาและจำนวนที่นั่งว่างแบบ Real-Time เรียกว่าอะไร?",
-        options: ["Static Pricing", "Dynamic Pricing", "Menu Price Fixing", "B2B Bargaining"],
+        id: 43, ch: 3, chapter: "Chapter 3",
+        q: "สายการบินและแอปพลิเคชันเรียกรถใช้เทคโนโลยีวิเคราะห์อุปสงค์และอุปทาน เพื่อปรับขึ้น-ลงราคาตั๋วและค่าโดยสารแบบ Real-Time ปรากฏการณ์นี้เรียกว่าอะไร?",
+        options: ["Static Pricing Strategy", "Dynamic Pricing Strategy", "Cost-Plus Markup", "Free-for-Service Model"],
         ans: 1,
-        exp: "Dynamic Pricing คือการตั้งราคาแบบยืดหยุ่นตามความต้องการซื้อ (Demand) และอุปทาน (Supply) ในขณะนั้น"
+        exp: "Dynamic Pricing คือการตั้งราคาแบบยืดหยุ่นและปรับเปลี่ยนตามอุปสงค์ อุปทาน หรือช่วงเวลาแบบ Real-Time เพื่อสร้างผลกำไรสูงสุด"
       },
       {
-        id: 24, ch: 3, chapter: "Chapter 3",
-        q: "การที่โรงงานผู้ผลิตเสื้อผ้าเปิดหน้าร้านออนไลน์ขายตรงให้แก่ผู้บริโภค โดยไม่ต้องผ่านห้างสรรพสินค้าหรือยี่ปั๊ว เรียกว่ากระบวนการใด?",
-        options: ["Disintermediation (การตัดคนกลาง)", "Outsourcing", "Re-intermediation", "Supply Chain Extension"],
+        id: 44, ch: 3, chapter: "Chapter 3",
+        q: "ข้อใดเป็นตัวอย่างที่ชัดเจนที่สุดของ 'Disintermediation' (การตัดตัวกลาง)?",
+        options: [
+          "โรงงานผลิตกระเป๋าเปิดเว็บไซต์ขายสินค้าส่งตรงถึงมือผู้บริโภครายย่อย โดยไม่ผ่านยี่ปั๊วและห้างสรรพสินค้า",
+          "การที่ลูกค้าไปซื้อของที่ห้างสรรพสินค้าแล้วจ่ายเงินสด",
+          "การที่แพลตฟอร์มเพิ่มตัวแทนจำหน่ายอีก 3 ชั้นเพื่อกระจายสินค้า",
+          "การจ้างบริษัทขนส่งสินค้าเพิ่มขึ้น 2 เท่า"
+        ],
         ans: 0,
-        exp: "Disintermediation คือการตัดพ่อค้าคนกลางในช่องทางจัดจำหน่ายออก ทำให้ผู้ผลิตขายตรงสู่ผู้บริโภคและควบคุมส่วนต่างกำไรได้ดีขึ้น"
+        exp: "Disintermediation คือการตัดพ่อค้าคนกลางในช่องทางจัดจำหน่ายออกไป ทำให้ผู้ผลิตขายตรงสู่ผู้บริโภค (Direct-to-Consumer)"
       },
       {
-        id: 25, ch: 3, chapter: "Chapter 3",
-        q: "เว็บไซต์ Shopee และ Lazada จัดเป็นโมเดลธุรกิจอินเทอร์เน็ตประเภทใด?",
-        options: ["E-tailer", "Marketplace / Market Creator", "Content Provider", "Portal"],
+        id: 45, ch: 3, chapter: "Chapter 3",
+        q: "ความแตกต่างสำคัญระหว่างโมเดล 'E-tailer' และ 'Marketplace' คืออะไร?",
+        options: [
+          "E-tailer คือห้างสรรพสินค้าออฟไลน์ ส่วน Marketplace คือร้านค้าออนไลน์",
+          "E-tailer คือผู้ที่ซื้อสินค้ามาสต็อกเองหรือผลิตเองเพื่อขายปลีกออนไลน์ ส่วน Marketplace คือแพลตฟอร์มตัวกลางที่ให้ผู้ซื้อและผู้ขายภายนอกมาเจอกัน",
+          "E-tailer ไม่ต้องมีระบบชำระเงิน ส่วน Marketplace ต้องใช้เงินสดเท่านั้น",
+          "ทั้งสองโมเดลคือสิ่งเดียวกันและมีโครงสร้างรายได้เหมือนกันทุกประการ"
+        ],
         ans: 1,
-        exp: "Shopee/Lazada ไม่ได้เป็นผู้ผลิตสินค้าเองส่วนใหญ่ แต่ทำหน้าที่เป็นตัวกลางสร้างตลาด (Marketplace) ให้ผู้ซื้อและผู้ขายมาทำธุรกรรมร่วมกัน"
+        exp: "E-tailer คือร้านค้าปลีกออนไลน์ที่ขายสินค้าของตัวเองหรือสต็อกเอง (เช่น หน้าร้านแบรนด์) ส่วน Marketplace คือแพลตฟอร์มตัวกลางให้คนอื่นมาเปิดร้าน (เช่น Shopee)"
       },
       {
-        id: 26, ch: 3, chapter: "Chapter 3",
-        q: "เว็บไซต์ Agoda และ Trip.com ที่ทำหน้าที่รับจองห้องพักและตั๋วเครื่องบินพร้อมรับส่วนแบ่งค่าคอมมิชชัน จัดเป็นโมเดลธุรกิจประเภทใด?",
-        options: ["Transaction Broker", "Service Provider", "Community Provider", "E-tailer"],
+        id: 46, ch: 3, chapter: "Chapter 3",
+        q: "Trip.com, Agoda และ Robinhood Food จัดอยู่ในกลุ่มธุรกิจอินเทอร์เน็ตประเภทใด?",
+        options: ["Community Provider", "Transaction Broker", "Content Provider", "Portal"],
+        ans: 1,
+        exp: "Transaction Broker คือตัวแทนนายหน้าที่ช่วยอำนวยความสะดวกในการทำธุรกรรมระหว่างผู้ซื้อกับผู้ให้บริการ โดยได้รับส่วนแบ่งหรือค่าธรรมเนียม"
+      },
+      {
+        id: 47, ch: 3, chapter: "Chapter 3",
+        q: "รายได้หลักของ Facebook (Meta) และ Google Search ในมิติของ Revenue Model มาจากข้อใด?",
+        options: ["Subscription Fee", "Advertising Revenue Model", "Affiliate Referral Fee", "Drop-shipping Fee"],
+        ans: 1,
+        exp: "แพลตฟอร์มเหล่านี้เปิดให้ใช้ฟรีเพื่อดึงดูดผู้ใช้งานจำนวนมหาศาล แล้วสร้างรายได้หลักจากการขายพื้นที่โฆษณาที่ตรงกลุ่มเป้าหมาย (Advertising Model)"
+      },
+      {
+        id: 48, ch: 3, chapter: "Chapter 3",
+        q: "ธุรกรรมที่นักศึกษาประกาศขายโน้ตบุ๊กมือสองของตนเองให้เพื่อนนักศึกษาอีกคนหนึ่งผ่านกลุ่ม Facebook จัดเป็น E-Commerce รูปแบบใด?",
+        options: ["Business-to-Business (B2B)", "Consumer-to-Consumer (C2C)", "Business-to-Consumer (B2C)", "Government-to-Citizen (G2C)"],
+        ans: 1,
+        exp: "C2C คือการซื้อขายแลกเปลี่ยนระหว่างผู้บริโภคด้วยกันเองโดยตรงผ่านแพลตฟอร์มตัวกลาง"
+      },
+      {
+        id: 49, ch: 3, chapter: "Chapter 3",
+        q: "ข้อใดเป็นข้อจำกัดและอุปสรรคสำคัญในการทำธุรกิจ E-Commerce ข้ามพรมแดน (Cross-border E-Commerce)?",
+        options: [
+          "อินเทอร์เน็ตในต่างประเทศไม่รองรับเว็บไซต์ภาษาอังกฤษ",
+          "ความแตกต่างด้านกฎหมายคุ้มครองข้อมูลส่วนบุคคล (Data Privacy), อัตราแลกเปลี่ยนเงินตรา, ภาษีศุลกากร และความแตกต่างทางวัฒนธรรม",
+          "ลูกค้าในต่างประเทศไม่ใช้สมาร์ตโฟน",
+          "ไม่มีซอฟต์แวร์ใดในโลกที่สามารถคำนวณค่าส่งสินค้าข้ามประเทศได้"
+        ],
+        ans: 1,
+        exp: "การค้าข้ามพรมแดนต้องเผชิญกับอุปสรรคเรื่องกฎหมายท้องถิ่น ค่าเงิน ความน่าเชื่อถือ วัฒนธรรม และพิธีการทางศุลกากร"
+      },
+      {
+        id: 50, ch: 3, chapter: "Chapter 3",
+        q: "โมเดล 'Subscription' ของ Netflix และ Spotify ให้ประโยชน์ทางการเงินแก่ธุรกิจเหนือกว่าการขายแผ่นหนัง/ซีดีในอดีตอย่างไร?",
+        options: [
+          "ทำให้ไม่ต้องเสียภาษีให้รัฐบาล",
+          "สร้างกระแสเงินสดที่สม่ำเสมอและคาดการณ์ได้ล่วงหน้า (Recurring Revenue) และขยายฐานผู้ใช้ได้โดยมีต้นทุนส่วนเพิ่ม (Marginal Cost) ต่ำมาก",
+          "บังคับให้ลูกค้าทุกคนต้องซื้อทีวีเครื่องใหม่",
+          "ช่วยลดจำนวนเซิร์ฟเวอร์ที่ต้องใช้งานลง"
+        ],
+        ans: 1,
+        exp: "Subscription สร้าง Recurring Revenue ที่มั่นคง และการส่งมอบไฟล์ดิจิทัลมีต้นทุนเพิ่มต่อคน (Marginal Cost) เกือบเป็นศูนย์"
+      },
+      {
+        id: 51, ch: 3, chapter: "Chapter 3",
+        q: "ฟังก์ชัน 'Shopping Cart' ในระบบ E-Commerce มีหน้าที่สำคัญที่สุดในข้อใด?",
+        options: [
+          "ทำหน้าที่เป็นพื้นที่โฆษณาของแบรนด์คู่แข่ง",
+          "รวบรวมรายการสินค้าที่ลูกค้าเลือก คำนวณยอดรวม ภาษี ส่วนลด และเชื่อมต่อไปยังขั้นตอนการชำระเงิน (Checkout & Payment Gateway)",
+          "ทำหน้าที่ส่งข้อความไปหาเพื่อนของลูกค้าบนโซเชียลมีเดีย",
+          "ใช้สำหรับตรวจจับไวรัสในคอมพิวเตอร์ของลูกค้า"
+        ],
+        ans: 1,
+        exp: "Shopping Cart รวบรวมรายการ สรุปยอดค่าใช้จ่ายพร้อมส่วนลด/ภาษี และเชื่อมโยงส่งต่อข้อมูลไปยังกระบวนการชำระเงินที่ปลอดภัย"
+      },
+      {
+        id: 52, ch: 3, chapter: "Chapter 3",
+        q: "หากข้อมูลบนเว็บไซต์ของร้านค้าออนไลน์เกิดข้อผิดพลาด เช่น สต็อกไม่ตรง หรือระบบชำระเงินล่ม ผลกระทบที่จะเกิดขึ้นทันทีคืออะไร?",
+        options: [
+          "ลูกค้าจะรอคอยด้วยความอดทนเป็นเวลา 3 สัปดาห์",
+          "ลูกค้าจะเปลี่ยนไปสั่งซื้อจากเว็บไซต์ของคู่แข่งทันที เพราะ Switching Cost ในโลกออนไลน์ต่ำมาก",
+          "คอมพิวเตอร์ของลูกค้าจะปิดตัวลงทันที",
+          "ยอดขายของร้านจะเพิ่มขึ้น 2 เท่า"
+        ],
+        ans: 1,
+        exp: "ในโลกดิจิทัล การเปลี่ยนไปซื้อร้านคู่แข่งทำได้ในคลิกเดียว (Switching Cost ต่ำมาก) หากระบบมีปัญหา ลูกค้าจะหนีไปหาคู่แข่งทันที"
+      },
+      {
+        id: 53, ch: 3, chapter: "Chapter 3",
+        q: "โมเดล 'Affiliate Marketing' สอดคล้องกับพฤติกรรมในข้อใดมากที่สุด?",
+        options: [
+          "อินฟลูเอนเซอร์แปะลิงก์พิกัดเสื้อผ้าในคลิปวิดีโอ เมื่อผู้ชมคลิกซื้อ อินฟลูเอนเซอร์จะได้รับส่วนแบ่งเปอร์เซ็นต์ยอดขายจากร้านค้า",
+          "การที่แบรนด์จ่ายเงินเดือนประจำให้พนักงานขายหน้าร้าน",
+          "การซื้อโฆษณาป้ายบิลบอร์ดริมทางด่วน",
+          "การแจกสินค้าตัวอย่างให้คนเดินผ่านไปมาฟรี"
+        ],
         ans: 0,
-        exp: "Transaction Broker คือนายหน้าอำนวยความสะดวกในการทำธุรกรรม โดยได้รับรายได้จากค่าธรรมเนียมหรือส่วนแบ่งยอดขาย"
+        exp: "Affiliate คือการสร้างรายได้จากค่านายหน้า โดยผู้แนะนำจะได้รับส่วนแบ่งเมื่อมีผู้คลิกลิงก์แล้วเกิดการสั่งซื้อจริงบนแพลตฟอร์ม"
       },
       {
-        id: 27, ch: 3, chapter: "Chapter 3",
-        q: "ข้อใดจัดเป็นโมเดลธุรกิจแบบ Consumer-to-Consumer (C2C)?",
+        id: 54, ch: 3, chapter: "Chapter 3",
+        q: "บทบาทของ 'Catalog Management' ในแพลตฟอร์มอีคอมเมิร์ซคือข้อใด?",
         options: [
-          "บริษัทปูนซีเมนต์ขายวัตถุดิบให้บริษัทก่อสร้าง",
-          "แบรนด์ Apple ขาย iPhone ให้ลูกค้ารายย่อยผ่าน Apple Store",
-          "บุคคลทั่วไปนำเสื้อผ้ามือสองของตนเองไปโพสต์ขายต่อให้ผู้ใช้งานคนอื่นบนกลุ่ม Facebook",
-          "หน่วยงานรัฐบาลเปิดประมูลงานจัดซื้อจัดจ้างออนไลน์"
-        ],
-        ans: 2,
-        exp: "C2C คือการซื้อขายแลกเปลี่ยนระหว่างผู้บริโภคด้วยกันเองโดยตรง"
-      },
-      {
-        id: 28, ch: 3, chapter: "Chapter 3",
-        q: "Netflix และ Spotify มีรายได้หลักมาจาก Revenue Model ประเภทใด?",
-        options: ["Advertising (รายได้จากโฆษณา)", "Subscription (ค่าบริการสมาชิกรายเดือน)", "Affiliate Fee (ค่านายหน้าลิงก์)", "Disintermediation Fee"],
-        ans: 1,
-        exp: "Netflix และ Spotify ใช้รูปแบบการเรียกเก็บค่าสมาชิกรายเดือนหรือรายปี (Subscription Model)"
-      },
-      {
-        id: 29, ch: 3, chapter: "Chapter 3",
-        q: "โมเดล 'Freemium' ในธุรกิจบริการซอฟต์แวร์ดิจิทัลหมายถึงข้อใด?",
-        options: [
-          "การแจกสินค้าให้ใช้งานฟรีตลอดไปโดยไม่มีฟีเจอร์ใดเก็บเงิน",
-          "การเปิดให้ใช้งานฟังก์ชันพื้นฐานได้ฟรี แต่จะเรียกเก็บเงินเมื่อผู้ใช้ต้องการฟีเจอร์พรีเมียมขั้นสูง",
-          "การบังคับจ่ายเงินก่อนดาวน์โหลดแอปพลิเคชันเสมอ",
-          "การแลกเปลี่ยนสินค้าโดยไม่ใช้สกุลเงินตรา"
+          "การคำนวณเงินเดือนผู้บริหาร",
+          "การจัดหมวดหมู่ แสดงรูปภาพ รายละเอียดสินค้า และสถานะสต็อกคงเหลืออย่างเป็นระเบียบเพื่อให้ลูกค้าค้นหาได้ง่าย",
+          "การพิมพ์แคตตาล็อกกระดาษส่งทางไปรษณีย์",
+          "การควบคุมความเร็วของอินเทอร์เน็ต"
         ],
         ans: 1,
-        exp: "Freemium มาจาก Free + Premium คือให้ใช้บริการพื้นฐานฟรี แต่คิดค่าบริการหากต้องการฟีเจอร์ระดับสูงหรือพื้นที่เพิ่ม"
+        exp: "Catalog Management ทำหน้าที่จัดหมวดหมู่ ข้อมูลสเปก รูปภาพ และสถานะสต็อกให้ค้นหาและเรียกดูได้อย่างมีประสิทธิภาพ"
       },
       {
-        id: 30, ch: 3, chapter: "Chapter 3",
-        q: "ซอฟต์แวร์ E-Commerce ส่วนประกอบใดที่ทำหน้าที่คำนวณภาษี ค่าขนส่ง และเชื่อมต่อ Payment Gateway เพื่อตัดยอดเงิน?",
-        options: ["Catalog Management", "Product Configurator", "Shopping Cart & Transaction Processing", "Web Traffic Analytics"],
-        ans: 2,
-        exp: "Shopping Cart และระบบประมวลผลธุรกรรม (Transaction) ทำหน้าที่รวบรวมรายการ สรุปยอด และเชื่อมต่อการชำระเงิน"
+        id: 55, ch: 3, chapter: "Chapter 3",
+        q: "คำว่า 'Low Information Asymmetry' ในตลาดดิจิทัล ส่งผลดีต่อผู้บริโภคอย่างไร?",
+        options: [
+          "ทำให้ผู้บริโภคไม่ต้องจ่ายเงินค่าสินค้า",
+          "ทำให้ผู้บริโภคสามารถตรวจสอบข้อมูลจริง สเปก เปรียบเทียบราคา และอ่านรีวิวจากผู้ใช้จริงได้ ทำให้ผู้ขายไม่สามารถเอาเปรียบเรื่องราคาได้ง่าย",
+          "ทำให้สินค้ามีจำนวนน้อยลง",
+          "ทำให้ผู้ขายสามารถตั้งราคาเท่าใดก็ได้ตามใจชอบ"
+        ],
+        ans: 1,
+        exp: "ความไม่สมมาตรของข้อมูลที่ต่ำลง หมายถึงผู้บริโภครู้ข้อมูลเท่าทันผู้ขาย จึงตรวจสอบราคาและคุณภาพได้ง่าย ไม่ถูกหลอกฟันกำไรเกินจริง"
+      },
+      {
+        id: 56, ch: 3, chapter: "Chapter 3",
+        q: "เว็บไซต์ท่าหรือ 'Portal' เช่น Google หรือ Sanook ใช้จุดเด่นใดในการดึงดูดผู้ใช้งาน?",
+        options: [
+          "การขายสินค้าลดราคาเฉพาะวันอาทิตย์",
+          "การเป็นศูนย์รวมบริการ ค้นหาข้อมูล ข่าวสาร และลิงก์เชื่อมต่อไปยังบริการสำคัญต่าง ๆ รวมไว้ในหน้าแรกหน้าเดียว",
+          "การบังคับให้ผู้ใช้ต้องจ่ายค่าเข้าชมรายนาที",
+          "การมีเฉพาะข้อความตัวอักษรโดยไม่มีรูปภาพ"
+        ],
+        ans: 1,
+        exp: "Portal คือประตูบานแรกที่รวบรวมฟังก์ชันค้นหา ข่าวสาร และบริการหลากหลายไว้ในที่เดียว เพื่อสร้างทราฟฟิกมหาศาล"
+      },
+      {
+        id: 57, ch: 3, chapter: "Chapter 3",
+        q: "เหตุใดธุรกรรมแบบ B2B (Business-to-Business) จึงมักมีมูลค่าเงินหมุนเวียนสูงกว่า B2C หลายเท่าตัว?",
+        options: [
+          "เพราะ B2B เป็นการซื้อของกินของใช้ส่วนตัวรายวัน",
+          "เพราะ B2B เป็นการจัดซื้อวัตถุดิบ เครื่องจักร หรือสินค้าล็อตใหญ่ระหว่างองค์กร มีกระบวนการเจรจาต่อรองและทำสัญญาระยะยาว",
+          "เพราะ B2B ไม่ต้องจ่ายภาษีมูลค่าเพิ่ม",
+          "เพราะ B2B บังคับให้จ่ายเงินด้วยทองคำเท่านั้น"
+        ],
+        ans: 1,
+        exp: "B2B เป็นการซื้อขายระดับซัพพลายเชนและวัตถุดิบอุตสาหกรรมในปริมาณมหาศาล มูลค่าต่อคำสั่งซื้อจึงสูงกว่าการซื้อปลีกของผู้บริโภค (B2C)"
+      },
+      {
+        id: 58, ch: 3, chapter: "Chapter 3",
+        q: "การวิเคราะห์พฤติกรรมลูกค้าผ่าน 'Web Traffic Data' ช่วยเพิ่มอัตรา 'Conversion Rate' ได้อย่างไร?",
+        options: [
+          "ช่วยเพิ่มความเร็วของคอมพิวเตอร์ที่บ้านลูกค้า",
+          "ช่วยระบุได้ว่าลูกค้ามักกดออกจากเว็บไซต์ในขั้นตอนใด (Drop-off point) ทำให้ผู้ประกอบการสามารถปรับปรุงขั้นตอนการชำระเงินให้สะดวกขึ้นจนลูกค้าตัดสินใจซื้อสำเร็จ",
+          "ช่วยให้เว็บไซต์สามารถเข้าถึงรหัสผ่านบัญชีธนาคารของลูกค้าได้",
+          "ช่วยลดต้นทุนค่าไฟฟ้าของสำนักงาน"
+        ],
+        ans: 1,
+        exp: "Web Traffic Data ชี้ให้เห็นจุดติดขัดที่ทำให้ลูกค้าทิ้งตะกร้าสินค้า เมื่อแก้ปัญหาได้ อัตราการซื้อสำเร็จ (Conversion Rate) จะเพิ่มขึ้น"
+      },
+      {
+        id: 59, ch: 3, chapter: "Chapter 3",
+        q: "แพลตฟอร์มออนไลน์ที่เปิดให้ผู้ใช้งานมาร่วมพูดคุย แลกเปลี่ยนความรู้ และสร้างกลุ่มความสนใจเฉพาะ (เช่น Pantip หรือ Reddit) จัดเป็นโมเดลใด?",
+        options: ["Content Provider", "Community Provider", "Transaction Broker", "E-tailer"],
+        ans: 1,
+        exp: "Community Provider คือแพลตฟอร์มที่สร้างพื้นที่เสมือนให้ผู้คนที่มีความสนใจร่วมกันเข้ามาปฏิสัมพันธ์และแลกเปลี่ยนข้อมูล"
+      },
+      {
+        id: 60, ch: 3, chapter: "Chapter 3",
+        q: "ความท้าทายด้าน 'Privacy' ในธุรกิจ E-Commerce ส่งผลต่อการออกแบบระบบสารสนเทศอย่างไร?",
+        options: [
+          "ทำให้ธุรกิจต้องยกเลิกการเก็บเงินออนไลน์",
+          "บังคับให้องค์กรต้องมีมาตรการรักษาความปลอดภัยของข้อมูลลูกค้าที่เข้มงวด ปฏิบัติตามกฎหมายคุ้มครองข้อมูล (เช่น PDPA) เพื่อสร้างความเชื่อมั่นในการทำธุรกรรม",
+          "ทำให้เว็บไซต์ต้องปิดให้บริการในเวลากลางคืน",
+          "บังคับให้ลูกค้าต้องเดินทางมาแสดงตัวตนที่สาขาทุกครั้ง"
+        ],
+        ans: 1,
+        exp: "ความกังวลเรื่องข้อมูลส่วนบุคคลบีบให้ระบบ E-Commerce ต้องมีระบบความปลอดภัยและปฏิบัติตามกฎหมายอย่างเคร่งครัดเพื่อรักษาความน่าเชื่อถือ"
       },
 
-      // บทที่ 4: Data Visualization & Presentation Rules
+      // บทที่ 4: Data Visualization with Excel (61 - 80)
       {
-        id: 31, ch: 4, chapter: "Chapter 4",
-        q: "หากต้องการนำเสนอยอดขายเปรียบเทียบระหว่าง 15 สาขา โดยแต่ละสาขามีชื่อยาวมาก ควรเลือกใช้แผนภูมิชนิดใดเหมาะสมที่สุด?",
-        options: ["Pie Chart", "Line Chart", "Bar Chart (แนวนอน)", "Scatter Plot"],
-        ans: 2,
-        exp: "เมื่อชื่อหมวดหมู่มีความยาวและมีจำนวนกลุ่มหลายกลุ่ม การใช้ Bar Chart แนวนอนจะอ่านชื่อได้ง่ายและสามารถจัดเรียงลำดับจากมากไปน้อยได้เป็นระเบียบ"
-      },
-      {
-        id: 32, ch: 4, chapter: "Chapter 4",
-        q: "หากต้องการแสดง 'แนวโน้มยอดขายรายเดือนตลอด 5 ปีที่ผ่านมา' กราฟประเภทใดตอบโจทย์ตามหลัก Visualization มากที่สุด?",
-        options: ["Line Chart", "Pie Chart", "Radar Chart", "Doughnut Chart"],
-        ans: 0,
-        exp: "Line Chart ออกแบบมาเพื่อแสดงการเปลี่ยนแปลง ความต่อเนื่อง หรือแนวโน้มตามลำดับเวลา (Trend over Time) ได้ดีที่สุด"
-      },
-      {
-        id: 33, ch: 4, chapter: "Chapter 4",
-        q: "กฎสำคัญในการใช้งาน 'Pie Chart' เพื่อไม่ให้ข้อมูลบิดเบือนและอ่านยากคือข้อใด?",
+        id: 61, ch: 4, chapter: "Chapter 4",
+        q: "หากฝ่ายการตลาดต้องการนำเสนอข้อมูล 'ยอดขายจริงเทียบกับเป้าหมาย (Actual vs. Target)' ของผลิตภัณฑ์ 4 กลุ่ม เพื่อประเมินผลงานสิ้นปี การเลือกใช้แผนภูมิชนิดใดถือว่า 'ผิดหลักการนำเสนอข้อมูลอย่างร้ายแรง'?",
         options: [
-          "ต้องมีสัดส่วนข้อมูลไม่น้อยกว่า 20 ส่วนเสมอ",
+          "Bullet Graph",
+          "Clustered Column Chart พร้อมเส้นแนวนอนแสดงค่า Target",
+          "Pie Chart แสดงสัดส่วนเป้าหมายและผลงานจริง",
+          "Bar Chart แนวนอนที่จัดเรียงผลงานจากมากไปน้อย"
+        ],
+        ans: 2,
+        exp: "Pie Chart มีไว้แสดงสัดส่วนของก้อนข้อมูล 100% เดียวกัน ห้ามนำมาใช้เปรียบเทียบ Target vs Actual เด็ดขาด เพราะข้อมูลเป็นคนละมิติและทำให้ตีความผิดพลาดอย่างรุนแรง"
+      },
+      {
+        id: 62, ch: 4, chapter: "Chapter 4",
+        q: "หากท่านได้รับมอบหมายให้นำเสนอยอดขายเปรียบเทียบระหว่าง '20 จังหวัด' โดยแต่ละจังหวัดมีชื่อยาวมาก กราฟชนิดใดเหมาะสมและอ่านง่ายที่สุด?",
+        options: [
+          "Pie Chart แบบ 3 มิติ",
+          "Column Chart (แนวตั้ง) ที่มีแกนตัวหนังสือเอียง 45 องศา",
+          "Bar Chart (แนวนอน) ที่จัดเรียงลำดับยอดขายจากมากไปหาน้อย",
+          "Line Chart เชื่อมโยงจุดข้อมูลทั้ง 20 จังหวัด"
+        ],
+        ans: 2,
+        exp: "เมื่อชื่อหมวดหมู่มีความยาวและมีจำนวนกลุ่มหลายกลุ่ม การใช้ Bar Chart แนวนอนเรียงจากมากไปน้อยจะช่วยให้อ่านชื่อได้สบายตา ไม่ต้องเอียงคอ และเปรียบเทียบขนาดได้ทันที"
+      },
+      {
+        id: 63, ch: 4, chapter: "Chapter 4",
+        q: "กฎสำคัญในการใช้งาน 'Pie Chart' เพื่อป้องกันไม่ให้ข้อมูลบิดเบือนและสับสน คือข้อใด?",
+        options: [
+          "ต้องใส่ลวดลาย 3 มิติเพื่อให้มองเห็นมิติความลึก",
           "ไม่ควรมีชิ้นส่วนย่อยเกิน 5-6 ส่วน และผลรวมของทุกส่วนต้องเท่ากับ 100% เสมอ",
-          "ควรใช้ Pie Chart เพื่อเปรียบเทียบยอดเป้าหมาย (Target) กับยอดขายจริง (Actual)",
-          "ควรตัดแกน Y ออกเพื่อความสวยงาม"
+          "ต้องมีชิ้นส่วนข้อมูลอย่างน้อย 15 ส่วนขึ้นไป",
+          "ต้องใช้สีรุ้งให้ครบทุกชิ้นเพื่อดึงดูดสายตา"
         ],
         ans: 1,
-        exp: "Pie Chart ไม่ควรมีข้อมูลเกิน 5-6 ส่วน เพราะสายตามนุษย์ประเมินองศาได้ยาก และห้ามใช้เทียบ Target vs Actual เด็ดขาด"
+        exp: "Pie Chart ห้ามมีเกิน 5-6 ส่วนเพราะสายตามนุษย์ประเมินองศาพัดได้ยาก และผลรวมทั้งหมดต้องเท่ากับ 100% เสมอ"
       },
       {
-        id: 34, ch: 4, chapter: "Chapter 4",
-        q: "เหตุใดจึง 'ห้าม' นำ Pie Chart มาใช้ในการเปรียบเทียบยอดขายจริง (Actual) ปะทะ ยอดเป้าหมาย (Target)?",
+        id: 64, ch: 64, ch: 4, chapter: "Chapter 4",
+        q: "การเลือกใช้ 'Line Chart' เหมาะสมที่สุดกับชุดข้อมูลในข้อใดต่อไปนี้?",
         options: [
-          "เพราะ Pie Chart แสดงได้เฉพาะข้อมูลที่เป็นตัวอักษร",
-          "เพราะ Pie Chart มีไว้แสดงสัดส่วนของสิ่งเดียวกันที่รวมกันเป็น 100% ไม่ได้ออกแบบมาเพื่อเปรียบเทียบสองมิติที่อยู่คนละเกณฑ์กัน",
-          "เพราะโปรแกรม Excel ไม่อนุญาตให้สร้าง",
-          "เพราะจะทำให้ไฟล์ Excel เสียหาย"
+          "ยอดขายเปรียบเทียบระหว่างแผนกบัญชี แผนกไอที และแผนกบุคคล ในเดือนปัจจุบัน",
+          "แนวโน้มราคาหุ้นรายวันตลอดระยะเวลา 12 เดือนที่ผ่านมา เพื่อดูทิศทางการเติบโตตามลำดับเวลา",
+          "สัดส่วนส่วนแบ่งการตลาดของผู้ผลิตสมาร์ตโฟน 3 แบรนด์",
+          "การเปรียบเทียบส่วนสูงและน้ำหนักของนักเรียนในห้องเรียน"
         ],
         ans: 1,
-        exp: "Actual กับ Target เป็นค่าคนละชุด ไม่ใช่ส่วนแบ่งของก้อน 100% ก้อนเดียวกัน การใช้ Pie Chart จะทำให้การสื่อความหมายผิดพลาดโดยสิ้นเชิง"
+        exp: "Line Chart ออกแบบมาเพื่อแสดงความต่อเนื่อง การเปลี่ยนแปลง หรือแนวโน้มตามลำดับเวลา (Trend over Time) ไม่ควรใช้กับข้อมูลที่เป็นกลุ่มอิสระต่อกัน"
       },
       {
-        id: 35, ch: 4, chapter: "Chapter 4",
-        q: "แผนภูมิแบบ '100% Stacked Column Chart' เหมาะสำหรับการนำเสนอในสถานการณ์ใด?",
+        id: 65, ch: 4, chapter: "Chapter 4",
+        q: "ความแตกต่างระหว่าง 'Stacked Column Chart' และ '100% Stacked Column Chart' คือข้อใด?",
         options: [
-          "เมื่อต้องการเปรียบเทียบสัดส่วนเปอร์เซ็นต์ขององค์ประกอบย่อยในแต่ละกลุ่ม โดยให้ความสูงของทุกแท่งเท่ากันที่ 100%",
-          "เมื่อต้องการดูมูลค่าตัวเลขผลรวมสัมบูรณ์ของแต่ละแท่ง",
-          "เมื่อต้องการแสดงความสัมพันธ์ของตัวแปรต่อเนื่องสองตัว",
-          "เมื่อต้องการแสดงแผนที่ทางภูมิศาสตร์"
+          "Stacked Column แสดงข้อมูลเป็นวงกลม ส่วน 100% Stacked แสดงเป็นแท่ง",
+          "Stacked Column เน้นแสดงมูลค่าผลรวมสัมบูรณ์ของแต่ละแท่งและสัดส่วนย่อย ส่วน 100% Stacked ปรับความสูงทุกแท่งให้เท่ากันที่ 100% เพื่อเน้นเปรียบเทียบสัดส่วนเปอร์เซ็นต์ระหว่างกลุ่ม",
+          "ทั้งสองกราฟใช้สูตรคณิตศาสตร์คนละระบบกันอย่างสิ้นเชิง",
+          "100% Stacked Column ใช้ได้เฉพาะกับข้อมูลที่มีเพียงแท่งเดียวเท่านั้น"
         ],
-        ans: 0,
-        exp: "100% Stacked Column Chart จะปรับความสูงทุกแท่งให้เท่ากันที่ 100% เพื่อเน้นให้เห็นการเปลี่ยนแปลงของสัดส่วนโครงสร้างภายในอย่างชัดเจน"
+        ans: 1,
+        exp: "100% Stacked Column จะปรับสเกลทุกแท่งให้สูงเท่ากันที่ 100% เพื่อให้สายตาเปรียบเทียบสัดส่วนองค์ประกอบภายในข้ามแต่ละกลุ่มได้อย่างชัดเจน"
       },
       {
-        id: 36, ch: 4, chapter: "Chapter 4",
-        q: "ข้อผิดพลาดในการนำเสนอข้อมูลที่เรียกว่า 'Truncated Graph' (การตัดทอนแกน) หมายถึงอะไรและส่งผลอย่างไร?",
+        id: 66, ch: 4, chapter: "Chapter 4",
+        q: "ข้อผิดพลาดร้ายแรงทางสถิติที่เรียกว่า 'Truncated Axis' (การตัดทอนแกน) ในกราฟแท่ง หมายถึงสิ่งใดและก่อให้เกิดผลเสียอย่างไร?",
         options: [
-          "การไม่ใส่สีสัน ทำให้กราฟดูน่าเบื่อ",
-          "การเริ่มต้นแกนตัวเลข (แกน Y) ที่ไม่ใช่เลข 0 ซึ่งทำให้ความแตกต่างของข้อมูลดูเกินจริงและชี้นำให้เข้าใจผิด",
-          "การใช้ฟอนต์ขนาดเล็กเกินไป",
-          "การนำกราฟหลายอันมารวมในหน้าเดียวกัน"
+          "การไม่ใส่สีแท่งกราฟ ทำให้กราฟดูจืดชืด",
+          "การเริ่มต้นแกน Y ที่ไม่ใช่เลข 0 ซึ่งทำให้ความสูงของแท่งกราฟสร้างความเข้าใจผิดว่าข้อมูลแตกต่างกันมหาศาล ทั้งที่ความเป็นจริงต่างกันเพียงเล็กน้อย",
+          "การใช้โปรแกรม Excel เวอร์ชันเก่าสร้างกราฟ",
+          "การนำกราฟแท่งไปวางซ้อนกับกราฟเส้น"
         ],
         ans: 1,
-        exp: "Truncated Graph คือการตัดแกนเริ่มต้นไม่ให้เริ่มจาก 0 ทำให้แท่งกราฟที่ต่างกันเพียงเล็กน้อยดูเหมือนต่างกันมหาศาล ถือเป็นการบิดเบือนข้อมูลเชิงสถิติ"
+        exp: "Truncated Axis คือการตัดแกนไม่ให้เริ่มจาก 0 ทำให้แท่งกราฟขยายความแตกต่างจนเกินจริง ถือเป็นการชี้นำที่บิดเบือนข้อเท็จจริง (Misleading)"
       },
       {
-        id: 37, ch: 4, chapter: "Chapter 4",
-        q: "หากข้อมูลมี 10 หมวดหมู่ แต่ผู้นำเสนอเลือกหยิบมาโชว์ใน Pie Chart เพียง 5 หมวดหมู่อันดับแรกโดยไม่รวมที่เหลือเป็นกลุ่ม 'Others' จะเกิดผลเสียอย่างไร?",
+        id: 67, ch: 4, chapter: "Chapter 4",
+        q: "หากข้อมูลมี 10 หมวดหมู่ แต่ผู้นำเสนอเลือกแสดงใน Pie Chart เพียง 4 หมวดหมู่อันดับแรกโดย 'ตัดส่วนที่เหลือ 6 หมวดทิ้งไปเฉยๆ' จะเกิดอะไรขึ้น?",
         options: [
-          "กราฟจะโหลดเร็วขึ้น",
-          "ผลรวมของวงกลมจะไม่เท่ากับ 100% ของความเป็นจริง ทำให้สัดส่วนบิดเบือนและสื่อสารผิดพลาด",
-          "ทำให้เห็นข้อมูลชัดเจนขึ้นโดยไม่มีข้อเสียใด ๆ",
-          "ทำให้ตัวอักษรบนกราฟมีขนาดใหญ่ขึ้นอัตโนมัติ"
+          "กราฟจะมีความถูกต้องและน่าเชื่อถือมากขึ้น",
+          "โปรแกรม Excel จะแปลงสัดส่วนของ 4 ชิ้นนั้นให้กลายเป็น 100% ทำให้ตัวเลขสัดส่วนบิดเบือนจากความเป็นจริงอย่างสิ้นเชิง",
+          "ไม่มีผลกระทบใดๆ ต่อการตัดสินใจ",
+          "กราฟจะเปลี่ยนเป็น Bar Chart โดยอัตโนมัติ"
         ],
         ans: 1,
-        exp: "Pie Chart แสดงผลรวมทั้งก้อน หากตัดข้อมูลออกไปโดยไม่จัดเป็นกลุ่ม 'อื่น ๆ (Others)' จะทำให้สัดส่วนของทั้ง 5 ชิ้นนั้นใหญ่เกินจริง"
+        exp: "หากตัดข้อมูลทิ้งโดยไม่รวมเป็นกลุ่ม 'Others' ชิ้นส่วนที่เหลือจะถูกขยายให้เต็ม 100% ทำให้สัดส่วนของแต่ละชิ้นใหญ่เกินความเป็นจริงอย่างร้ายแรง"
       },
       {
-        id: 38, ch: 4, chapter: "Chapter 4",
-        q: "คำว่า 'Chartjunk' ในหลักการออกแบบ Data Visualization สื่อถึงสิ่งใด?",
+        id: 68, ch: 4, chapter: "Chapter 4",
+        q: "คำว่า 'Chartjunk' ในหลักการของ Edward Tufte สื่อถึงสิ่งใดในการออกแบบ Data Visualization?",
         options: [
-          "ข้อมูลตัวเลขที่มีค่าผิดพลาดในตาราง",
-          "องค์ประกอบตกแต่งที่รกเกินความจำเป็น เช่น ลวดลาย 3D เส้นตารางหนาเตอะ หรือสีสันฉูดฉาดที่ไม่ได้ช่วยในการแปลความหมายข้อมูล",
-          "โปรแกรมทำกราฟที่ตกรุ่น",
-          "ชนิดของไฟล์กราฟที่เปิดไม่ได้"
+          "ข้อมูลตัวเลขที่มีไวรัสคอมพิวเตอร์แฝงอยู่",
+          "องค์ประกอบตกแต่งที่ฟุ่มเฟือย รกสายตา เช่น เงา 3D, พื้นหลังลวดลาย, เส้นตารางหนาเตอะ ซึ่งไม่ได้ช่วยให้เข้าใจข้อมูลดีขึ้น",
+          "ไฟล์กราฟที่บันทึกผิดรูปแบบ",
+          "แผนภูมิที่สร้างจากคอมพิวเตอร์ที่ตกรุ่น"
         ],
         ans: 1,
-        exp: "Chartjunk หมายถึงขยะสายตาหรือการตกแต่งที่มากเกินไปจนรบกวนการทำความเข้าใจเนื้อหาหลักของข้อมูล"
+        exp: "Chartjunk หมายถึงองค์ประกอบขยะสายตาที่ใส่มาเพื่อความสวยงามส่วนตัว แต่รบกวนและลดทอนความสามารถในการแปลความหมายของข้อมูล"
       },
       {
-        id: 39, ch: 4, chapter: "Chapter 4",
-        q: "เมื่อต้องการเปรียบเทียบยอดขายจริงกับเป้าหมาย (Actual vs Target) ของทีมขายแต่ละทีม ควรเลือกใช้กราฟประเภทใดจึงเหมาะสมที่สุด?",
-        options: ["Pie Chart 3 มิติ", "Bullet Graph หรือ Clustered Column Chart ที่มีเส้น Target ชัดเจน", "Doughnut Chart", "Area Chart ซ้อนทับ"],
-        ans: 1,
-        exp: "การใช้ Clustered Column วางคู่กัน หรือใช้ Bullet Chart ที่มีแถบเป้าหมาย จะช่วยให้เห็นการบรรลุเป้าหมายได้อย่างถูกต้องและแม่นยำที่สุด"
-      },
-      {
-        id: 40, ch: 4, chapter: "Chapter 4",
-        q: "การจัดเรียงลำดับข้อมูล (Sorting) ใน Bar Chart จากมากไปหาน้อย มีจุดประสงค์หลักเพื่ออะไร?",
+        id: 69, ch: 4, chapter: "Chapter 4",
+        q: "เหตุใดบริษัทที่ปรึกษาทางธุรกิจชั้นนำจึงนิยมใช้ 'Template Chart' ที่เป็นมาตรฐานเดียวกันในการนำเสนอต่อผู้บริหาร?",
         options: [
-          "เพื่อให้โปรแกรมคำนวณผลรวมได้ถูกต้อง",
-          "ช่วยลดภาระในการประมวลผลของสมองผู้อ่าน ทำให้มองเห็นผู้ชนะหรือกลุ่มสำคัญได้ในทันที",
-          "เพื่อซ่อนข้อมูลที่มีค่าน้อยที่สุด",
-          "เพื่อเปลี่ยนให้แผนภูมิกลายเป็น 3 มิติ"
+          "เพราะโปรแกรมคอมพิวเตอร์ไม่อนุญาตให้สร้างกราฟแบบอื่น",
+          "เพื่อสร้างความสม่ำเสมอ ประหยัดเวลา และทำให้ผู้บริหารสามารถกวาดสายตาเข้าใจสาระสำคัญของข้อมูลได้ทันทีโดยไม่ต้องเสียเวลาตีความสัญลักษณ์ใหม่",
+          "เพราะราคาถูกกว่าการออกแบบกราฟเอง",
+          "เพื่อป้องกันไม่ให้คู่แข่งนำข้อมูลไปใช้"
         ],
         ans: 1,
-        exp: "การเรียงลำดับช่วยให้สายตามนุษย์เปรียบเทียบขนาดและจัดลำดับความสำคัญได้ทันทีโดยไม่ต้องกวาดสายตาหาตัวเลข"
+        exp: "Template มาตรฐานช่วยลดภาระการรับรู้ของสมอง (Cognitive Load) ทำให้ผู้บริหารโฟกัสที่การตัดสินใจทางธุรกิจได้ทันที"
+      },
+      {
+        id: 70, ch: 4, chapter: "Chapter 4",
+        q: "การจัดเรียงลำดับ (Sorting) ข้อมูลใน Bar Chart แนวนอน จากค่ามากที่สุดลงไปหาน้อยที่สุด มีประโยชน์สำคัญที่สุดอย่างไร?",
+        options: [
+          "ช่วยลดขนาดไฟล์ของรายงาน",
+          "ช่วยให้สมองของผู้อ่านจัดลำดับความสำคัญและมองเห็นกลุ่มผู้นำหรือประเด็นเร่งด่วนได้ในเสี้ยววินาที",
+          "ทำให้โปรแกรมคำนวณค่าเฉลี่ยได้ถูกต้อง",
+          "ช่วยเพิ่มความยาวของแท่งกราฟให้ดูน่าประทับใจ"
+        ],
+        ans: 1,
+        exp: "การเรียงลำดับช่วยลดภาระสายตา ทำให้ผู้อ่านเห็นอันดับและเปรียบเทียบความแตกต่างได้อย่างรวดเร็วโดยไม่ต้องกวาดตาหาตัวเลข"
+      },
+      {
+        id: 71, ch: 4, chapter: "Chapter 4",
+        q: "เมื่อใดที่ควรเลือกใช้ 'Scatter Plot' (แผนภาพการกระจาย) แทนกราฟแท่งหรือกราฟเส้น?",
+        options: [
+          "เมื่อต้องการแสดงสัดส่วนยอดขายของ 3 แผนก",
+          "เมื่อต้องการศึกษาความสัมพันธ์ (Correlation) และทิศทางระหว่างตัวแปรเชิงตัวเลข 2 ตัวแปร เช่น งบโฆษณา ปะทะ ยอดขาย",
+          "เมื่อต้องการแสดงยอดขายเรียงตามวันในสัปดาห์",
+          "เมื่อต้องการแสดงรายชื่อพนักงานดีเด่นประจำปี"
+        ],
+        ans: 1,
+        exp: "Scatter Plot ออกแบบมาเพื่อตรวจสอบการกระจายตัว ทิศทาง และความสัมพันธ์ของตัวแปรเชิงปริมาณ 2 ตัวแปร"
+      },
+      {
+        id: 72, ch: 4, chapter: "Chapter 4",
+        q: "การนำเสนอข้อมูลด้วยกราฟแท่ง 3 มิติ (3D Bar Chart) มักถูกผู้เชี่ยวชาญตำหนิเนื่องจากสาเหตุใด?",
+        options: [
+          "เพราะใช้เวลาในการสร้างนานเกินไป",
+          "เพราะมิติความลึกและมุมมองแบบเพอร์สเปกทีฟทำให้สายตาประเมินความสูงของแท่งกราฟผิดพลาด และแท่งด้านหน้าอาจบดบังแท่งด้านหลัง",
+          "เพราะทำให้เครื่องพิมพ์กระดาษติดขัด",
+          "เพราะโปรแกรม Excel ไม่รองรับการแสดงผล 3 มิติ"
+        ],
+        ans: 1,
+        exp: "กราฟ 3 มิติสร้างการบิดเบือนทางสายตา (Optical Distortion) มุมเอียงทำให้เปรียบเทียบจุดตัดบนแกนตัวเลขได้ยากมาก"
+      },
+      {
+        id: 73, ch: 4, chapter: "Chapter 4",
+        q: "หลักการ 'Data-to-Ink Ratio' ของ Edward Tufte สื่อถึงแนวคิดใดในการทำชาร์ต?",
+        options: [
+          "ควรใช้น้ำหมึกพิมพ์ให้มากที่สุดเพื่อให้เอกสารดูหรูหรา",
+          "ควรเพิ่มสัดส่วนของหมึกที่ใช้ในการแสดงข้อมูลจริงให้มากที่สุด และลดหมึกที่ใช้ตกแต่งสิ่งที่ไม่จำเป็นให้เหลือน้อยที่สุด",
+          "ควรพิมพ์เฉพาะตัวหนังสือโดยไม่มีกราฟเลย",
+          "ควรใช้หมึกสีดำเพียงสีเดียวในทุกกรณี"
+        ],
+        ans: 1,
+        exp: "Data-Ink Ratio คือการให้ความสำคัญกับหมึกที่แสดง 'ข้อมูล' และกำจัดหมึกที่เป็นขยะสายตา (Non-data ink) ออกไปให้หมด"
+      },
+      {
+        id: 74, ch: 4, chapter: "Chapter 4",
+        q: "หากต้องการแสดงความคืบหน้าของโครงการเทียบกับแผนงานตลอด 12 เดือน กราฟประเภทใดตอบโจทย์ได้ดีที่สุด?",
+        options: ["Pie Chart", "Gantt Chart หรือ Line Chart แสดง Actual vs Planned", "Doughnut Chart", "Treemap Chart"],
+        ans: 1,
+        exp: "Gantt Chart หรือ Line Chart ที่พล็อตคู่ขนานระหว่างแผนงานกับผลจริงตามแกนเวลา ช่วยติดตามความคืบหน้าได้อย่างแม่นยำ"
+      },
+      {
+        id: 75, ch: 4, chapter: "Chapter 4",
+        q: "ข้อใดเป็นวิธีปฏิบัติที่ถูกต้องที่สุดในการใช้สี (Color Strategy) บนแดชบอร์ดสรุปยอดขาย?",
+        options: [
+          "กำหนดให้แต่ละแท่งมีสีที่แตกต่างกันตามสีรุ้งเพื่อความสดใส",
+          "ใช้โทนสีกลาง (เช่น สีเทา) เป็นพื้นฐาน และใช้สีเด่น (เช่น น้ำเงินเข้ม หรือ แดง) เพื่อเน้นเฉพาะจุดสำคัญหรือจุดที่มีปัญหาเชิงกลยุทธ์",
+          "ใช้สีนีออนสะท้อนแสงทั้งหมด",
+          "เปลี่ยนสีพื้นหลังเป็นสีดำสนิทเสมอ"
+        ],
+        ans: 1,
+        exp: "การใช้สีต้องมีเป้าหมายเชิงสื่อสาร (Intentional Color) เพื่อชี้นำสายตาไปยังประเด็นสำคัญ ไม่ใช่การสาดสีตกแต่งฟุ่มเฟือย"
+      },
+      {
+        id: 76, ch: 4, chapter: "Chapter 4",
+        q: "เหตุใดจึง 'ห้าม' นำ Line Chart มาใช้พล็อตข้อมูลยอดขายเปรียบเทียบระหว่าง สาขาเชียงใหม่ สาขาขอนแก่น และสาขาภูเก็ต?",
+        options: [
+          "เพราะชื่อจังหวัดเป็นภาษาไทย",
+          "เพราะเส้นกราฟที่เชื่อมโยงจุดจะสร้างความเข้าใจผิดว่ามีความสัมพันธ์ต่อเนื่องของเวลาหรือการเปลี่ยนแปลงระหว่างสาขา ทั้งที่ข้อมูลแต่ละสาขาเป็นอิสระต่อกัน",
+          "เพราะ Line Chart ใช้ได้เฉพาะข้อมูลการเงินระดับประเทศเท่านั้น",
+          "เพราะระบบจะคำนวณค่าคลาดเคลื่อน"
+        ],
+        ans: 1,
+        exp: "เส้นเชื่อมโยงใน Line Chart บ่งบอกถึงความต่อเนื่อง หากนำไปต่อจุดของข้อมูลที่เป็นอิสระต่อกันจะทำให้การแปลความหมายบิดเบือน"
+      },
+      {
+        id: 77, ch: 4, chapter: "Chapter 4",
+        q: "การใส่ 'Data Labels' (ตัวเลขระบุบนแท่งกราฟ) เหมาะสมกับสถานการณ์ใดมากที่สุด?",
+        options: [
+          "เมื่อมีแท่งกราฟ 60 แท่งอัดแน่นในหน้าจอเดียว",
+          "เมื่อมีจำนวนแท่งกราฟไม่มาก และตัวเลขมีความสำคัญอย่างยิ่งต่อการตัดสินใจที่ต้องการความแม่นยำโดยไม่ต้องกวาดสายตาเทียบแกน Y",
+          "เมื่อต้องการปิดบังชื่อหมวดหมู่",
+          "เมื่อใช้กราฟแบบ 3 มิติเท่านั้น"
+        ],
+        ans: 1,
+        exp: "Data Labels เหมาะกับกราฟที่มีข้อมูลไม่กี่แท่ง เพื่อบอกตัวเลขที่แม่นยำได้ทันที แต่หากมีหลายสิบแท่งจะกลายเป็นความรกสายตา"
+      },
+      {
+        id: 78, ch: 4, chapter: "Chapter 4",
+        q: "หากข้อมูลผลสำรวจความคิดเห็นแบ่งออกเป็น 7 ระดับ (เห็นด้วยอย่างยิ่ง ถึง ไม่เห็นด้วยอย่างยิ่ง) แผนภูมิชนิดใดเหมาะสมที่สุด?",
+        options: ["Pie Chart 7 ชิ้น", "Diverging Stacked Bar Chart หรือ 100% Stacked Bar Chart", "Scatter Plot", "Radar Chart"],
+        ans: 1,
+        exp: "Diverging Stacked Bar ออกแบบมาสำหรับข้อมูลมาตรวัด Likert Scale ช่วยให้เห็นสัดส่วนฝั่งเห็นด้วยและไม่เห็นด้วยแยกออกจากจุดกึ่งกลางได้อย่างชัดเจน"
+      },
+      {
+        id: 79, ch: 4, chapter: "Chapter 4",
+        q: "ข้อใดเป็นข้อผิดพลาดของการใช้กราฟแบบ 'Dual-Axis' (กราฟที่มีแกน Y สองข้างซ้าย-ขวา)?",
+        options: [
+          "ทำให้โปรแกรมประมวลผลช้าลง",
+          "สเกลของแกนซ้ายและขวาที่ต่างกัน อาจถูกปรับแต่งเพื่อชี้นำให้เข้าใจผิดว่าเส้นทั้งสองมีความสัมพันธ์กันอย่างแนบแน่น ทั้งที่เป็นเพียงเรื่องบังเอิญ",
+          "ไม่สามารถบันทึกเป็นรูปภาพได้",
+          "Excel ไม่อนุญาตให้สร้างแกนคู่"
+        ],
+        ans: 1,
+        exp: "Dual-Axis มักสร้างความสับสนและอาจถูกใช้บิดเบือนสเกลเพื่อทำให้เส้นกราฟดูเหมือนเคลื่อนที่ไปด้วยกัน"
+      },
+      {
+        id: 80, ch: 4, chapter: "Chapter 4",
+        q: "เป้าหมายสูงสุดของการทำ 'Data Visualization' ในบริบทธุรกิจคือข้อใด?",
+        options: [
+          "เพื่อโชว์ทักษะความเชี่ยวชาญในการใช้ซอฟต์แวร์ขั้นสูงของผู้นำเสนอ",
+          "เพื่อแปลงข้อมูลซับซ้อนให้กลายเป็นภาพที่สื่อสารได้อย่างรวดเร็ว ถูกต้อง ชัดเจน และนำไปสู่การตัดสินใจทางธุรกิจได้อย่างมีประสิทธิภาพ",
+          "เพื่อลดการใช้เอกสารกระดาษในบริษัท",
+          "เพื่อสร้างภาพศิลปะที่มีความสวยงามแปลกตา"
+        ],
+        ans: 1,
+        exp: "จุดมุ่งหมายสูงสุดของ Data Visualization ไม่ใช่ความสวยงาม แต่คือความชัดเจน ความถูกต้อง และการช่วยให้ตัดสินใจทางธุรกิจได้รวดเร็ว"
       },
 
-      // บทที่ 5: AI, Machine Learning & Governance
+      // บทที่ 5: AI, Machine Learning & Governance (81 - 100)
       {
-        id: 41, ch: 5, chapter: "Chapter 5",
-        q: "ระบบ Rule-Based AI มีข้อจำกัดสำคัญที่สุดในข้อใดเมื่อนำมาประยุกต์ใช้ในธุรกิจที่มีความผันผวนสูง?",
+        id: 81, ch: 5, chapter: "Chapter 5",
+        q: "ร้านชานมไข่มุกต้องการนำระบบ AI มาใช้งาน 3 ส่วน: (1) พยากรณ์ยอดขายวันพรุ่งนี้จากสภาพอากาศ, (2) วิเคราะห์พฤติกรรมลูกค้าเพื่อแบ่งกลุ่มสายหวาน/สายสุขภาพ, (3) ทดลองปรับราคาแก้วชานมตามช่วงเวลาเพื่อหากำไรสูงสุด ข้อใดระบุประเภทของ Machine Learning เรียงลำดับ (1) - (2) - (3) ได้ถูกต้อง?",
         options: [
-          "ต้องใช้การ์ดจอราคาแพงในการประมวลผลเสมอ",
-          "ขาดความยืดหยุ่น (No Elasticity) ทำงานได้เฉพาะตามกฎ If-Then ที่เขียนไว้ หากเจอเงื่อนไขใหม่ที่ไม่ได้บันทึกในคู่มือ ระบบจะล้มเหลว",
-          "ระบบมีความฉลาดเกินกว่าที่มนุษย์จะควบคุมได้",
-          "ไม่สามารถทำงานบนระบบปฏิบัติการทั่วไปได้"
+          "Supervised Learning / Reinforcement Learning / Unsupervised Learning",
+          "Supervised Learning / Unsupervised Learning / Reinforcement Learning",
+          "Unsupervised Learning / Supervised Learning / Reinforcement Learning",
+          "Reinforcement Learning / Supervised Learning / Unsupervised Learning"
         ],
         ans: 1,
-        exp: "Rule-Based ทำตามกฎเงื่อนไขเป๊ะ ๆ ถ้าเจอสถานการณ์นอกกรอบจะ Error ทันที และต้องคอยจ้างคนมาเขียนกฎเพิ่มเรื่อย ๆ"
+        exp: "(1) มีข้อมูลอดีตพร้อมเฉลยเพื่อพยากรณ์ = Supervised, (2) ค้นหากลุ่มลูกค้าโดยไม่มีเฉลยล่วงหน้า = Unsupervised (Clustering), (3) ลองผิดลองถูกเพื่อหาผลตอบแทนสูงสุด (Reward) = Reinforcement"
       },
       {
-        id: 42, ch: 5, chapter: "Chapter 5",
-        q: "การฝึกสอน AI ด้วยการป้อนประวัติยอดขายในอดีตคู่กับข้อมูลสภาพอากาศ โดยระบุยอดขายจริงเป็นเฉลยคำตอบ จัดเป็น Machine Learning ประเภทใด?",
-        options: ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Deep Transformation"],
+        id: 82, ch: 5, chapter: "Chapter 5",
+        q: "ปัจจัยทางเทคนิคใดที่ทำให้โมเดลแบบ Transformer มีความสามารถเหนือกว่าโครงข่ายประสาทเทียมยุคก่อนหน้าในการทำความเข้าใจภาษาธรรมชาติ (LLM)?",
+        options: [
+          "การเปลี่ยนกระบวนการคิดกลับไปใช้ระบบกฎ If-Then-Else ที่ชัดเจน",
+          "กลไก 'Self-Attention' ที่ช่วยประมวลผลคำทั้งหมดในบริบทพร้อมกันได้ แทนที่จะต้องอ่านเรียงตามลำดับทีละคำ",
+          "การตัด Hidden Layers ภายใน Neural Network ออกเพื่อลดเวลาคำนวณ",
+          "การทำงานแบบ Passive ที่รอรับคำสั่งทีละขั้นตอนจากโปรแกรมเมอร์"
+        ],
+        ans: 1,
+        exp: "Transformer ใช้กลไก Self-Attention ทำให้ประมวลผลความสัมพันธ์ของคำทุกคำในประโยคได้พร้อมกัน จึงเข้าใจบริบทภาษาได้อย่างลึกซึ้งและเทรนข้อมูลขนาดมหาศาลได้รวดเร็ว"
+      },
+      {
+        id: 83, ch: 5, chapter: "Chapter 5",
+        q: "กรณีศึกษาของ Zillow ที่ขาดทุนกว่า 500 ล้านดอลลาร์จากการกว้านซื้อบ้าน และสายการบิน Air Canada ที่แพ้คดีความในศาล เกิดจากความผิดพลาดของ AI ในมิติใดตามลำดับ?",
+        options: [
+          "AI Hallucination / Model Overfitting",
+          "Model Overfitting / AI Hallucination",
+          "Algorithmic Bias / Garbage In, Garbage Out",
+          "Lack of Elasticity / Build vs Buy Failure"
+        ],
+        ans: 1,
+        exp: "Zillow ขาดทุนเพราะ Overfitting (จำข้อมูลอดีตช่วงตลาดบูมมากเกินไปจนรับความผันผวนจริงไม่ได้) ส่วน Air Canada เกิดจาก AI Hallucination (Chatbot มโนแต่งเงื่อนไขคืนเงินขึ้นมาเองอย่างมั่นใจ)"
+      },
+      {
+        id: 84, ch: 5, chapter: "Chapter 5",
+        q: "ข้อใดอธิบายความแตกต่างเชิงฟังก์ชันระหว่าง 'Generative AI' และ 'Agentic AI' ได้อย่างถูกต้องและชัดเจนที่สุด?",
+        options: [
+          "Generative AI ทำงานแบบ Autonomous ส่วน Agentic AI ทำงานแบบ Passive",
+          "Generative AI ทำงานแบบตั้งรับ (Passive) โดยสร้างข้อความหรือรูปภาพตามคำสั่งทีละขั้นตอน ส่วน Agentic AI ทำงานมุ่งสู่เป้าหมาย (Autonomous & Goal-Oriented) โดยคิด วางแผน และเรียกใช้เครื่องมือภายนอกเพื่อทำงานให้เสร็จสิ้นได้เอง",
+          "Generative AI มีความฉลาดกว่า Agentic AI ในทุกมิติ",
+          "Agentic AI ใช้สำหรับงานพิมพ์เอกสารเท่านั้น"
+        ],
+        ans: 1,
+        exp: "GenAI รอรับพรอมต์แล้วเจนคำตอบ แต่มนุษย์ต้องนำไปใช้งานต่อ ส่วน Agentic AI มีลูปการคิด วางแผน ลงมือทำ และสั่งงานเครื่องมือภายนอกจนบรรลุเป้าหมายได้โดยอัตโนมัติ"
+      },
+      {
+        id: 85, ch: 5, chapter: "Chapter 5",
+        q: "ระบบ Rule-Based AI มักล้มเหลวในการนำมาใช้กับธุรกิจที่มีความซับซ้อนและเปลี่ยนแปลงเร็ว เนื่องจากข้อจำกัดร้ายแรงในข้อใด?",
+        options: [
+          "ต้องใช้ไฟฟ้าแรงสูงในการทำงาน",
+          "ขาดความยืดหยุ่น (No Elasticity) เพราะทำงานได้เฉพาะตามกฎ If-Then ที่มนุษย์เขียนไว้เป๊ะๆ หากเจอข้อมูลนอกเหนือคู่มือระบบจะเกิด Error ทันที",
+          "มีความสามารถในการเรียนรู้ด้วยตัวเองเร็วเกินไปจนมนุษย์คุมไม่ได้",
+          "ไม่สามารถทำงานร่วมกับระบบฐานข้อมูลได้"
+        ],
+        ans: 1,
+        exp: "Rule-Based ถูกกำหนดด้วยเงื่อนไขตายตัว ขาดความยืดหยุ่น หากเจอเคสนอกเหนือคู่มือ SOP จะทำงานไม่ได้ทันทีและต้องคอยเขียนโค้ดเพิ่มตลอดเวลา"
+      },
+      {
+        id: 86, ch: 5, chapter: "Chapter 5",
+        q: "หลักการ 'Human-in-the-Loop' (HITL) มีบทบาทเชิงกลยุทธ์อย่างไรในการนำ AI มาใช้งานในองค์กร?",
+        options: [
+          "ให้มนุษย์ทำหน้าที่ป้อนข้อมูลด้วยมือ 100% โดยไม่ให้ AI ทำงาน",
+          "ให้ AI ทำหน้าที่เป็น Co-Pilot ช่วยประมวลผลและเสนอแนะ แต่มนุษย์ยังคงเป็นกัปตันผู้ถืออำนาจตัดสินใจขั้นสุดท้ายเพื่อควบคุมความเสี่ยงและความรับผิดชอบ",
+          "การให้พนักงานสลับกันเฝ้าเซิร์ฟเวอร์ AI ตลอด 24 ชั่วโมง",
+          "การยกเลิกการใช้ AI ในแผนกบริหาร"
+        ],
+        ans: 1,
+        exp: "HITL คือการวางตำแหน่งให้ AI เป็นผู้ช่วยวิเคราะห์ (Co-Pilot) แต่มนุษย์ยังเป็นผู้ควบคุมและรับผิดชอบการตัดสินใจขั้นสุดท้ายเพื่อความปลอดภัย"
+      },
+      {
+        id: 87, ch: 5, chapter: "Chapter 5",
+        q: "ในกรอบการตัดสินใจ 'Build vs. Buy' องค์กรควรเลือก 'ซื้อหรือเช่าใช้ AI สำเร็จรูป (BUY)' ในกรณีใด?",
+        options: [
+          "เมื่อเป็นงานที่เป็นแก่นความสามารถหลัก (Core Competency) ของบริษัท",
+          "เมื่อเป็นฟังก์ชันงานสนับสนุนทั่วไปที่ไม่ใช่หัวใจความได้เปรียบทางการแข่งขัน เช่น Chatbot ตอบคำถามพื้นฐาน หรือระบบตรวจจับสแปมอีเมล เพื่อประหยัดต้นทุนและเวลา",
+          "เมื่อระบบต้องใช้ข้อมูลลับระดับสูงสุดของชาติ",
+          "เมื่อองค์กรต้องการจ้างโปรแกรมเมอร์เพิ่มอีก 500 คน"
+        ],
+        ans: 1,
+        exp: "งานทั่วไปที่ไม่ใช่ความได้เปรียบหลัก (Non-core) ควรเลือก 'Buy' เพื่อความรวดเร็วและประหยัด ส่วนงานที่เป็นแก่นธุรกิจและความลับสูงควร 'Build' เอง"
+      },
+      {
+        id: 88, ch: 5, chapter: "Chapter 5",
+        q: "ประโยคเตือนใจ 'Garbage In, Garbage Out' (GIGO) มีความหมายลึกซึ้งอย่างไรต่อการพัฒนา Machine Learning?",
+        options: [
+          "หากทิ้งขยะไม่ถูกที่ คอมพิวเตอร์จะติดไวรัส",
+          "คุณภาพของผลลัพธ์และการทำนายของ AI จะฉลาดได้เท่ากับคุณภาพของข้อมูลที่ป้อนเข้าไป หากป้อนข้อมูลขยะ ผิดพลาด หรือมีอคติ โมเดลก็จะได้ผลลัพธ์ที่ไร้ประโยชน์และอันตราย",
+          "ควรกำจัดไฟล์ข้อมูลเก่าทิ้งให้หมดทุกสัปดาห์",
+          "ระบบ AI สามารถเปลี่ยนข้อมูลที่ผิดพลาดให้กลายเป็นความจริงได้เสมอ"
+        ],
+        ans: 1,
+        exp: "GIGO สะท้อนว่า AI ไม่ใช่เวทมนตร์ หากข้อมูลที่ใช้เทรนมีข้อผิดพลาด มีอคติ หรือไร้คุณภาพ ผลลัพธ์ที่ AI ทำนายออกมาย่อมไร้ค่าและสร้างความเสียหาย"
+      },
+      {
+        id: 89, ch: 5, chapter: "Chapter 5",
+        q: "หากบริษัทลงทุนระบบ AI มูลค่า 2,000,000 บาท และระบบนี้สามารถช่วยลดต้นทุนและสร้างรายได้เพิ่มขึ้นสุทธิ 3,000,000 บาท ค่า AI ROI จะมีค่าเท่าใด?",
+        options: ["50%", "150%", "500%", "66.7%"],
         ans: 0,
-        exp: "การเรียนรู้โดยมีข้อมูลในอดีตพร้อมคำเฉลย (Labeled Data) จัดเป็น Supervised Learning เพื่อนำไปใช้พยากรณ์ผลลัพธ์ในอนาคต"
+        exp: "สูตร ROI = [(Gain - Cost) / Cost] * 100% ➔ [(3,000,000 - 2,000,000) / 2,000,000] * 100% = (1,000,000 / 2,000,000) * 100% = 50%"
       },
       {
-        id: 43, ch: 5, chapter: "Chapter 5",
-        q: "ห้างสรรพสินค้าป้อนข้อมูลพฤติกรรมการรูดบัตรซื้อของของลูกค้า โดยไม่ได้กำหนดหมวดหมู่ล่วงหน้า เพื่อให้ AI จัดกลุ่มลูกค้าตามพฤติกรรม จัดเป็นประเภทใด?",
-        options: ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Rule-Based System"],
-        ans: 1,
-        exp: "การค้นหารูปแบบหรือจัดกลุ่ม (Clustering) จากข้อมูลดิบที่ไม่มีคำเฉลยหรือไม่มีป้ายกำกับ คือ Unsupervised Learning"
-      },
-      {
-        id: 44, ch: 5, chapter: "Chapter 5",
-        q: "แอปพลิเคชันส่งอาหารให้ AI ทดลองปรับราคาค่าจัดส่งตามช่วงเวลาและสภาพการจราจร โดยให้รางวัล (Reward) เมื่อทำกำไรสูงสุด จัดเป็นการเรียนรู้แบบใด?",
-        options: ["Reinforcement Learning (การเรียนรู้แบบเสริมแรง)", "Supervised Learning", "Rule-Based If-Else", "Prompt Engineering"],
-        ans: 0,
-        exp: "การเรียนรู้แบบลองผิดลองถูก (Trial and Error) ภายใต้ระบบรางวัล (Reward) เพื่อหาจุดที่เหมาะสมที่สุด (Optimization) คือ Reinforcement Learning"
-      },
-      {
-        id: 45, ch: 5, chapter: "Chapter 5",
-        q: "สถาปัตยกรรม 'Transformer Model' ก่อให้เกิดการก้าวกระโดดครั้งใหญ่ในวงการ Large Language Models (LLM) ด้วยกลไกสำคัญใด?",
+        id: 90, ch: 5, chapter: "Chapter 5",
+        q: "ข้อใดอธิบายโครงสร้างของ 'Artificial Neural Network' (โครงข่ายประสาทเทียม) ได้ถูกต้องที่สุด?",
         options: [
-          "การบังคับให้คอมพิวเตอร์อ่านคำทีละคำตามลำดับอย่างช้า ๆ",
-          "กลไก 'Self-Attention' ที่ช่วยให้ประมวลผลข้อมูลและเข้าใจความสัมพันธ์ของคำทั้งบริบทพร้อมกันได้ทั้งหมด",
-          "การตัด Hidden Layers ในสมองกลออกจนหมด",
-          "การเปลี่ยนให้ AI หันมาใช้โครงสร้าง If-Then-Else"
+          "ประกอบด้วยสายไฟทองแดงที่เชื่อมต่อกับสมองมนุษย์โดยตรง",
+          "ประกอบด้วย Input Layer, Hidden Layers หลายชั้นที่จำลองการส่งค่าน้ำหนัก (Weights) ของเซลล์ประสาท และ Output Layer เพื่อสกัดคุณลักษณะของข้อมูลที่ซับซ้อน",
+          "เป็นโปรแกรมที่ทำงานด้วยคำสั่ง If-Else เพียง 3 บรรทัด",
+          "เป็นฐานข้อมูลที่เก็บเฉพาะข้อความตัวอักษรเท่านั้น"
         ],
         ans: 1,
-        exp: "Transformer Model ใช้กลไก Self-Attention ประมวลผลคำทั้งหมดในประโยคพร้อมกัน ทำให้เข้าใจบริบทภาษามนุษย์ได้อย่างลึกซึ้งและรวดเร็ว"
+        exp: "Neural Network จำลองการทำงานของเซลล์ประสาทสมอง ประกอบด้วย Input, Hidden Layers และ Output ในการคำนวณค่าน้ำหนักเพื่อหารูปแบบที่ซับซ้อน"
       },
       {
-        id: 46, ch: 5, chapter: "Chapter 5",
-        q: "ข้อใดอธิบายความแตกต่างระหว่าง 'Generative AI' และ 'Agentic AI' ได้ถูกต้องที่สุด?",
+        id: 91, ch: 5, chapter: "Chapter 5",
+        q: "ความเสี่ยงด้าน 'Algorithmic Bias' (อคติของอัลกอริทึม) ในระบบ AI คัดกรองใบสมัครงาน มักมีต้นตอมาจากสิ่งใด?",
         options: [
-          "Generative AI ทำงานอัตโนมัติได้เองทั้งหมด แต่ Agentic AI ต้องรอป้อนคำสั่งทีละบรรทัด",
-          "Generative AI ทำงานแบบตั้งรับ (Passive) สร้างเนื้อหาตามคำสั่งทีละครั้ง แต่ Agentic AI ทำงานมุ่งสู่เป้าหมาย (Autonomous/Goal-Oriented) โดยวางแผนและลงมือทำแทนมนุษย์ได้",
-          "Generative AI มีค่าใช้จ่ายสูงกว่า Agentic AI เสมอ",
-          "Agentic AI ใช้ได้เฉพาะในหุ่นยนต์อุตสาหกรรมเท่านั้น"
+          "การ์ดจอที่ใช้ประมวลผลมีความร้อนสูงเกินไป",
+          "ข้อมูลประวัติการจ้างงานในอดีตที่นำมาฝึกฝน AI มีอคติทางเพศ อายุ หรือสถาบันการศึกษาแฝงอยู่ ทำให้ AI เลียนแบบและขยายอคตินั้นต่อไป",
+          "โปรแกรมเมอร์ลืมใส่รหัสผ่าน",
+          "ผู้สมัครงานใช้ฟอนต์ตัวหนังสือไม่ถูกต้อง"
         ],
         ans: 1,
-        exp: "GenAI รอรับคำสั่งและตอบกลับ (เช่น ช่วยร่างอีเมล) แต่มนุษย์ต้องเอาไปส่งเอง ส่วน Agentic AI สามารถคิด วางแผน ติดต่อประสานงาน และสั่งการซอฟต์แวร์อื่นจนงานสำเร็จได้เอง"
+        exp: "Algorithmic Bias เกิดจากข้อมูลในอดีตที่นำมาเทรนมีอคติของการตัดสินใจของมนุษย์แฝงอยู่ ทำให้โมเดลเรียนรู้และผลิตซ้ำอคตินั้น"
       },
       {
-        id: 47, ch: 5, chapter: "Chapter 5",
-        q: "กรณีศึกษาของแพลตฟอร์มอสังหาริมทรัพย์ 'Zillow' ที่ขาดทุนกว่า 500 ล้านดอลลาร์จากการใช้ AI ประเมินราคาบ้าน เกิดจากความผิดพลาดใด?",
+        id: 92, ch: 5, chapter: "Chapter 5",
+        q: "การเปลี่ยนแปลงครั้งใหญ่ (Paradigm Shift) ในการสั่งงานคอมพิวเตอร์ในยุค Large Language Model (LLM) คือข้อใด?",
         options: [
-          "AI Hallucination ในการตอบแชตลูกค้า",
-          "Model Overfitting เพราะ AI จดจำข้อมูลในอดีตช่วงที่ตลาดอสังหาฯ กำลังบูมมากเกินไป จนปรับตัวไม่ทันเมื่อตลาดเกิดความผันผวนจริง",
-          "ระบบโดนแฮกเกอร์โจมตีฐานข้อมูล",
-          "การคำนวณ ROI ของระบบล้มเหลวเนื่องจากไม่มีอินเทอร์เน็ต"
+          "มนุษย์ต้องกลับไปใช้บัตรเจาะรูในการป้อนข้อมูล",
+          "จากเดิมที่มนุษย์ต้องเรียนภาษาคอมพิวเตอร์ (Python, SQL) เพื่อสั่งงานเครื่อง ปัจจุบันคอมพิวเตอร์เรียนรู้ภาษามนุษย์ ทำให้เราสั่งงานวิเคราะห์ข้อมูลผ่าน Natural Language (Prompt) ได้โดยตรง",
+          "คอมพิวเตอร์ไม่ต้องการไฟฟ้าอีกต่อไป",
+          "มนุษย์ไม่ต้องใช้ความคิดใดๆ อีกเลย"
         ],
         ans: 1,
-        exp: "Zillow ประสบปัญหา Overfitting คือโมเดลเรียนรู้และจดจำอดีตอย่างเคร่งครัดเกินไป คิดว่าราคาบ้านจะพุ่งตลอดเวลา เมื่อภาวะตลาดเปลี่ยนจริงจึงขาดทุนมหาศาล"
+        exp: "การเปลี่ยนแปลงครั้งสำคัญคือ เครื่องคอมพิวเตอร์เข้าใจภาษามนุษย์ (Natural Language) ทำให้การสั่งงานวิเคราะห์ซับซ้อนทำได้ผ่าน Prompt ธรรมดา"
       },
       {
-        id: 48, ch: 5, chapter: "Chapter 5",
-        q: "กรณีที่ศาลตัดสินให้สายการบิน 'Air Canada' แพ้คดีเนื่องจาก Chatbot แนะนำเงื่อนไขการขอเงินคืนตั๋วผิดพลาด เป็นผลมาจากปรากฏการณ์ใดของ AI?",
-        options: ["Data Normalization", "AI Hallucination (การสร้างข้อมูลเท็จด้วยความมั่นใจ)", "Reinforcement Optimization", "Supervised Classification"],
-        ans: 1,
-        exp: "AI Hallucination คืออาการที่โมเดลมโนหรือกุข้อมูลเท็จขึ้นมาเองอย่างมั่นใจ ทำให้องค์กรต้องรับผิดชอบต่อความเสียหายทางกฎหมาย"
-      },
-      {
-        id: 49, ch: 5, chapter: "Chapter 5",
-        q: "หลักการ 'Human-in-the-Loop' ในการนำ AI มาใช้ในองค์กรธุรกิจหมายถึงข้อใด?",
+        id: 93, ch: 5, chapter: "Chapter 5",
+        q: "อาการ 'Model Overfitting' ของ AI เปรียบเสมือนพฤติกรรมของนักเรียนในลักษณะใด?",
         options: [
-          "การให้มนุษย์ทำหน้าที่เขียนโค้ดภาษาเครื่องทั้งหมดแทน AI",
-          "การกำหนดให้ AI ทำหน้าที่เป็น Co-Pilot ช่วยวิเคราะห์และแนะนำ แต่มนุษย์ยังคงเป็นผู้ตัดสินใจขั้นสุดท้ายเพื่อควบคุมความเสี่ยง",
-          "การยกเลิกการใช้ AI และหันกลับมาใช้แรงงานคน 100%",
-          "การให้ AI เป็นผู้บริหารสูงสุดและมนุษย์เป็นผู้รับคำสั่ง"
+          "นักเรียนที่ไม่ยอมอ่านหนังสือเลยแม้แต่หน้าเดียว",
+          "นักเรียนที่ท่องจำข้อสอบเก่าทุกตัวอักษรรวมถึงจุดทศนิยมได้อย่างแม่นยำ แต่เมื่อเจอข้อสอบจริงที่มีการเปลี่ยนโจทย์ประยุกต์ กลับทำไม่ได้เลย",
+          "นักเรียนที่ชอบวาดรูปเล่นในห้องสอบ",
+          "นักเรียนที่ส่งกระดาษคำตอบเปล่า"
         ],
         ans: 1,
-        exp: "Human-in-the-Loop คือแนวปฏิบัติที่ให้ AI ทำหน้าที่สนับสนุน (Co-Pilot) แต่มนุษย์ยังต้องคอยกำกับดูแลและอนุมัติการตัดสินใจที่สำคัญเสมอ"
+        exp: "Overfitting คือการที่โมเดลจดจำข้อมูลที่ใช้ฝึกอย่างเคร่งครัดเกินไปจนจำสัญญาณรบกวน (Noise) ทำให้ไม่สามารถนำไปปรับใช้กับข้อมูลใหม่ในชีวิตจริงได้ (Poor Generalization)"
       },
       {
-        id: 50, ch: 5, chapter: "Chapter 5",
-        q: "กรอบแนวคิด 'Build vs. Buy' แนะนำว่าองค์กรควรเลือก 'สร้างโมเดล AI ขึ้นมาเอง (Build)' ในสถานการณ์ใด?",
+        id: 94, ch: 5, chapter: "Chapter 5",
+        q: "เมื่อเกิดปัญหา 'AI Hallucination' ในระบบบริการลูกค้า ปัจจัยใดที่ทำให้ปัญหานี้ยิ่งทวีความอันตรายต่อความน่าเชื่อถือของแบรนด์?",
         options: [
-          "เมื่อต้องการประหยัดงบประมาณและต้องการใช้งานอย่างเร่งด่วนในวันพรุ่งนี้",
-          "เมื่อเป็นฟังก์ชันงานพื้นฐานทั่วไป เช่น ซอฟต์แวร์พิมพ์งานเอกสาร",
-          "เมื่อเป็นระบบที่เป็นแก่นความสามารถหลักของธุรกิจ (Core Competency) และเกี่ยวข้องกับข้อมูลลับเฉพาะทางการค้าที่เปิดเผยไม่ได้",
-          "เมื่อองค์กรไม่มีบุคลากรด้านเทคโนโลยีอยู่เลย"
+          "AI จะปฏิเสธการตอบคำถามทันที",
+          "AI มักสร้างข้อมูลเท็จขึ้นมาโดยนำเสนอด้วยน้ำเสียงที่มั่นใจ มีเหตุผลรองรับอย่างน่าเชื่อถือ ทำให้ผู้ใช้งานหลงเชื่อได้ง่าย",
+          "AI จะลบฐานข้อมูลของบริษัททิ้งทั้งหมด",
+          "หน้าจอจะดับลงโดยอัตโนมัติ"
         ],
-        ans: 2,
-        exp: "สิ่งที่ควร Build เองคืองานที่เป็นหัวใจหลักของความได้เปรียบทางการแข่งขัน (Core Competency) และข้อมูลความลับสูง ส่วนงานทั่วไปควรซื้อหรือเช่าใช้ (Buy)"
+        ans: 1,
+        exp: "อันตรายของ Hallucination คือ AI กุเรื่องเท็จขึ้นมาด้วยภาษาที่มั่นใจ ไพเราะ และดูน่าเชื่อถือสูงมาก ทำให้มนุษย์ตรวจสอบได้ยาก"
+      },
+      {
+        id: 95, ch: 5, chapter: "Chapter 5",
+        q: "ข้อใดเป็นตัวอย่างของการทำงานของ 'Agentic AI' ในการบริหารจัดการห่วงโซ่อุปทาน?",
+        options: [
+          "ระบบส่งอีเมลแจ้งเตือนว่าสต็อกใกล้หมด แล้วรอให้ผู้จัดการกดอนุมัติ",
+          "ระบบตรวจพบสต็อกขาด วิเคราะห์หาร้านค้าที่ถูกที่สุด เจรจาสั่งซื้อ ออกใบสั่งของ ติดต่อรถขนส่ง และบันทึกตารางนัดหมายลงระบบอัตโนมัติจนเสร็จสิ้นภารกิจ",
+          "พนักงานพิมพ์สูตรคำนวณลงในกระดาษ",
+          "กล้องวงจรปิดบันทึกภาพรถบรรทุกเข้าออก"
+        ],
+        ans: 1,
+        exp: "Agentic AI จะดำเนินการตามเป้าหมายด้วยตนเอง (Autonomous Workflow) โดยมีลูปการคิด วางแผน สั่งเครื่องมือภายนอก และแก้ปัญหาจนจบกระบวนการ"
+      },
+      {
+        id: 96, ch: 5, chapter: "Chapter 5",
+        q: "เหตุใดผู้บริหารจึงไม่ควรนำระบบ AI มาใช้ในองค์กร 'เพียงเพราะความทันสมัยตามกระแส'?",
+        options: [
+          "เพราะ AI จะทำให้คอมพิวเตอร์ตกรุ่นเร็วขึ้น",
+          "เพราะการนำ AI มาใช้มีต้นทุนสูง ต้องมีความพร้อมของโครงสร้างข้อมูล และหากไม่มีโจทย์ทางธุรกิจหรือ ROI ที่ชัดเจน จะกลายเป็นการลงทุนที่สูญเปล่า",
+          "เพราะรัฐบาลห้ามใช้ AI ในภาคเอกชน",
+          "เพราะ AI ไม่สามารถประมวลผลตัวเลขได้"
+        ],
+        ans: 1,
+        exp: "การใช้ AI ต้องมี Business Use-Case และการคำนวณ ROI ที่คุ้มค่า การทำตามกระแสโดยข้อมูลไม่พร้อมมักนำไปสู่ความล้มเหลวและเสียเงินมหาศาล"
+      },
+      {
+        id: 97, ch: 5, chapter: "Chapter 5",
+        q: "การป้องกันปัญหาข้อมูลความลับทางการค้ารั่วไหลจากการใช้งาน Public LLMs (เช่น ChatGPT เวอร์ชันฟรี) ควรทำอย่างไร?",
+        options: [
+          "พิมพ์รหัสผ่านบัตรเครดิตลงในช่องแชตเพื่อยืนยันตัวตน",
+          "กำหนดนโยบายห้ามป้อนข้อมูลความลับ ข้อมูลการเงิน หรือข้อมูลส่วนบุคคลลงในโมเดลสาธารณะ และเลือกใช้ระบบที่เป็น Private/Enterprise AI Environment",
+          "ปิดหน้าจอคอมพิวเตอร์ขณะที่ AI กำลังพิมพ์",
+          "ใช้ AI เฉพาะในวันหยุดราชการ"
+        ],
+        ans: 1,
+        exp: "การใช้ LLM ต้องมีการกำกับดูแล (Governance) ห้ามป้อนความลับบริษัทลง Public AI เด็ดขาด และควรใช้บริการระดับ Enterprise ที่มีสัญญาไม่นำข้อมูลไปเทรนต่อ"
+      },
+      {
+        id: 98, ch: 5, chapter: "Chapter 5",
+        q: "แนวคิด 'Deep Learning' แตกต่างจาก Machine Learning ยุคดั้งเดิมในแง่ของ Feature Extraction อย่างไร?",
+        options: [
+          "Deep Learning ต้องให้มนุษย์มานั่งระบุคุณลักษณะ (Features) ทีละข้ออย่างละเอียด",
+          "Deep Learning สามารถเรียนรู้และสกัดคุณลักษณะสำคัญของข้อมูลดิบ (เช่น พิกเซลภาพ, คลื่นเสียง) ได้เองโดยอัตโนมัติผ่าน Hidden Layers หลายชั้น",
+          "Deep Learning ใช้ได้เฉพาะกับข้อมูลตัวเลขเท่านั้น",
+          "Deep Learning ไม่ต้องการข้อมูลในการฝึกฝนเลย"
+        ],
+        ans: 1,
+        exp: "จุดเด่นของ Deep Learning คือความสามารถในการทำ Automatic Feature Extraction สกัดคุณลักษณะของข้อมูลที่ซับซ้อนได้เองโดยไม่ต้องพึ่งมนุษย์มากำหนด"
+      },
+      {
+        id: 99, ch: 5, chapter: "Chapter 5",
+        q: "การที่โมเดลภาษาขนาดใหญ่ (LLM) สามารถเขียนโค้ด แปลภาษา และสรุปเอกสารกฎหมายได้พร้อมกัน เกิดจากความสามารถในการเรียนรู้แบบใด?",
+        options: [
+          "การเขียนโปรแกรม If-Else แยกเป็น 3 โปรแกรม",
+          "การเรียนรู้บริบทและความสัมพันธ์ของสัญลักษณ์ภาษาในระดับมหาศาลผ่าน Transformer Architecture จนเกิดความเข้าใจทั่วไป (Generalization)",
+          "การจ้างมนุษย์มานั่งพิมพ์คำตอบอยู่เบื้องหลังแบบ Real-Time",
+          "การติดตั้งฮาร์ดแวร์พิเศษสำหรับกฎหมายโดยเฉพาะ"
+        ],
+        ans: 1,
+        exp: "โมเดล Transformer ถูกเทรนด้วยข้อมูลภาษามหาศาล ทำให้เข้าใจโครงสร้างความสัมพันธ์ของภาษาและโค้ดในระดับบริบทจนทำภารกิจหลากหลายได้พร้อมกัน"
+      },
+      {
+        id: 100, ch: 5, chapter: "Chapter 5",
+        q: "บทเรียนสำคัญที่สุดสำหรับนิสิตและนักบริหารธุรกิจในยุค AI First ตามที่ระบุในเอกสารประกอบการเรียนคือข้อใด?",
+        options: [
+          "AI จะเข้ามาแย่งงานทุกคน และมนุษย์ไม่จำเป็นต้องทำงานอีกต่อไป",
+          "AI ไม่ได้มาแย่งงานเราในอนาคต แต่คนที่สามารถประยุกต์ใช้ AI ได้อย่างชาญฉลาด จะมาแย่งงานและแทนที่คนที่ไม่ยอมปรับตัวใช้ AI",
+          "ทุกคนต้องลาออกจากงานบริหารเพื่อไปเรียนเขียนโค้ดภาษาเครื่องเท่านั้น",
+          "ควรหลีกเลี่ยงการใช้เทคโนโลยีเพื่อความปลอดภัยสูงสุดของชีวิต"
+        ],
+        ans: 1,
+        exp: "แก่นคิดสำคัญของบทเรียนคือ AI ไม่ได้มาแย่งงานโดยตรง แต่บุคลากรที่ใช้ AI เป็นและปรับตัวได้ จะมีความสามารถในการแข่งขันเหนือกว่าคนที่ปฏิเสธเทคโนโลยีอย่างสิ้นเชิง"
       }
     ];
 
-    // สร้างข้อสอบข้อ 51-100 เพิ่มเติมให้ครบ 100 ข้อ เพื่อครอบคลุมคลังข้อสอบตามชีต
-    const extraQuestions = [
-      // Ch 1 Extensions (51-60)
-      { id: 51, ch: 1, chapter: "Chapter 1", q: "เหตุใด 'ข้อมูลที่ไม่มีการอัปเดต (Outdated Data)' จึงไม่สามารถนำมาแปลงเป็นสารสนเทศที่ดีได้?", options: ["เพราะไฟล์มีขนาดใหญ่เกินไป", "เพราะทำให้การตัดสินใจเชิงธุรกิจผิดพลาดและไม่สอดคล้องกับสถานการณ์จริง", "เพราะคอมพิวเตอร์จะไม่ยอมประมวลผล", "เพราะทำให้ฮาร์ดแวร์ทำงานช้าลง"], ans: 1, exp: "สารสนเทศที่มีคุณค่าต้องมีความทันสมัย (Up-to-Date) และทันต่อเวลา (Timely) มิฉะนั้นจะชี้นำทิศทางผิด" },
-      { id: 52, ch: 1, chapter: "Chapter 1", q: "ข้อใดจัดเป็น Input ของระบบสารสนเทศในการทำธุรกรรมผ่านตู้ ATM?", options: ["เงินสดที่ตู้จ่ายออกมา", "สลิปใบเสร็จรับเงิน", "การเสียบบัตรและกดรหัส PIN พร้อมระบุจำนวนเงิน", "บันทึกประวัติการถอนในเซิร์ฟเวอร์สำนักงานใหญ่"], ans: 2, exp: "Input คือการป้อนข้อมูลเข้าสู่ระบบ ได้แก่ บัตร, รหัส PIN และจำนวนเงินที่ต้องการ" },
-      { id: 53, ch: 1, chapter: "Chapter 1", q: "หากระบบ ATM ไม่อนุญาตให้ถอนเงินเนื่องจากธนบัตรในตู้หมด กระบวนการนี้สัมพันธ์กับส่วนใดของระบบ?", options: ["Software Input", "Feedback & Control", "Cloud Infrastructure", "Digitization"], ans: 1, exp: "ระบบตรวจสอบทรัพยากรแล้วส่ง Feedback แจ้งสถานะขัดข้องให้ผู้ใช้งานทราบ" },
-      { id: 54, ch: 1, chapter: "Chapter 1", q: "เทคโนโลยีดิจิทัลช่วยลดต้นทุนของสำนักพิมพ์ได้อย่างไรในยุคปัจจุบัน?", options: ["ช่วยให้พิมพ์กระดาษได้หนาขึ้น", "ช่วยลดต้นทุนค่ากระดาษ ค่าจัดพิมพ์ และการเช่าโกดังสต็อกเล่มผ่านการทำ E-Book", "เพิ่มตัวแทนจำหน่ายหน้าร้าน", "บังคับให้ผู้อ่านซื้ออุปกรณ์อ่านเฉพาะทาง"], ans: 1, exp: "Digitization เปลี่ยนหนังสือเป็นไฟล์ดิจิทัล ตัดต้นทุนกระดาษ แท่นพิมพ์ และคลังสินค้า" },
-      { id: 55, ch: 1, chapter: "Chapter 1", q: "ข้อใดอธิบายความสัมพันธ์ระหว่าง 'Network' และ 'Database' ในระบบ CBIS ได้ถูกต้องที่สุด?", options: ["Network เป็นที่จัดเก็บไฟล์ ส่วน Database เป็นสายเคเบิล", "Network ทำหน้าที่เป็นช่องทางส่งผ่านข้อมูลเพื่อไปบันทึกและดึงข้อมูลจาก Database", "ทั้งสองอย่างทำหน้าที่เดียวกันทุกประการ", "ระบบสารสนเทศไม่จำเป็นต้องมี Network ก็แชร์ข้อมูลได้ทั่วโลก"], ans: 1, exp: "Network ทำหน้าที่เป็นโครงสร้างพื้นฐานในการสื่อสารและแลกเปลี่ยนข้อมูลกับ Database" },
-      { id: 56, ch: 1, chapter: "Chapter 1", q: "ความท้าทายด้าน Climate Change ส่งผลกระทบต่อระบบซัพพลายเชนของธุรกิจอย่างไร?", options: ["ทำให้สินค้าขายดีขึ้นทุกประเภท", "ทำให้เกิดความเสี่ยงในการขนส่ง วัตถุดิบขาดแคลน และแรงกดดันด้านกฎเกณฑ์คาร์บอนเครดิต", "ทำให้ลดการใช้เทคโนโลยีลง", "ไม่มีผลกระทบต่อธุรกิจข้ามชาติ"], ans: 1, exp: "ภัยธรรมชาติกระทบต่อความต่อเนื่องในการจัดหาวัตถุดิบและระบบขนส่งทั่วโลก" },
-      { id: 57, ch: 1, chapter: "Chapter 1", q: "คำกล่าวใดอธิบายคำว่า 'Digital Disruption' ได้ถูกต้องตรงตามความเป็นจริงที่สุด?", options: ["การที่คอมพิวเตอร์ติดไวรัสจนใช้งานไม่ได้", "การที่ผู้เล่นหน้าใหม่ใช้เทคโนโลยีมาสร้างคุณค่าที่ดีกว่าในราคาถูกกว่าจนธุรกิจดั้งเดิมแข่งขันไม่ได้", "การปิดตัวลงของบริษัทเทคโนโลยีขนาดใหญ่", "การยกเลิกการใช้สมาร์ตโฟนในสำนักงาน"], ans: 1, exp: "Disruption เกิดจากคู่แข่งนำเทคโนโลยีมาส่งมอบคุณค่าที่ตอบโจทย์กว่าในราคาที่ต่ำกว่าอย่างมีนัยสำคัญ" },
-      { id: 58, ch: 1, chapter: "Chapter 1", q: "ในระบบสารสนเทศ 'People' มีบทบาทสำคัญที่สุดอย่างไร?", options: ["เป็นผู้จ่ายเงินค่าไฟฟ้าให้ระบบ", "เป็นผู้ออกแบบ ใช้งาน ป้อนข้อมูล และนำสารสนเทศไปตัดสินใจเชิงกลยุทธ์", "เป็นอุปกรณ์รับส่งข้อมูลทางกายภาพ", "คอยเฝ้าไม่ให้ใครแตะต้องเครื่องคอมพิวเตอร์"], ans: 1, exp: "มนุษย์คือผู้ขับเคลื่อนระบบ ตั้งแต่การป้อนข้อมูล การดูแลระบบ ไปจนถึงการนำผลลัพธ์ไปตัดสินใจ" },
-      { id: 59, ch: 1, chapter: "Chapter 1", q: "ข้อใด *ไม่ใช่* ตัวอย่างของ Data (ข้อมูลดิบ)?", options: ["รหัสสินค้า 8851234", "เสียงบันทึกการโทรความยาว 5 นาที", "รายงานสรุปแนวโน้มกำไรประจำปีเพื่อนำเสนอคณะกรรมการ", "ตัวเลขน้ำหนัก 65 กิโลกรัม"], ans: 2, exp: "รายงานสรุปกำไรประจำปีผ่านการประมวลผลและวิเคราะห์แล้ว จึงจัดเป็น Information / Knowledge ไม่ใช่ Data ดิบ" },
-      { id: 60, ch: 1, chapter: "Chapter 1", q: "การที่ธุรกิจโรงแรมแบบดั้งเดิมถูกแย่งส่วนแบ่งตลาดโดย Airbnb มีสาเหตุสำคัญมาจากข้อใด?", options: ["โรงแรมเดิมมีห้องพักไม่เพียงพอต่อคนทั้งโลก", "Airbnb ใช้แพลตฟอร์มระดมห้องพักที่มีอยู่แล้ว ทำให้ขยายเครือข่ายได้อย่างรวดเร็วโดยไม่ต้องลงทุนสร้างอาคาร", "Airbnb ซื้อที่ดินสร้างรีสอร์ตทั่วโลกด้วยเงินกู้ดอกเบี้ยต่ำ", "ผู้บริโภคไม่ต้องการการท่องเที่ยวอีกต่อไป"], ans: 1, exp: "Airbnb ใช้โมเดล Asset-light Platform สร้างทางเลือกที่หลากหลายและราคาเข้าถึงง่ายกว่า" },
-
-      // Ch 2 Extensions (61-70)
-      { id: 61, ch: 2, chapter: "Chapter 2", q: "เมื่อซัพพลายเออร์ผูกขาดวัตถุดิบเพียงเจ้าเดียวในตลาด องค์กรควรใช้ IS เพื่อแก้ปัญหานี้อย่างไร?", options: ["ยอมรับราคาทุกเงื่อนไขโดยไม่ตรวจสอบ", "ใช้ IS วิเคราะห์หาวัตถุดิบทดแทน ปรับปรุงประสิทธิภาพการใช้วัตถุดิบ และค้นหาซัพพลายเออร์ทางเลือกในระดับสากล", "ปิดโรงงานชั่วคราว", "เลิกใช้ระบบคอมพิวเตอร์ทั้งหมด"], ans: 1, exp: "ระบบสารสนเทศช่วยให้องค์กรบริหารต้นทุน ค้นหาแหล่งวัตถุดิบใหม่ และเพิ่มประสิทธิภาพการผลิต" },
-      { id: 62, ch: 2, chapter: "Chapter 2", q: "Switching Cost ที่สูงขึ้นส่งผลต่อพฤติกรรมลูกค้าอย่างไร?", options: ["ทำให้ลูกค้าย้ายไปใช้บริการคู่แข่งได้ทันที", "ทำให้ลูกค้ารู้สึกว่าการเปลี่ยนไปใช้แบรนด์อื่นมีความยุ่งยาก มีค่าใช้จ่าย หรือเสียผลประโยชน์สะสม จึงเลือกอยู่ต่อ", "ทำให้ลูกค้าฟ้องร้องบริษัท", "ทำให้ลูกค้าซื้อสินค้าน้อยลง"], ans: 1, exp: "Switching Cost คือต้นทุนในการเปลี่ยนแบรนด์ ยิ่งสูง ลูกค้ายิ่งย้ายหนียาก ช่วยลดอำนาจต่อรองของผู้ซื้อ" },
-      { id: 63, ch: 2, chapter: "Chapter 2", q: "กิจกรรม 'Human Resource Management' ใน Value Chain ทำหน้าที่สนับสนุนธุรกิจอย่างไร?", options: ["รับผิดชอบขับรถส่งสินค้าไปบ้านลูกค้า", "สรรหา ฝึกอบรม และพัฒนาบุคลากรให้มีทักษะสอดคล้องกับกลยุทธ์ดิจิทัลขององค์กร", "ซ่อมแซมเครื่องคิดเงินหน้าร้าน", "ผลิตสินค้าในสายพาน"], ans: 1, exp: "HRM เป็นกิจกรรมสนับสนุน (Support Activity) ในการบริหารและพัฒนาทุนมนุษย์ขององค์กร" },
-      { id: 64, ch: 2, chapter: "Chapter 2", q: "ระบบ GPS ในการบริหารงานโลจิสติกส์สร้างคุณค่าโดยตรงต่อองค์กรในด้านใด?", options: ["ทำให้รถขนส่งวิ่งเร็วขึ้นกว่าขีดจำกัดเครื่องยนต์", "ติดตามตำแหน่งยานพาหนะแบบ Real-Time ช่วยวางแผนเส้นทาง ประหยัดน้ำมัน และลดเวลาจัดส่ง", "ช่วยลดการจ่ายภาษีรถยนต์ประจำปี", "ทำหน้าที่แทนคนขับรถได้ทันที"], ans: 1, exp: "GPS ช่วยให้องค์กรตรวจสอบตำแหน่ง วางแผนเส้นทางที่มีประสิทธิภาพ และลดต้นทุนค่าน้ำมัน" },
-      { id: 65, ch: 2, chapter: "Chapter 2", q: "การเจาะตลาดกลุ่มเฉพาะ (Market Niche Strategy) มีประโยชน์ต่อธุรกิจขนาดเล็กอย่างไร?", options: ["ทำให้ต้องแข่งขันตัดราคากับบริษัทข้ามชาติขนาดใหญ่", "หลีกเลี่ยงการแข่งขันทางตรงในตลาดมวลชน และสร้างความภักดีในกลุ่มลูกค้าที่มีความต้องการเฉพาะทาง", "ทำให้ต้นทุนการผลิตลดลงจนเหลือศูนย์", "ทำให้ไม่ต้องจดทะเบียนบริษัท"], ans: 1, exp: "Market Niche ช่วยให้ธุรกิจโฟกัสความต้องการเฉพาะกลุ่ม สร้างความแตกต่างและลดแรงกดดันจากคู่แข่งรายใหญ่" },
-      { id: 66, ch: 2, chapter: "Chapter 2", q: "คำว่า 'Downsizing' ในการปรับโครงสร้างองค์กร หมายถึงอะไร?", options: ["การลดขนาดองค์กรและปรับลดตำแหน่งงานที่ไม่จำเป็น เพื่อเพิ่มความคล่องตัวและลดต้นทุนคงที่", "การลดขนาดของหน้าจอคอมพิวเตอร์ในออฟฟิศ", "การลดจำนวนสาขาของธนาคารเพื่อขยายโรงงาน", "การลดภาษีนำเข้าสินค้า"], ans: 0, exp: "Downsizing คือการปรับลดขนาดองค์กร กำจัดโครงสร้างซ้ำซ้อน และใช้เทคโนโลยีเข้ามาทำงานแทน" },
-      { id: 67, ch: 2, chapter: "Chapter 2", q: "การอนุญาตให้ Supplier เข้าถึงข้อมูลยอดขายและแผนการผลิตของโรงงาน มีเป้าหมายเพื่ออะไร?", options: ["เพื่อให้ Supplier รู้ข้อมูลความลับทางการเงิน", "เพื่อให้ Supplier สามารถวางแผนจัดส่งวัตถุดิบได้ล่วงหน้าอย่างแม่นยำ ป้องกันปัญหาสต็อกขาดหรือบวม", "เพื่อให้ Supplier เข้ามาบริหารบริษัทแทน", "เพื่อลดจำนวนพนักงานจัดซื้อลงทั้งหมด"], ans: 1, exp: "การแชร์ข้อมูลใน Supply Chain ช่วยลด Bullwhip Effect ทำให้การส่งมอบวัตถุดิบทันเวลาแบบ Just-In-Time" },
-      { id: 68, ch: 2, chapter: "Chapter 2", q: "ข้อใดเป็นตัวอย่างของการนำ IS มาใช้ในกระบวนการ 'Outbound Logistics'?", options: ["การรับสมัครพนักงานใหม่ผ่านเว็บไซต์", "การใช้ระบบบริหารจัดการคลังสินค้าอัตโนมัติจัดเส้นทางรถส่งของไปสู่ร้านค้าตัวแทนจำหน่าย", "การออกแบบโลโก้ผลิตภัณฑ์ใหม่", "การคำนวณภาษีเงินได้นิติบุคคลประจำปี"], ans: 1, exp: "Outbound Logistics คือกิจกรรมการจัดเก็บ กระจาย และส่งมอบสินค้าสำเร็จรูปไปยังลูกค้าหรือผู้แทนจำหน่าย" },
-      { id: 69, ch: 2, chapter: "Chapter 2", q: "ข้อใดคือความเสี่ยงสำคัญของการทำ 'Offshoring'?", options: ["ไม่มีความเสี่ยงใดๆ เพราะค่าแรงถูกกว่าเสมอ", "ความแตกต่างด้านภาษา วัฒนธรรม เวลาทำงาน และความเสี่ยงเรื่องการควบคุมคุณภาพและความมั่นคงของข้อมูล", "ทำให้คอมพิวเตอร์ในสำนักงานพังเร็วขึ้น", "ทำให้สินค้ามีน้ำหนักเพิ่มขึ้น"], ans: 1, exp: "การจ้างงานข้ามประเทศมีความท้าทายเรื่องการสื่อสาร วัฒนธรรม กฎหมายท้องถิ่น และการควบคุมมาตรฐาน" },
-      { id: 70, ch: 2, chapter: "Chapter 2", q: "การเปลี่ยนจากการใช้กระดาษเดินเรื่องอนุมัติภายใน มาเป็นระบบ E-Workflow บนคลาวด์ จัดเป็นการปรับปรุงด้านใด?", options: ["Disintermediation", "Business Process Improvement", "Offshoring", "Market Niche"], ans: 1, exp: "การเปลี่ยนเอกสารสู่ระบบอัตโนมัติช่วยลดเวลาและขั้นตอนการทำงานเดิมให้มีประสิทธิภาพสูงขึ้น" },
-
-      // Ch 3 Extensions (71-80)
-      { id: 71, ch: 3, chapter: "Chapter 3", q: "ข้อใดเป็นข้อได้เปรียบของ 'E-Commerce' ที่เหนือกว่าร้านค้าปลีกแบบดั้งเดิมอย่างชัดเจนที่สุด?", options: ["ลูกค้าสามารถจับต้องสัมผัสเนื้อผ้าจริงได้ก่อนซื้อ", "เปิดให้บริการได้ตลอด 24 ชั่วโมง 7 วัน และเข้าถึงฐานลูกค้าได้ทั่วโลกด้วยต้นทุนหน้าร้านที่ต่ำกว่า", "ไม่ต้องมีระบบการชำระเงินใด ๆ", "ไม่มีค่าใช้จ่ายในการจัดส่งสินค้า"], ans: 1, exp: "E-Commerce ทลายข้อจำกัดด้านเวลาและสถานที่ ทำให้ขายได้ตลอด 24/7 โดยไม่ต้องเช่าพื้นที่อาคารหลายสาขา" },
-      { id: 72, ch: 3, chapter: "Chapter 3", q: "ข้อจำกัดสำคัญที่สุดที่ผู้บริโภคมักกังวลเมื่อซื้อสินค้าผ่านระบบ E-Commerce คืออะไร?", options: ["สินค้ามีราคาถูกเกินไป", "ความปลอดภัยของข้อมูลส่วนบุคคล (Privacy) และความน่าเชื่อถือของผู้ขายว่าจะส่งของตรงปกหรือไม่", "เว็บไซต์โหลดเร็วเกินไป", "มีช่องทางการชำระเงินให้เลือกมากเกินไป"], ans: 1, exp: "เรื่องความปลอดภัยของข้อมูลบัตรเครดิต ความเป็นส่วนตัว และความซื่อสัตย์ของผู้ขายเป็นความกังวลหลัก" },
-      { id: 73, ch: 3, chapter: "Chapter 3", q: "ระบบ 'Product Configurator' บนหน้าเว็บขายของออนไลน์มีหน้าที่อะไร?", options: ["คำนวณภาษีมูลค่าเพิ่ม", "เปิดให้ลูกค้าเลือกปรับแต่งคุณลักษณะของสินค้า เช่น สี ขนาด ความจุ ก่อนกดสั่งซื้อ", "พิมพ์ใบเสร็จรับเงิน", "บันทึกเวลาเข้างานของพนักงาน"], ans: 1, exp: "Product Configurator ช่วยให้ลูกค้าเลือกปรับแต่งสเปกของสินค้าได้ตามความต้องการแบบอินเทอร์แอ็กทีฟ" },
-      { id: 74, ch: 3, chapter: "Chapter 3", q: "ธุรกิจแบบ Business-to-Business (B2B) มีลักษณะการทำธุรกรรมอย่างไรเมื่อเทียบกับ B2C?", options: ["ยอดสั่งซื้อต่อครั้งมักมีมูลค่าสูง มีการทำสัญญา และกระบวนการตัดสินใจซื้อมีหลายขั้นตอน", "เป็นการซื้อของชิ้นเล็กๆ ผ่านความพึงพอใจชั่ววูบ", "เน้นการจ่ายเงินสดปลายทางเท่านั้น", "ไม่มีการออกใบกำกับภาษี"], ans: 0, exp: "B2B ซื้อขายกันระหว่างองค์กร ยอดคำสั่งซื้อมักมีมูลค่ามหาศาล มีการต่อรองราคา และต้องผ่านการอนุมัติหลายฝ่าย" },
-      { id: 75, ch: 3, chapter: "Chapter 3", q: "โมเดล 'Affiliate Marketing' สร้างรายได้ให้กับเจ้าของคอนเทนต์ได้อย่างไร?", options: ["ได้เงินเดือนประจำจากรัฐบาล", "ได้รับค่าคอมมิชชันเมื่อมีผู้ใช้งานคลิกลิงก์แนะนำสินค้าแล้วเกิดการสั่งซื้อจริงบนแพลตฟอร์ม", "ได้รับเงินจากการเปิดคอมพิวเตอร์ทิ้งไว้", "ได้เงินจากการขายเซิร์ฟเวอร์"], ans: 1, exp: "Affiliate Fee คือส่วนแบ่งรายได้หรือค่าคอมมิชชันที่ผู้แนะนำสินค้าจะได้รับเมื่อเกิดยอดขายผ่านลิงก์ของตน" },
-      { id: 76, ch: 3, chapter: "Chapter 3", q: "Google Drive, Microsoft 365 และ Dropbox จัดเป็นผู้ให้บริการประเภทใดในโมเดลอินเทอร์เน็ต?", options: ["Content Provider", "Service Provider (Cloud SaaS)", "Transaction Broker", "E-tailer"], ans: 1, exp: "Service Provider ให้บริการแอปพลิเคชันหรือพื้นที่จัดเก็บข้อมูลบนโครงสร้างพื้นฐานคลาวด์" },
-      { id: 77, ch: 3, chapter: "Chapter 3", q: "Search Cost ที่ต่ำลงในโลกดิจิทัลส่งผลต่อพฤติกรรมผู้บริโภคอย่างไร?", options: ["ทำให้ผู้บริโภคขี้เกียจค้นหาข้อมูล", "ทำให้ผู้บริโภคค้นหารายละเอียด เปรียบเทียบราคา และอ่านรีวิวสินค้าหลายสิบร้านได้อย่างรวดเร็วในไม่กี่คลิก", "ทำให้ผู้บริโภคเชื่อข้อมูลจากโฆษณาแรกเสมอ", "ทำให้การสั่งซื้อสินค้าใช้เวลานานขึ้นหลายวัน"], ans: 1, exp: "Search Cost ต่ำลง ผู้บริโภคจึงมีความรอบรู้ เช็กราคาและรีวิวเปรียบเทียบได้ง่ายขึ้นมาก" },
-      { id: 78, ch: 3, chapter: "Chapter 3", q: "เว็บไซต์ท่า (Portal) เช่น Yahoo หรือ Sanook มีฟังก์ชันการทำงานหลักอย่างไร?", options: ["เป็นโรงงานผลิตคอมพิวเตอร์", "เป็นศูนย์รวมข่าวสาร บริการค้นหา เมล และเชื่อมโยงบริการหลากหลายไว้ที่หน้าแรกหน้าเดียว", "เป็นร้านค้าขายเสื้อผ้ามือสอง", "เป็นระบบคำนวณเงินเดือนพนักงาน"], ans: 1, exp: "Portal คือประตูทางผ่านหลักที่รวบรวมเนื้อหาและบริการหลากหลายไว้ในจุดเดียวเพื่อดึงดูดทราฟฟิก" },
-      { id: 79, ch: 3, chapter: "Chapter 3", q: "เหตุใด 'ความน่าเชื่อถือของแพลตฟอร์ม (Platform Trust)' จึงมีความสำคัญสูงสุดในโมเดล Marketplace?", options: ["เพราะถ้าแพลตฟอร์มไม่มีความน่าเชื่อถือ ทั้งผู้ซื้อและผู้ขายจะไม่กล้าเข้ามาทำธุรกรรม ส่งผลให้เครือข่ายล่มสลาย", "เพราะช่วยให้คอมพิวเตอร์ไม่ติดไวรัส", "เพราะกฎหมายกำหนดให้ทุกแพลตฟอร์มต้องมีคะแนนเต็ม 100", "เพื่อใช้เป็นเหตุผลในการขึ้นราคาสินค้า"], ans: 0, exp: "Network Effect ของ Marketplace เกิดขึ้นได้ต่อเมื่อมีความเชื่อมั่นในความปลอดภัยของการชำระเงินและคุณภาพร้านค้า" },
-      { id: 80, ch: 3, chapter: "Chapter 3", q: "เครื่องมือ 'Web Traffic Analytics' มีประโยชน์ต่อผู้ประกอบการออนไลน์อย่างไร?", options: ["ช่วยให้เว็บไซต์เปลี่ยนสีตามสภาพอากาศ", "ช่วยวิเคราะห์พฤติกรรมผู้เยี่ยมชมเว็บ เช่น สินค้าที่เปิดดู บ่อน้ำที่คนกดออก (Drop-off) และอัตราการตัดสินใจซื้อ (Conversion Rate)", "ช่วยซ่อมแซมระบบไฟฟ้าของเซิร์ฟเวอร์", "ช่วยส่งข้อความไปหาเพื่อนในโซเชียลมีเดีย"], ans: 1, exp: "Web Analytics วิเคราะห์เส้นทางของลูกค้า (Customer Journey) เพื่อนำมาปรับปรุงเว็บไซต์และเพิ่มยอดขาย" },
-
-      // Ch 4 Extensions (81-90)
-      { id: 81, ch: 4, chapter: "Chapter 4", q: "เมื่อใดที่ไม่ควรเลือกใช้ 'Line Chart' ในการนำเสนอข้อมูล?", options: ["เมื่อข้อมูลเป็นยอดขายรายไตรมาสตลอด 3 ปี", "เมื่อข้อมูลเป็นตัวแปรอิสระต่อกันที่ไม่มีความต่อเนื่องของเวลา เช่น ยอดขายเปรียบเทียบระหว่าง 5 แผนกในองค์กร", "เมื่อข้อมูลแสดงอัตราเงินเฟ้อรายเดือน", "เมื่อต้องการดูแนวโน้มอุณหภูมิเฉลี่ย"], ans: 1, exp: "Line Chart เชื่อมโยงจุดข้อมูลด้วยเส้น จึงเหมาะกับข้อมูลที่มีความต่อเนื่องตามเวลา ไม่ควรใช้กับกลุ่มอิสระที่ตัดขาดกัน" },
-      { id: 82, ch: 4, chapter: "Chapter 4", q: "หากต้องการแสดงสัดส่วนค่าใช้จ่าย 4 ประเภทของบริษัท โดยต้องการให้เห็นทั้งยอดเงินรวมและสัดส่วนย่อย ควรเลือกกราฟใด?", options: ["Stacked Column Chart", "Line Chart", "Radar Chart", "Scatter Plot"], ans: 0, exp: "Stacked Column Chart สามารถแสดงได้ทั้งความสูงของผลรวมทั้งหมด และสัดส่วนค่าใช้จ่ายแต่ละประเภทที่ซ้อนทับกันอยู่" },
-      { id: 83, ch: 4, chapter: "Chapter 4", q: "การใส่ Data Labels (ป้ายกำกับตัวเลข) บนทุกแท่งกราฟของแผนภูมิที่มี 50 แท่ง จะส่งผลเสียอย่างไร?", options: ["ทำให้ตัวเลขคำนวณผิดพลาด", "เกิดความรกสายตา (Visual Clutter / Chartjunk) ตัวเลขอัดแน่นจนอ่านไม่ออก", "ทำให้โปรแกรม Excel ปิดตัวเองทันที", "ทำให้แกน X หายไป"], ans: 1, exp: "การใส่ Data Labels ถี่เกินไปจะสร้างความรกสายตา ควรสรุปเฉพาะจุดสำคัญหรือแสดงบนตารางแยกต่างหาก" },
-      { id: 84, ch: 4, chapter: "Chapter 4", q: "ทำไมที่ปรึกษาทางธุรกิจ (Consultant) จึงนิยมใช้ 'Template Chart' ที่ได้มาตรฐาน?", options: ["เพราะไม่รู้วิธีสร้างกราฟใหม่", "เพื่อความสม่ำเสมอ ประหยัดเวลาในการจัดรูปแบบ และทำให้ผู้บริหารเข้าใจความหมายได้ทันทีตามแบบแผนเดียวกัน", "เพราะกฎหมายบังคับ", "เพื่อลดขนาดไฟล์เอกสารลง"], ans: 1, exp: "Template มาตรฐานช่วยสร้างความเป็นมืออาชีพ สื่อสารได้รวดเร็ว และลดความเข้าใจคลาดเคลื่อนในการประชุม" },
-      { id: 85, ch: 4, chapter: "Chapter 4", q: "หากนำข้อมูลเปอร์เซ็นต์ที่มีผลรวมเท่ากับ 150% มาใส่ใน Pie Chart กราฟจะเกิดปัญหาใด?", options: ["วงกลมจะขยายขนาดใหญ่ขึ้น", "โปรแกรมจะบังคับสเกลใหม่ทำให้ตัวเลขจริงบิดเบือนไปจากสัดส่วน 100% ก่อให้เกิดความเข้าใจผิดร้ายแรง", "คอมพิวเตอร์จะส่งเสียงเตือน", "กราฟจะเปลี่ยนเป็นสี่เหลี่ยมอัตโนมัติ"], ans: 1, exp: "Pie Chart แสดงผลรวมเท่ากับ 100% หากผลรวมเกิน 100% ย่อมสะท้อนว่าเลือกใช้ประเภทกราฟผิดวิธี" },
-      { id: 86, ch: 4, chapter: "Chapter 4", q: "ความแตกต่างระหว่าง Column Chart (แนวตั้ง) กับ Bar Chart (แนวนอน) อยู่ที่ข้อใด?", options: ["Column Chart ใช้กับตัวเลขติดลบไม่ได้", "Bar Chart แนวนอนมีพื้นที่สำหรับแสดงข้อความชื่อหมวดหมู่ที่ยาวได้ดีกว่า Column Chart แนวตั้ง", "ทั้งสองแบบใช้สูตรคำนวณคนละสูตรกัน", "Bar Chart ใช้ได้เฉพาะข้อมูลการเงินเท่านั้น"], ans: 1, exp: "Bar Chart แนวนอนแก้ปัญหาป้ายชื่อหมวดหมู่ยาว ไม่ต้องเอียงคออ่าน และอ่านจากบนลงล่างได้อย่างเป็นธรรมชาติ" },
-      { id: 87, ch: 4, chapter: "Chapter 4", q: "การใช้เอฟเฟกต์ 3D ในกราฟแท่งและกราฟวงกลม มักถูกผู้เชี่ยวชาญด้านข้อมูลแนะนำว่าไม่ควรใช้เพราะอะไร?", options: ["เพราะทำให้คอมพิวเตอร์ประมวลผลช้าเกินไป", "มิติความลึกและมุมมองแบบ 3D จะหลอกสายตา ทำให้แท่งที่อยู่ด้านหน้าดูใหญ่กว่าความเป็นจริง", "เพราะโปรแกรมรุ่นใหม่ยกเลิกฟีเจอร์นี้แล้ว", "เพราะทำให้เปลืองหมึกพิมพ์สีดำ"], ans: 1, exp: "กราฟ 3 มิติสร้างการบิดเบือนทางสายตา (Visual Distortion) ทำให้ประเมินขนาดและสัดส่วนผิดพลาด" },
-      { id: 88, ch: 4, chapter: "Chapter 4", q: "หากต้องการแสดงความสัมพันธ์ระหว่าง 'งบโฆษณา' กับ 'ยอดขาย' ว่าแปรผันตามกันหรือไม่ ควรเลือกกราฟใด?", options: ["Scatter Plot (แผนภาพการกระจาย)", "Pie Chart", "100% Stacked Bar", "Doughnut Chart"], ans: 0, exp: "Scatter Plot ถูกออกแบบมาเพื่อตรวจสอบความสัมพันธ์ (Correlation) และทิศทางระหว่างตัวแปรตัวเลขสองชุด" },
-      { id: 89, ch: 4, chapter: "Chapter 4", q: "หลักการสำคัญในการใช้สี (Color Usage) ในการนำเสนอ Dashboard ทางธุรกิจคือข้อใด?", options: ["ใช้สีรุ้งให้ครบทุกสีเพื่อความสวยงาม", "ใช้สีอย่างมีความหมาย เช่น ใช้สีเทาเป็นพื้นฐาน และใช้สีเด่น (เช่น สีน้ำเงินหรือแดง) เพื่อเน้นจุดสำคัญหรือประเด็นปัญหา", "ต้องใช้สีดำขาวเท่านั้น", "ใช้สีตามความชอบส่วนตัวของผู้ออกแบบ"], ans: 1, exp: "การใช้สีต้องมีจุดประสงค์เชิงสื่อสาร (Intentional Color) เพื่อดึงดูดสายตาไปยังจุดสำคัญ ไม่ใช่เพื่อการตกแต่งฟุ่มเฟือย" },
-      { id: 90, ch: 4, chapter: "Chapter 4", q: "ข้อใดอธิบายวัตถุประสงค์ของ 'Executive Dashboard' ได้ถูกต้องที่สุด?", options: ["ใช้เก็บไฟล์เอกสารส่วนตัวของผู้บริหาร", "รวบรวมตัวชี้วัดสำคัญ (KPIs) และกราฟสรุปสถานะธุรกิจในหน้าเดียว เพื่อให้ผู้บริหารมองเห็นภาพรวมและตัดสินใจได้ทันท่วงที", "เป็นโปรแกรมสำหรับพิมพ์รายงานการประชุม", "เป็นระบบบันทึกบัญชีแยกประเภท"], ans: 1, exp: "Dashboard สรุปข้อมูลภาพรวมแบบ Real-Time ช่วยให้ผู้บริหารระดับสูงมองเห็นสถานะและแนวโน้มเพื่อสั่งการได้ทันที" },
-
-      // Ch 5 Extensions (91-100)
-      { id: 91, ch: 5, chapter: "Chapter 5", q: "ประโยคทอง 'Garbage In, Garbage Out' (GIGO) ในการพัฒนา AI เตือนสติผู้บริหารอย่างไร?", options: ["หากฮาร์ดแวร์เก่า ระบบจะประมวลผลช้าลง", "หากป้อนข้อมูลดิบที่ผิดพลาด มีอคติ หรือไร้คุณภาพให้โมเดล ผลลัพธ์และการทำนายที่ได้จาก AI ก็จะไร้คุณภาพและผิดพลาดเช่นกัน", "ให้ทิ้งคอมพิวเตอร์เก่าลงถังขยะ", "ระบบ AI ไม่มีวันผิดพลาดเพราะเป็นคอมพิวเตอร์"], ans: 1, exp: "โมเดล AI ฉลาดได้เท่ากับคุณภาพของข้อมูลตั้งต้น หากข้อมูลแย่ ผลลัพธ์ที่ได้ย่อมเชื่อถือไม่ได้" },
-      { id: 92, ch: 5, chapter: "Chapter 5", q: "สูตรการคำนวณความคุ้มค่าทางการเงินของ AI หรือ AI ROI คือข้อใด?", options: [
-        "ROI = (Gain from AI - Cost of AI) / Cost of AI * 100%",
-        "ROI = (Cost of AI / Revenue) * 100%",
-        "ROI = (Number of Prompts / Cost) * 100",
-        "ROI = (Gain from AI + Cost of AI) * 10"
-      ], ans: 0, exp: "สูตรคำนวณผลตอบแทนจากการลงทุน: (ผลประโยชน์สุทธิ / ต้นทุนทั้งหมด) คูณ 100%" },
-      { id: 93, ch: 5, chapter: "Chapter 5", q: "เหตุใด 'Neural Network' จึงถูกเปรียบเสมือนโครงข่ายใยสมองของมนุษย์?", options: ["เพราะสร้างขึ้นจากเซลล์สมองจริงของสิ่งมีชีวิต", "เพราะจำลองโครงสร้างการเชื่อมต่อของเซลล์ประสาทเทียมหลายชั้น (Layers) เพื่อส่งผ่านและเรียนรู้น้ำหนักความสำคัญของข้อมูล", "เพราะต้องใช้เลือดในการหล่อเลี้ยง", "เพราะมีความรู้สึกนึกคิดเหมือนมนุษย์"], ans: 1, exp: "Artificial Neural Network จำลองการทำงานของเซลล์ประสาท โดยมีการคำนวณค่าน้ำหนัก (Weights) ผ่าน Hidden Layers" },
-      { id: 94, ch: 5, chapter: "Chapter 5", q: "Large Language Model (LLM) เช่น ChatGPT หรือ Gemini ได้รับการฝึกสอนมาจากอะไรเป็นหลัก?", options: ["การเขียนโค้ด If-Else โดยโปรแกรมเมอร์ทีละบรรทัด", "การประมวลผลคลังข้อความและคลังความรู้ขนาดมหาศาล (Trillions of tokens) ผ่านโครงข่าย Transformer เพื่อเรียนรู้บริบทภาษา", "การเล่นเกมหมากรุกเพียงอย่างเดียว", "การอ่านเฉพาะพจนานุกรมเล่มเดียว"], ans: 1, exp: "LLMs ถูกเทรนด้วยคลังข้อมูลภาษามหาศาลเพื่อให้เข้าใจบริบท ความหมาย และสามารถสื่อสารภาษามนุษย์ได้อย่างเป็นธรรมชาติ" },
-      { id: 95, ch: 5, chapter: "Chapter 5", q: "ความแตกต่างระหว่าง 'Prompt Engineering' กับ 'Traditional Programming' คืออะไร?", options: ["Prompt Engineering ต้องใช้ภาษา C++ เท่านั้น", "Traditional Programming ต้องเขียนไวยากรณ์โค้ดที่คอมพิวเตอร์เข้าใจ แต่ Prompt Engineering คือการสื่อสารสั่งงานด้วยภาษามนุษย์ธรรมดาอย่างมีแบบแผน", "ทั้งสองอย่างทำงานบนคอมพิวเตอร์ไม่ได้", "Traditional Programming เลิกใช้ไปแล้วในปัจจุบัน"], ans: 1, exp: "ในอดีตมนุษย์ต้องเรียนภาษาคอมพิวเตอร์ ปัจจุบันเราสามารถสื่อสารสั่งงาน AI ผ่าน Natural Language Prompt ได้โดยตรง" },
-      { id: 96, ch: 5, chapter: "Chapter 5", q: "เครื่องมือ Agentic AI ทำงานในลักษณะ 'Execution Loop' อย่างไร?", options: ["ทำงานซ้ำไปซ้ำมาโดยไม่มีวันหยุด", "ตีความเป้าหมาย (Goal) ➔ วางแผนขั้นตอน ➔ เรียกใช้เครื่องมือภายนอก (Tools) ➔ ประเมินผล ➔ ปรับแผนจนกว่าภารกิจจะสำเร็จ", "ส่งอีเมลหาโปรแกรมเมอร์ทุก 1 นาที", "ปิดตัวเองลงทันทีที่เริ่มเปิดเครื่อง"], ans: 1, exp: "Agentic Loop คือการคิด วางแผน ลงมือทำ และประเมินผลตรวจสอบตนเองจนบรรลุเป้าหมายที่ได้รับมอบหมาย" },
-      { id: 97, ch: 5, chapter: "Chapter 5", q: "คำกล่าวในบทเรียนสรุปว่า 'AI ไม่ได้มาแย่งงานเราในอนาคต แต่...' สื่อถึงสาระสำคัญใด?", options: ["คนที่ไม่ใช้ AI จะกลายเป็นคนรวยที่สุด", "คนที่ใช้ AI เป็น จะมาแทนที่และแย่งงานคนที่ใช้ AI ไม่เป็น", "AI จะหยุดพัฒนาในอีก 2 ปีข้างหน้า", "ทุกคนต้องลาออกจากงานมาเขียนโค้ด"], ans: 1, exp: "ทักษะการประยุกต์ใช้ AI เพื่อเพิ่มประสิทธิผลของงาน จะเป็นตัวกำหนดความสามารถในการแข่งขันของแรงงานยุคใหม่" },
-      { id: 98, ch: 5, chapter: "Chapter 5", q: "ความเสี่ยงเรื่อง 'Data Privacy' ในการใช้งาน Public LLM เช่น ป้อนข้อมูลการเงินของบริษัทเข้าไปในระบบ คืออะไร?", options: ["ทำให้คอมพิวเตอร์ระเบิด", "ข้อมูลความลับทางการค้าอาจถูกบันทึกและนำไปใช้ในการฝึกฝนโมเดล ซึ่งอาจรั่วไหลไปสู่บุคคลภายนอกได้", "ทำให้ AI ลืมภาษาไทย", "ทำให้ไฟล์ Excel ถูกลบ"], ans: 1, exp: "การป้อนข้อมูลความลับหรือข้อมูลส่วนบุคคลลงใน AI สาธารณะอาจละเมิดกฎหมายคุ้มครองข้อมูลและเสี่ยงต่อการรั่วไหล" },
-      { id: 99, ch: 5, chapter: "Chapter 5", q: "การตรวจสอบความเอนเอียง (Algorithmic Bias) ในระบบ AI คัดกรองใบสมัครงาน มีความสำคัญอย่างไร?", options: ["เพื่อให้ระบบทำงานเร็วขึ้น 2 เท่า", "เพื่อป้องกันไม่ให้ AI เลือกปฏิบัติอย่างไม่เป็นธรรมตามเพศ เชื้อชาติ หรืออายุ ซึ่งมาจากอคติในข้อมูลประวัติการจ้างงานในอดีต", "เพื่อช่วยลดเงินเดือนของพนักงานใหม่", "เพื่อให้แน่ใจว่าระบบรับเฉพาะพนักงานที่เป็นโปรแกรมเมอร์"], ans: 1, exp: "AI อาจสืบทอดอคติจากข้อมูลในอดีต การตรวจสอบความเอนเอียงจึงจำเป็นเพื่อความโปร่งใสและหลักจริยธรรม (AI Ethics)" },
-      { id: 100, ch: 5, chapter: "Chapter 5", q: "การที่องค์กรธุรกิจนำ AI มาประยุกต์ใช้เพียงเพราะ 'ความทันสมัยตามกระแส' โดยไม่ประเมินความคุ้มค่าและความพร้อม มักนำไปสู่อะไร?", options: ["ความสำเร็จอย่างหลีกเลี่ยงไม่ได้", "การเสียต้นทุนมหาศาลโดยไม่ได้ผลตอบแทนที่จับต้องได้ และโครงการล้มเหลวในที่สุด", "การได้รับรางวัลระดับโลก", "การลดภาษีจากภาครัฐ"], ans: 1, exp: "การนำ AI มาใช้ต้องมี Business Case และการคำนวณ ROI ที่ชัดเจน ไม่ใช่ทำตามกระแสเพื่อความเท่แต่ไร้ทิศทาง" }
-    ];
-
-    // รวมข้อสอบให้ครบ 100 ข้อ
-    const fullExamBank = [...masterQuestionBank, ...extraQuestions];
-
-    // ----------------------------------------------------
-    // APP STATE & QUIZ ENGINE LOGIC
-    // ----------------------------------------------------
-    let currentQuizList = []; // เก็บข้อสอบ 30 ข้อที่สุ่มได้ในรอบนั้น
-    let userAnswers = {};     // เก็บคำตอบของผู้ใช้ { index: optionIndex }
-    let bookmarkedQ = {};     // เก็บข้อที่มาร์กไว้ { index: true }
+    // APP STATE & QUIZ ENGINE
+    let currentQuizList = [];
+    let userAnswers = {};
+    let bookmarkedQ = {};
     let currentQuestionIdx = 0;
 
-    // ฟังก์ชันสลับแท็บหลัก (สรุปเนื้อหา vs ข้อสอบ)
     function switchMainTab(tab) {
       const viewSummary = document.getElementById('viewSummary');
       const viewQuiz = document.getElementById('viewQuiz');
@@ -1228,21 +1795,18 @@
       if (tab === 'summary') {
         viewSummary.classList.remove('hidden');
         viewQuiz.classList.add('hidden');
-        
         tabSummaryBtn.className = "px-5 py-2 rounded-lg font-display text-sm font-medium transition-all bg-white text-blue-700 shadow-sm";
         tabQuizBtn.className = "px-5 py-2 rounded-lg font-display text-sm font-medium transition-all text-slate-600 hover:text-slate-900";
         window.scrollTo({ top: 0, behavior: 'smooth' });
       } else {
         viewSummary.classList.add('hidden');
         viewQuiz.classList.remove('hidden');
-        
         tabQuizBtn.className = "px-5 py-2 rounded-lg font-display text-sm font-medium transition-all bg-white text-blue-700 shadow-sm";
         tabSummaryBtn.className = "px-5 py-2 rounded-lg font-display text-sm font-medium transition-all text-slate-600 hover:text-slate-900";
         window.scrollTo({ top: 0, behavior: 'smooth' });
       }
     }
 
-    // ฟังก์ชันสุ่มอาเรย์แบบ Fisher-Yates Shuffle (รับประกันไม่ซ้ำ)
     function shuffleArray(array) {
       const copy = [...array];
       for (let i = copy.length - 1; i > 0; i--) {
@@ -1252,18 +1816,15 @@
       return copy;
     }
 
-    // ฟังก์ชันเริ่มต้นรอบการสอบ (สุ่ม 30 ข้อ)
     function startQuizSession() {
-      // 1. สุ่ม 30 ข้อจากคลัง 100 ข้อ
+      // สุ่ม 30 ข้อจากคลังระดับยาก 100 ข้อ โดยไม่ซ้ำกัน
       const shuffled = shuffleArray(fullExamBank);
       currentQuizList = shuffled.slice(0, 30);
 
-      // 2. รีเซ็ตสถานะ
       userAnswers = {};
       bookmarkedQ = {};
       currentQuestionIdx = 0;
 
-      // 3. จัดการ UI
       document.getElementById('quizIntroCard').classList.add('hidden');
       document.getElementById('quizResultArea').classList.add('hidden');
       document.getElementById('quizActiveArea').classList.remove('hidden');
@@ -1274,7 +1835,6 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    // วาดกระดานหมายเลขข้อสอบ (Palette)
     function renderPalette() {
       const palette = document.getElementById('questionPalette');
       palette.innerHTML = '';
@@ -1310,22 +1870,18 @@
     function refreshPaletteUI() {
       for (let i = 0; i < 30; i++) {
         const btn = document.getElementById(`palette-btn-${i}`);
-        if (btn) {
-          btn.className = getPaletteBtnClass(i);
-        }
+        if (btn) btn.className = getPaletteBtnClass(i);
       }
     }
 
-    // แสดงคำถามปัจจุบัน
     function renderCurrentQuestion() {
       const qData = currentQuizList[currentQuestionIdx];
       if (!qData) return;
 
       document.getElementById('qChapterBadge').innerText = qData.chapter;
-      document.getElementById('qIndexTitle').innerText = `คำถามข้อที่ ${currentQuestionIdx + 1} จาก 30`;
+      document.getElementById('qIndexTitle').innerText = `คำถามข้อที่ ${currentQuestionIdx + 1} จาก 30 (ระดับวิเคราะห์)`;
       document.getElementById('qPromptText').innerText = qData.q;
 
-      // จัดการ Bookmark Badge
       const isMarked = bookmarkedQ[currentQuestionIdx] === true;
       const bmIndicator = document.getElementById('qBookmarkIndicator');
       const bmText = document.getElementById('bookmarkText');
@@ -1337,7 +1893,6 @@
         bmText.innerText = "มาร์กข้อนี้ไว้ทบทวน";
       }
 
-      // วาดตัวเลือก 4 ตัวเลือก
       const container = document.getElementById('optionsContainer');
       container.innerHTML = '';
 
@@ -1364,21 +1919,18 @@
         container.appendChild(optDiv);
       });
 
-      // จัดการปุ่ม ก่อนหน้า / ถัดไป
       document.getElementById('btnPrevQ').disabled = currentQuestionIdx === 0;
       document.getElementById('btnNextQ').disabled = currentQuestionIdx === 29;
 
       refreshPaletteUI();
     }
 
-    // เลือกคำตอบ
     function selectOption(optIdx) {
       userAnswers[currentQuestionIdx] = optIdx;
       renderCurrentQuestion();
       updateAnsweredCounter();
     }
 
-    // เลื่อนข้อสอบ
     function navigateQuestion(direction) {
       const newIdx = currentQuestionIdx + direction;
       if (newIdx >= 0 && newIdx < 30) {
@@ -1392,7 +1944,6 @@
       renderCurrentQuestion();
     }
 
-    // สลับสถานะ Bookmark
     function toggleBookmarkCurrent() {
       if (bookmarkedQ[currentQuestionIdx]) {
         delete bookmarkedQ[currentQuestionIdx];
@@ -1402,13 +1953,11 @@
       renderCurrentQuestion();
     }
 
-    // อัปเดตตัวเลขนับจำนวนข้อที่ตอบแล้ว
     function updateAnsweredCounter() {
       const answeredCount = Object.keys(userAnswers).length;
       document.getElementById('answeredCounter').innerText = `ตอบแล้ว ${answeredCount} / 30 ข้อ`;
     }
 
-    // ยืนยันการส่งข้อสอบ
     function confirmSubmitQuiz() {
       const answeredCount = Object.keys(userAnswers).length;
       const unansweredCount = 30 - answeredCount;
@@ -1423,23 +1972,18 @@
       }
     }
 
-    // ประเมินผลคะแนนและแสดงเฉลย
     function evaluateQuizResult() {
       let score = 0;
       currentQuizList.forEach((q, idx) => {
-        if (userAnswers[idx] === q.ans) {
-          score++;
-        }
+        if (userAnswers[idx] === q.ans) score++;
       });
 
       const percent = Math.round((score / 30) * 100);
       const isPassed = percent >= 70;
 
-      // ซ่อนหน้าทำข้อสอบ และแสดงหน้าผลลัพธ์
       document.getElementById('quizActiveArea').classList.add('hidden');
       document.getElementById('quizResultArea').classList.remove('hidden');
 
-      // แสดงคะแนน
       document.getElementById('scoreText').innerText = score;
       document.getElementById('percentText').innerText = `คิดเป็น ${percent}% (${isPassed ? 'ผ่านเกณฑ์ 70%' : 'ยังไม่ผ่านเกณฑ์ 70%'})`;
 
@@ -1449,19 +1993,17 @@
       if (isPassed) {
         resultIcon.className = "w-16 h-16 rounded-full flex items-center justify-center mx-auto text-3xl font-bold bg-emerald-100 text-emerald-700";
         resultIcon.innerHTML = "🎉";
-        resultTitle.innerText = "ยินดีด้วย! คุณผ่านการทดสอบ";
+        resultTitle.innerText = "ยอดเยี่ยมมาก! คุณผ่านการทดสอบระดับวิเคราะห์";
       } else {
         resultIcon.className = "w-16 h-16 rounded-full flex items-center justify-center mx-auto text-3xl font-bold bg-amber-100 text-amber-700";
         resultIcon.innerHTML = "💡";
-        resultTitle.innerText = "ทบทวนอีกนิด แล้วลองใหม่!";
+        resultTitle.innerText = "ทบทวนประเด็นวิเคราะห์เพิ่มเติม แล้วลองใหม่อีกรอบ!";
       }
 
-      // วาดรายการเฉลยละเอียด
       renderDetailedReview('all');
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    // วาดรายการเฉลยละเอียดรายข้อ
     function renderDetailedReview(filterMode) {
       const container = document.getElementById('reviewListContainer');
       container.innerHTML = '';
@@ -1481,9 +2023,7 @@
         const userChoice = userAnswers[idx];
         const isCorrect = userChoice === q.ans;
 
-        if (filterMode === 'wrong' && isCorrect) {
-          return; // ข้ามข้อที่ตอบถูกถ้าเลือกโหมดเฉพาะข้อผิด
-        }
+        if (filterMode === 'wrong' && isCorrect) return;
 
         const card = document.createElement('div');
         card.className = `p-5 sm:p-6 rounded-2xl bg-white card-border custom-shadow space-y-4 border-l-4 ${
@@ -1525,7 +2065,7 @@
           </div>
           ${optionsHtml}
           <div class="p-3 bg-slate-50 rounded-xl text-xs text-slate-600 border border-slate-200 leading-relaxed">
-            💡 <strong>คำอธิบายเชิงลึก:</strong> ${q.exp}
+            💡 <strong>คำอธิบายเชิงวิเคราะห์:</strong> ${q.exp}
           </div>
         `;
 
